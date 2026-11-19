@@ -1,0 +1,21 @@
+{
+  "playable": ["ad","al","at","ba","be","bg","by","ch","cy","cz","de","dk","ee","es","fi","fr","gb","gr","hr","hu","ie","is","it","li","lt","lu","lv","mc","md","me","mk","mt","nl","no","pl","pt","ro","rs","ru","se","si","sk","sm","ua","va","xk"],
+  "merge": {"ax": "fi"},
+  "near": {"is": ["gb", "ie", "no"], "mt": ["it"], "cy": ["gr"]},
+  "capitals": {"xk": [21.1655, 42.6629]},
+  "labels": {"hr": [16.4, 45.6], "no": [9.0, 61.0], "ru": [38.0, 56.0], "se": [15.5, 61.5], "fi": [26.5, 63.0], "gb": [-1.8, 53.0], "it": [12.3, 43.2], "gr": [22.0, 39.5], "dk": [9.3, 56.1], "ee": [25.8, 58.8]},
+  "similarFlags": {
+    "pl": ["mc", "at", "lv"], "mc": ["pl", "at", "mt"], "nl": ["lu", "fr", "hr"], "lu": ["nl", "fr", "ru"],
+    "ie": ["it", "hu", "fr"], "it": ["ie", "hu", "bg"], "ro": ["ad", "md", "be"], "ad": ["ro", "md", "es"],
+    "md": ["ro", "ad", "be"], "ru": ["sk", "si", "rs"], "sk": ["si", "ru", "rs"], "si": ["sk", "ru", "hr"],
+    "rs": ["hr", "ru", "sk"], "hr": ["rs", "nl", "si"], "no": ["is", "dk", "fi"], "is": ["no", "fi", "dk"],
+    "dk": ["no", "ch", "se"], "se": ["fi", "no", "ua"], "fi": ["se", "gr", "ee"], "at": ["lv", "pl", "mc"],
+    "lv": ["at", "pl", "dk"], "de": ["be", "lt", "es"], "be": ["de", "ro", "fr"], "fr": ["nl", "it", "lu"],
+    "hu": ["it", "bg", "ie"], "bg": ["hu", "it", "ru"], "lt": ["de", "bg", "hu"], "ee": ["fi", "de", "ru"],
+    "cz": ["sk", "pl", "ru"], "ua": ["se", "xk", "ba"], "ch": ["dk", "gb", "mt"], "gb": ["is", "no", "ch"],
+    "gr": ["fi", "cy", "sm"], "es": ["ad", "de", "me"], "pt": ["es", "it", "md"], "al": ["me", "mk", "ch"],
+    "me": ["al", "es", "mk"], "mk": ["al", "me", "by"], "by": ["hu", "bg", "mk"], "ba": ["xk", "ua", "se"],
+    "xk": ["ba", "cy", "ua"], "cy": ["xk", "va", "gr"], "va": ["cy", "sm", "mt"], "sm": ["va", "gr", "li"],
+    "li": ["sm", "md", "ad"], "mt": ["mc", "pl", "va"]
+  }
+}

@@ -1,0 +1,196 @@
+{
+ "ad": {
+  "name": "Andorra",
+  "capital": "Andorra la Vella"
+ },
+ "al": {
+  "name": "Albania",
+  "capital": "Tirana"
+ },
+ "at": {
+  "name": "Austria",
+  "capital": "Vienna"
+ },
+ "ba": {
+  "name": "Bosnia and Herzegovina",
+  "capital": "Sarajevo"
+ },
+ "be": {
+  "name": "Belgium",
+  "capital": "Brussels"
+ },
+ "bg": {
+  "name": "Bulgaria",
+  "capital": "Sofia"
+ },
+ "by": {
+  "name": "Belarus",
+  "capital": "Minsk"
+ },
+ "ch": {
+  "name": "Switzerland",
+  "capital": "Bern"
+ },
+ "cy": {
+  "name": "Cyprus",
+  "capital": "Nicosia",
+  "hook": "Cyprus has its own shape on its flag."
+ },
+ "cz": {
+  "name": "Czechia",
+  "capital": "Prague"
+ },
+ "de": {
+  "name": "Germany",
+  "capital": "Berlin"
+ },
+ "dk": {
+  "name": "Denmark",
+  "capital": "Copenhagen"
+ },
+ "ee": {
+  "name": "Estonia",
+  "capital": "Tallinn"
+ },
+ "es": {
+  "name": "Spain",
+  "capital": "Madrid"
+ },
+ "fi": {
+  "name": "Finland",
+  "capital": "Helsinki"
+ },
+ "fr": {
+  "name": "France",
+  "capital": "Paris",
+  "hook": "France is shaped like a hexagon."
+ },
+ "gb": {
+  "name": "United Kingdom",
+  "capital": "London",
+  "nameInSentence": "the United Kingdom"
+ },
+ "gr": {
+  "name": "Greece",
+  "capital": "Athens"
+ },
+ "hr": {
+  "name": "Croatia",
+  "capital": "Zagreb",
+  "hook": "Croatia curves like a croissant."
+ },
+ "hu": {
+  "name": "Hungary",
+  "capital": "Budapest"
+ },
+ "ie": {
+  "name": "Ireland",
+  "capital": "Dublin"
+ },
+ "is": {
+  "name": "Iceland",
+  "capital": "Reykjavik",
+  "hook": "Iceland is an island of ice and volcanoes."
+ },
+ "it": {
+  "name": "Italy",
+  "capital": "Rome",
+  "hook": "Italy looks like a boot."
+ },
+ "li": {
+  "name": "Liechtenstein",
+  "capital": "Vaduz"
+ },
+ "lt": {
+  "name": "Lithuania",
+  "capital": "Vilnius"
+ },
+ "lu": {
+  "name": "Luxembourg",
+  "capital": "Luxembourg"
+ },
+ "lv": {
+  "name": "Latvia",
+  "capital": "Riga"
+ },
+ "mc": {
+  "name": "Monaco",
+  "capital": "Monaco"
+ },
+ "md": {
+  "name": "Moldova",
+  "capital": "Chisinau"
+ },
+ "me": {
+  "name": "Montenegro",
+  "capital": "Podgorica"
+ },
+ "mk": {
+  "name": "North Macedonia",
+  "capital": "Skopje"
+ },
+ "mt": {
+  "name": "Malta",
+  "capital": "Valletta"
+ },
+ "nl": {
+  "name": "Netherlands",
+  "capital": "Amsterdam",
+  "nameInSentence": "the Netherlands"
+ },
+ "no": {
+  "name": "Norway",
+  "capital": "Oslo",
+  "hook": "Norway is long and thin like a spoon."
+ },
+ "pl": {
+  "name": "Poland",
+  "capital": "Warsaw",
+  "hook": "Poland's flag: white on top, red below."
+ },
+ "pt": {
+  "name": "Portugal",
+  "capital": "Lisbon"
+ },
+ "ro": {
+  "name": "Romania",
+  "capital": "Bucharest"
+ },
+ "rs": {
+  "name": "Serbia",
+  "capital": "Belgrade"
+ },
+ "ru": {
+  "name": "Russia",
+  "capital": "Moscow"
+ },
+ "se": {
+  "name": "Sweden",
+  "capital": "Stockholm"
+ },
+ "si": {
+  "name": "Slovenia",
+  "capital": "Ljubljana"
+ },
+ "sk": {
+  "name": "Slovakia",
+  "capital": "Bratislava"
+ },
+ "sm": {
+  "name": "San Marino",
+  "capital": "San Marino"
+ },
+ "ua": {
+  "name": "Ukraine",
+  "capital": "Kyiv"
+ },
+ "va": {
+  "name": "Vatican City",
+  "capital": "Vatican City",
+  "hook": "Vatican City is the smallest country in the world."
+ },
+ "xk": {
+  "name": "Kosovo",
+  "capital": "Pristina"
+ }
+}

@@ -21,25 +21,16 @@ Trzy warstwy z jednokierunkowym przepływem: UI → logika → dane.
 
 ```
 lib/
-├── main.dart
-├── app.dart                    # MaterialApp.router, motyw, lokalizacja
-├── l10n/                       # app_pl.arb, app_en.arb
-├── data/
-│   ├── models/                 # modele plików zasobów i zapisu (fromJson/toJson)
-│   ├── services/               # AssetLoader, PrefsStore, SpeechService, SfxService
-│   └── repositories/           # GeoRepository, ProgressRepository, ProfileRepository
-├── domain/
-│   ├── models/                 # Country, Skill, Mastery, Question, Answer, GameSession
-│   └── logic/                  # leitner.dart, question_factory.dart, distractors.dart
+├── main.dart                   # ładuje dane i preferencje, blokuje orientację
+├── app.dart                    # MaterialApp.router, trasy, język
+├── providers.dart              # dostawcy Riverpod
+├── l10n/                       # app_en.arb (szablon), app_pl.arb
+├── data/                       # geo_repository, profile (+ zapis), speech_service
+├── domain/                     # models, leitner, question_factory — czysty Dart
 └── ui/
-    ├── core/                   # theme/, widgets/ (AppButton, AppPanel, SpeakerButton, MapLegend), map/
-    └── features/
-        ├── onboarding/
-        ├── home/
-        ├── explorer/
-        ├── round/              # wspólny szkielet rundy + widżety typów pytań
-        ├── passport/
-        └── parent_zone/
+    ├── core/                   # theme (tokeny), widgets, map_screen (szkielet), map/geo_map
+    └── features/               # onboarding, home (+ gry), round, explorer, passport, parent_zone
+tool/build_geo.dart             # potok danych mapy
 ```
 
 Reguły:
@@ -55,11 +46,11 @@ Pakiet `flutter_riverpod`, API `Notifier` / `AsyncNotifier` (nie przestarzałe `
 
 | Dostawca | Typ | Zakres |
 |---|---|---|
-| `geoRepositoryProvider` | `FutureProvider<GeoRepository>` | cała aplikacja; ładuje zasoby raz przy starcie |
-| `profilesProvider` | `AsyncNotifierProvider` | lista profili, aktywny profil (w tym język) |
-| `progressProvider` | `NotifierProvider` | poziomy opanowania aktywnego profilu |
-| `roundProvider` | `NotifierProvider.autoDispose` | stan bieżącej rundy (`GameSession`) |
-| `settingsProvider` | `NotifierProvider` | dźwięk, lektor, drugi język |
+| `geoProvider`, `prefsProvider`, `speechProvider` | `Provider`, nadpisane w `main()` gotowymi obiektami | cała aplikacja; dane ładowane raz przed pierwszą klatką |
+| `profilesProvider` | `NotifierProvider` | lista profili, aktywny profil z postępem i ustawieniami |
+| `pendingLangProvider` | `NotifierProvider` | język wybrany w pierwszym uruchomieniu, zanim powstanie profil |
+
+Stan rundy (`GameSession`, zaznaczenia, animacja wstęgi) żyje lokalnie w `RoundScreen` — dotyczy jednego ekranu i znika razem z nim. Przenieść do dostawcy dopiero przy multiplayerze, gdy rundę będą współdzielić zdarzenia z sieci.
 
 Zasady: stan niemutowalny (nowa instancja przy każdej zmianie); `ref.watch` z `select` w widżetach mapy, żeby zmiana jednego kraju nie przebudowywała całego ekranu; `setState` tylko dla stanu czysto lokalnego (np. pozycja przeciąganego klocka).
 
@@ -150,14 +141,14 @@ Kraj występuje w widoku świata i w widoku swojego kontynentu. Kraje leżące n
 
 Własny widżet `GeoMap` na `CustomPainter` — bez pakietów mapowych (kafelki, serwery i odwzorowania w locie nie są tu potrzebne).
 
-- **Ładowanie:** `GeoRepository` parsuje JSON w izolacie (`compute`) i buduje dla każdego kraju obiekt `ui.Path` raz, przy starcie.
+- **Ładowanie:** `GeoRepository` parsuje JSON (ok. 70 kB dla Europy; przenieść do izolatu `compute`, gdy dojdzie widok świata) i buduje dla każdego kraju obiekt `ui.Path` raz, przy starcie.
 - **Warstwy** (każda w osobnym `RepaintBoundary`):
   1. baza — ocean i wszystkie kraje w kolorach wynikających z postępu; przemalowywana tylko przy zmianie postępu;
   2. wyróżnienia — zaznaczenie, pulsowanie, mój kraj; sterowana animacją;
   3. nakładki — etykiety, pinezki stolic, znaczniki małych krajów, przeciągany klocek (zwykłe widżety w `Stack`, pozycjonowane przez tę samą macierz przekształcenia).
 - **Przybliżanie/przesuwanie:** `InteractiveViewer` z `TransformationController`; animowane przejście do prostokąta kraju lub regionu przez interpolację macierzy. Ograniczenia skali zależne od widoku.
 - **Wstęga graniczna** (ruch firmowy z dokumentu 02): `canvas.clipPath(path)` + obrys tej samej ścieżki o podwójnej grubości daje pas po wewnętrznej stronie granicy. Długość wstęgi = liczba opanowanych umiejętności / 4 obwodu: `path.computeMetrics()` i `extractPath(0, length * n / 4)` na największym wielokącie kraju, start w najbardziej północnym punkcie (skrypt danych obraca listę punktów tak, by zaczynała się od niego). Animacja dorysowania = animowana długość.
-- **Wzory wypełnienia** (kropki, szrafy) dla poziomów opanowania: dwa małe kafelki `ui.Image` wygenerowane raz przy starcie i użyte jako `ImageShader` z powtarzaniem, zabarwione `ColorFilter` na barwę kraju. Skala wzoru stała w pikselach ekranu, niezależna od przybliżenia.
+- **Wzory wypełnienia** (kropki, szrafy) rysowane wprost w obszarze przycięcia kraju (`drawPoints`, `drawLine`). Krok wzoru jest przyciągany do potęg dwójki skali, żeby wzór stał w miejscu między poziomami przybliżenia.
 - **Grubość linii** dzielona przez bieżącą skalę, żeby granice nie grubiały przy przybliżeniu.
 - **Trafianie dotyku:** punkt ekranu → układ mapy (odwrócona macierz) → filtr po prostokątach otaczających → `Path.contains`. Gdy brak trafienia: najbliższy kraj w promieniu 16 dp (próbkowanie kilku punktów na okręgu wystarczy). Znaczniki małych krajów mają pierwszeństwo.
 - **Klocki układanki:** ten sam `Path` kraju rysowany w osobnym małym `CustomPaint` z cieniem; pozycja docelowa = pozycja kraju w układzie mapy; „wskoczenie” przy odległości poniżej progu zależnego od skali.
@@ -267,7 +258,7 @@ Future<void> stop();
 
 ## 11. Interfejs i motyw
 
-- Tokeny (kolory, promienie, odstępy, cienie, czasy animacji) w `ui/core/theme/` jako `ThemeExtension`; widżety nie zawierają surowych wartości.
+- Tokeny (kolory, promienie, odstępy, czasy animacji, style pisma) w `ui/core/theme.dart` jako stałe klasy `Tok`; widżety nie zawierają surowych wartości. Jest jeden motyw, więc `ThemeExtension` nie jest potrzebny.
 - Kilka własnych widżetów bazowych zamiast biblioteki komponentów: `AppButton` (obrys 3 dp, odwrócenie barw przy dotyku, dźwięk, min. 64 dp), `AppPanel`, `SpeakerButton` (żółty, z etykietą języka), `MapLegend` (objaśnienia stanów + postęp rundy), `BorderRibbon` (wstęga kraju w powiększeniu na karcie i w paszporcie). Bez cieni i gradientów (dokument 02).
 - Animacje: wbudowane widżety niejawne (`AnimatedScale`, `AnimatedSlide`, `TweenAnimationBuilder`) i `AnimationController` tam, gdzie trzeba sekwencji. Pakiet `flutter_animate` dopuszczalny, jeśli kaskady i sekwencje zaczną zaśmiecać kod. Konfetti: własny prosty `CustomPainter` z cząsteczkami.
 - Maskotka (bocian, dokument 02): widżet `Mascot` z własnym `CustomPainter` i stanem (`idle`, `talking`, `happy`, `pointing`, `waving`); `talking` sterowany przez `SpeechService`. Bez pakietów animacji.
@@ -285,7 +276,7 @@ Future<void> stop();
 | `shared_preferences` | zapis profili i postępu |
 | `flutter_svg` | flagi |
 | `flutter_tts` | lektor w dwóch językach |
-| `audioplayers` | efekty dźwiękowe |
+| `audioplayers` | efekty dźwiękowe — dodać razem z plikami dźwięków (jeszcze nie w projekcie) |
 | `flutter_localizations`, `intl` | lokalizacja |
 
 Każdy kolejny pakiet wymaga uzasadnienia, że kilkadziesiąt linii własnego kodu nie wystarczy. Świadomie pominięte: pakiety mapowe, `freezed`, `build_runner`, bazy danych, analityka, SDK reklamowe, `google_fonts` (pobiera z sieci — czcionki dołączamy jako zasoby).

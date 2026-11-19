@@ -1,0 +1,45 @@
+name: eulearn
+description: "Map learning game for children: countries, borders, flags, capitals."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^3.5.0
+  flutter_svg: ^2.5.0
+  flutter_tts: ^4.2.5
+  go_router: ^18.1.4
+  intl: ^0.20.3
+  shared_preferences: ^2.5.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/geo/
+    - assets/i18n/
+    - assets/flags/
+    - assets/fonts/OFL-Andika.txt
+    - assets/fonts/OFL-SofiaSans.txt
+  fonts:
+    - family: Andika
+      fonts:
+        - asset: assets/fonts/Andika-Regular.ttf
+        - asset: assets/fonts/Andika-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Andika-Italic.ttf
+          style: italic
+    - family: SofiaSansSemiCondensed
+      fonts:
+        - asset: assets/fonts/SofiaSansSemiCondensed.ttf

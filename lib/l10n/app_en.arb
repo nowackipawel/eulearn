@@ -1,0 +1,164 @@
+{
+ "@@locale": "en",
+ "appTitle": "EuLearn",
+ "chooseLanguage": "Choose your language",
+ "next": "Next",
+ "yourName": "Your name",
+ "defaultName": "Explorer",
+ "whereDoYouLive": "Where do you live? Tap your country.",
+ "thisIsMyCountry": "{name} is my country",
+ "@thisIsMyCountry": {
+  "placeholders": {
+   "name": {
+    "type": "String"
+   }
+  }
+ },
+ "dailyJourney": "Daily journey",
+ "explorer": "Explorer",
+ "games": "Games",
+ "passport": "Passport",
+ "parents": "Parents",
+ "modeFind": "Where is it?",
+ "modeFlags": "Whose flag?",
+ "modeCapitals": "Capitals",
+ "modeNeighbors": "Neighbours",
+ "modePuzzle": "Border puzzle",
+ "modeListen": "Listen in Polish",
+ "promptFind": "Find {name}",
+ "@promptFind": {
+  "placeholders": {
+   "name": {
+    "type": "String"
+   }
+  }
+ },
+ "promptCapitalOf": "The capital of {name} is…",
+ "@promptCapitalOf": {
+  "placeholders": {
+   "name": {
+    "type": "String"
+   }
+  }
+ },
+ "promptWhoseFlag": "Whose flag is this?",
+ "promptPickFlag": "Pick the flag of {name}",
+ "@promptPickFlag": {
+  "placeholders": {
+   "name": {
+    "type": "String"
+   }
+  }
+ },
+ "promptWhereCapital": "Which country is {capital} in?",
+ "@promptWhereCapital": {
+  "placeholders": {
+   "capital": {
+    "type": "String"
+   }
+  }
+ },
+ "promptNeighbors": "Which countries border {name}?",
+ "@promptNeighbors": {
+  "placeholders": {
+   "name": {
+    "type": "String"
+   }
+  }
+ },
+ "promptPuzzle": "Put the countries on the map",
+ "promptListen": "Listen…",
+ "thisIs": "This is {name}",
+ "@thisIs": {
+  "placeholders": {
+   "name": {
+    "type": "String"
+   }
+  }
+ },
+ "capitalIs": "Capital: {capital}",
+ "@capitalIs": {
+  "placeholders": {
+   "capital": {
+    "type": "String"
+   }
+  }
+ },
+ "legend": "LEGEND",
+ "legendHome": "my country",
+ "legendKnown": "I know it",
+ "legendLearning": "learning",
+ "legendNew": "new",
+ "legendUnseen": "not yet",
+ "wellDone": "Well done!",
+ "again": "Again",
+ "goHome": "Home",
+ "foundOf": "{found} of {total}",
+ "@foundOf": {
+  "placeholders": {
+   "found": {
+    "type": "int"
+   },
+   "total": {
+    "type": "int"
+   }
+  }
+ },
+ "skillLocation": "place",
+ "skillShape": "shape",
+ "skillFlag": "flag",
+ "skillCapital": "capital",
+ "parentGate": "For parents: what is {a} × {b}?",
+ "@parentGate": {
+  "placeholders": {
+   "a": {
+    "type": "int"
+   },
+   "b": {
+    "type": "int"
+   }
+  }
+ },
+ "readAloud": "Read everything aloud",
+ "secondLanguage": "Say names in Polish too",
+ "language": "Language",
+ "resetProgress": "Reset progress",
+ "resetConfirm": "Erase everything this child has learned?",
+ "deleteProfile": "Delete this child",
+ "cancel": "Cancel",
+ "countriesKnown": "Countries known: {n} of {total}",
+ "@countriesKnown": {
+  "placeholders": {
+   "n": {
+    "type": "int"
+   },
+   "total": {
+    "type": "int"
+   }
+  }
+ },
+ "addChild": "Add a child",
+ "europe": "EUROPE",
+ "meetFirst": "Meet a few countries first",
+ "back": "Back",
+ "sayAgain": "Say it again",
+ "zoomIn": "Zoom in",
+ "zoomOut": "Zoom out",
+ "dayStreak": "Day {n} of the journey",
+ "@dayStreak": {
+  "placeholders": {
+   "n": {
+    "type": "int"
+   }
+  }
+ },
+ "noVoice": "No voice for {language} is installed on this device. Add one in the system text-to-speech settings.",
+ "@noVoice": {
+  "placeholders": {
+   "language": {
+    "type": "String"
+   }
+  }
+ },
+ "licenses": "Licences"
+}

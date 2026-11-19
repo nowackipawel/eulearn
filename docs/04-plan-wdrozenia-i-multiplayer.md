@@ -2,6 +2,26 @@
 
 Etapy są uporządkowane według ryzyka: najpierw to, co może się nie udać (mapa, dane, lektor), potem to, co jest pewne (ekrany). Każdy etap kończy się czymś, co można dać dziecku do ręki.
 
+## Stan implementacji
+
+Zrobione (etap 0 i rdzeń etapu 1):
+
+- potok danych Europy (46 krajów), test spójności danych;
+- mapa: wstęgi, wzory, małe kraje, przybliżanie, trafianie dotyku;
+- logika gry: powtórki, kolejność „od domu na zewnątrz”, budowanie rund, punktacja;
+- ekrany: pierwsze uruchomienie, start, gry, runda (wszystkie typy pytań), wynik, odkrywca, paszport, strefa rodzica;
+- polski i angielski, lektor w dwóch językach, bocian-przewodnik;
+- testy jednostkowe i testy ekranów ze zrzutami (`test/goldens/`).
+
+Do zrobienia w etapie 1:
+
+- efekty dźwiękowe i muzyka (brak plików dźwięków);
+- odznaka „Znam swoje granice”;
+- dzienny limit czasu w strefie rodzica;
+- pomiar płynności i odsłuch nazw na fizycznych urządzeniach (Android i iOS);
+- ikona aplikacji i ekran startowy;
+- testy z dziećmi.
+
 ## Etap 0 — Dowód techniczny
 
 Cel: potwierdzić trzy ryzykowne założenia, zanim powstanie jakikolwiek ekran gry.

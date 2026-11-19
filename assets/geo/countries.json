@@ -1,0 +1,731 @@
+{
+ "ad": {
+  "continent": "europe",
+  "neighbors": [
+   "es",
+   "fr"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": [
+   "ro",
+   "md",
+   "es"
+  ]
+ },
+ "al": {
+  "continent": "europe",
+  "neighbors": [
+   "gr",
+   "me",
+   "mk",
+   "xk"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": [
+   "me",
+   "mk",
+   "ch"
+  ]
+ },
+ "at": {
+  "continent": "europe",
+  "neighbors": [
+   "ch",
+   "cz",
+   "de",
+   "hu",
+   "it",
+   "li",
+   "si",
+   "sk"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": [
+   "lv",
+   "pl",
+   "mc"
+  ]
+ },
+ "ba": {
+  "continent": "europe",
+  "neighbors": [
+   "hr",
+   "me",
+   "rs"
+  ],
+  "near": [],
+  "color": 3,
+  "similarFlags": [
+   "xk",
+   "ua",
+   "se"
+  ]
+ },
+ "be": {
+  "continent": "europe",
+  "neighbors": [
+   "de",
+   "fr",
+   "lu",
+   "nl"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": [
+   "de",
+   "ro",
+   "fr"
+  ]
+ },
+ "bg": {
+  "continent": "europe",
+  "neighbors": [
+   "gr",
+   "mk",
+   "ro",
+   "rs"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": [
+   "hu",
+   "it",
+   "ru"
+  ]
+ },
+ "by": {
+  "continent": "europe",
+  "neighbors": [
+   "lt",
+   "lv",
+   "pl",
+   "ru",
+   "ua"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": [
+   "hu",
+   "bg",
+   "mk"
+  ]
+ },
+ "ch": {
+  "continent": "europe",
+  "neighbors": [
+   "at",
+   "de",
+   "fr",
+   "it",
+   "li"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": [
+   "dk",
+   "gb",
+   "mt"
+  ]
+ },
+ "cy": {
+  "continent": "europe",
+  "neighbors": [],
+  "near": [
+   "gr"
+  ],
+  "color": 0,
+  "similarFlags": [
+   "xk",
+   "va",
+   "gr"
+  ]
+ },
+ "cz": {
+  "continent": "europe",
+  "neighbors": [
+   "at",
+   "de",
+   "pl",
+   "sk"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": [
+   "sk",
+   "pl",
+   "ru"
+  ]
+ },
+ "de": {
+  "continent": "europe",
+  "neighbors": [
+   "at",
+   "be",
+   "ch",
+   "cz",
+   "dk",
+   "fr",
+   "lu",
+   "nl",
+   "pl"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": [
+   "be",
+   "lt",
+   "es"
+  ]
+ },
+ "dk": {
+  "continent": "europe",
+  "neighbors": [
+   "de"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": [
+   "no",
+   "ch",
+   "se"
+  ]
+ },
+ "ee": {
+  "continent": "europe",
+  "neighbors": [
+   "lv",
+   "ru"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": [
+   "fi",
+   "de",
+   "ru"
+  ]
+ },
+ "es": {
+  "continent": "europe",
+  "neighbors": [
+   "ad",
+   "fr",
+   "pt"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": [
+   "ad",
+   "de",
+   "me"
+  ]
+ },
+ "fi": {
+  "continent": "europe",
+  "neighbors": [
+   "no",
+   "ru",
+   "se"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": [
+   "se",
+   "gr",
+   "ee"
+  ]
+ },
+ "fr": {
+  "continent": "europe",
+  "neighbors": [
+   "ad",
+   "be",
+   "ch",
+   "de",
+   "es",
+   "it",
+   "lu",
+   "mc"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": [
+   "nl",
+   "it",
+   "lu"
+  ]
+ },
+ "gb": {
+  "continent": "europe",
+  "neighbors": [
+   "ie"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": [
+   "is",
+   "no",
+   "ch"
+  ]
+ },
+ "gr": {
+  "continent": "europe",
+  "neighbors": [
+   "al",
+   "bg",
+   "mk"
+  ],
+  "near": [],
+  "color": 3,
+  "similarFlags": [
+   "fi",
+   "cy",
+   "sm"
+  ]
+ },
+ "hr": {
+  "continent": "europe",
+  "neighbors": [
+   "ba",
+   "hu",
+   "me",
+   "rs",
+   "si"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": [
+   "rs",
+   "nl",
+   "si"
+  ]
+ },
+ "hu": {
+  "continent": "europe",
+  "neighbors": [
+   "at",
+   "hr",
+   "ro",
+   "rs",
+   "si",
+   "sk",
+   "ua"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": [
+   "it",
+   "bg",
+   "ie"
+  ]
+ },
+ "ie": {
+  "continent": "europe",
+  "neighbors": [
+   "gb"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": [
+   "it",
+   "hu",
+   "fr"
+  ]
+ },
+ "is": {
+  "continent": "europe",
+  "neighbors": [],
+  "near": [
+   "gb",
+   "ie",
+   "no"
+  ],
+  "color": 0,
+  "similarFlags": [
+   "no",
+   "fi",
+   "dk"
+  ]
+ },
+ "it": {
+  "continent": "europe",
+  "neighbors": [
+   "at",
+   "ch",
+   "fr",
+   "si",
+   "sm",
+   "va"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": [
+   "ie",
+   "hu",
+   "bg"
+  ]
+ },
+ "li": {
+  "continent": "europe",
+  "neighbors": [
+   "at",
+   "ch"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": [
+   "sm",
+   "md",
+   "ad"
+  ]
+ },
+ "lt": {
+  "continent": "europe",
+  "neighbors": [
+   "by",
+   "lv",
+   "pl",
+   "ru"
+  ],
+  "near": [],
+  "color": 3,
+  "similarFlags": [
+   "de",
+   "bg",
+   "hu"
+  ]
+ },
+ "lu": {
+  "continent": "europe",
+  "neighbors": [
+   "be",
+   "de",
+   "fr"
+  ],
+  "near": [],
+  "color": 3,
+  "similarFlags": [
+   "nl",
+   "fr",
+   "ru"
+  ]
+ },
+ "lv": {
+  "continent": "europe",
+  "neighbors": [
+   "by",
+   "ee",
+   "lt",
+   "ru"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": [
+   "at",
+   "pl",
+   "dk"
+  ]
+ },
+ "mc": {
+  "continent": "europe",
+  "neighbors": [
+   "fr"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": [
+   "pl",
+   "at",
+   "mt"
+  ]
+ },
+ "md": {
+  "continent": "europe",
+  "neighbors": [
+   "ro",
+   "ua"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": [
+   "ro",
+   "ad",
+   "be"
+  ]
+ },
+ "me": {
+  "continent": "europe",
+  "neighbors": [
+   "al",
+   "ba",
+   "hr",
+   "rs",
+   "xk"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": [
+   "al",
+   "es",
+   "mk"
+  ]
+ },
+ "mk": {
+  "continent": "europe",
+  "neighbors": [
+   "al",
+   "bg",
+   "gr",
+   "rs",
+   "xk"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": [
+   "al",
+   "me",
+   "by"
+  ]
+ },
+ "mt": {
+  "continent": "europe",
+  "neighbors": [],
+  "near": [
+   "it"
+  ],
+  "color": 0,
+  "similarFlags": [
+   "mc",
+   "pl",
+   "va"
+  ]
+ },
+ "nl": {
+  "continent": "europe",
+  "neighbors": [
+   "be",
+   "de"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": [
+   "lu",
+   "fr",
+   "hr"
+  ]
+ },
+ "no": {
+  "continent": "europe",
+  "neighbors": [
+   "fi",
+   "ru",
+   "se"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": [
+   "is",
+   "dk",
+   "fi"
+  ]
+ },
+ "pl": {
+  "continent": "europe",
+  "neighbors": [
+   "by",
+   "cz",
+   "de",
+   "lt",
+   "ru",
+   "sk",
+   "ua"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": [
+   "mc",
+   "at",
+   "lv"
+  ]
+ },
+ "pt": {
+  "continent": "europe",
+  "neighbors": [
+   "es"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": [
+   "es",
+   "it",
+   "md"
+  ]
+ },
+ "ro": {
+  "continent": "europe",
+  "neighbors": [
+   "bg",
+   "hu",
+   "md",
+   "rs",
+   "ua"
+  ],
+  "near": [],
+  "color": 4,
+  "similarFlags": [
+   "ad",
+   "md",
+   "be"
+  ]
+ },
+ "rs": {
+  "continent": "europe",
+  "neighbors": [
+   "ba",
+   "bg",
+   "hr",
+   "hu",
+   "me",
+   "mk",
+   "ro",
+   "xk"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": [
+   "hr",
+   "ru",
+   "sk"
+  ]
+ },
+ "ru": {
+  "continent": "europe",
+  "neighbors": [
+   "by",
+   "ee",
+   "fi",
+   "lt",
+   "lv",
+   "no",
+   "pl",
+   "ua"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": [
+   "sk",
+   "si",
+   "rs"
+  ]
+ },
+ "se": {
+  "continent": "europe",
+  "neighbors": [
+   "fi",
+   "no"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": [
+   "fi",
+   "no",
+   "ua"
+  ]
+ },
+ "si": {
+  "continent": "europe",
+  "neighbors": [
+   "at",
+   "hr",
+   "hu",
+   "it"
+  ],
+  "near": [],
+  "color": 3,
+  "similarFlags": [
+   "sk",
+   "ru",
+   "hr"
+  ]
+ },
+ "sk": {
+  "continent": "europe",
+  "neighbors": [
+   "at",
+   "cz",
+   "hu",
+   "pl",
+   "ua"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": [
+   "si",
+   "ru",
+   "rs"
+  ]
+ },
+ "sm": {
+  "continent": "europe",
+  "neighbors": [
+   "it"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": [
+   "va",
+   "gr",
+   "li"
+  ]
+ },
+ "ua": {
+  "continent": "europe",
+  "neighbors": [
+   "by",
+   "hu",
+   "md",
+   "pl",
+   "ro",
+   "ru",
+   "sk"
+  ],
+  "near": [],
+  "color": 3,
+  "similarFlags": [
+   "se",
+   "xk",
+   "ba"
+  ]
+ },
+ "va": {
+  "continent": "europe",
+  "neighbors": [
+   "it"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": [
+   "cy",
+   "sm",
+   "mt"
+  ]
+ },
+ "xk": {
+  "continent": "europe",
+  "neighbors": [
+   "al",
+   "me",
+   "mk",
+   "rs"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": [
+   "ba",
+   "cy",
+   "ua"
+  ]
+ }
+}

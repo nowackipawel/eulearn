@@ -1,0 +1,286 @@
+{
+ "ad": {
+  "name": "Andora",
+  "nameAcc": "Andorę",
+  "nameGen": "Andory",
+  "capital": "Andora"
+ },
+ "al": {
+  "name": "Albania",
+  "nameAcc": "Albanię",
+  "nameGen": "Albanii",
+  "capital": "Tirana"
+ },
+ "at": {
+  "name": "Austria",
+  "nameAcc": "Austrię",
+  "nameGen": "Austrii",
+  "capital": "Wiedeń"
+ },
+ "ba": {
+  "name": "Bośnia i Hercegowina",
+  "nameAcc": "Bośnię i Hercegowinę",
+  "nameGen": "Bośni i Hercegowiny",
+  "capital": "Sarajewo"
+ },
+ "be": {
+  "name": "Belgia",
+  "nameAcc": "Belgię",
+  "nameGen": "Belgii",
+  "capital": "Bruksela"
+ },
+ "bg": {
+  "name": "Bułgaria",
+  "nameAcc": "Bułgarię",
+  "nameGen": "Bułgarii",
+  "capital": "Sofia"
+ },
+ "by": {
+  "name": "Białoruś",
+  "nameAcc": "Białoruś",
+  "nameGen": "Białorusi",
+  "capital": "Mińsk"
+ },
+ "ch": {
+  "name": "Szwajcaria",
+  "nameAcc": "Szwajcarię",
+  "nameGen": "Szwajcarii",
+  "capital": "Berno"
+ },
+ "cy": {
+  "name": "Cypr",
+  "nameAcc": "Cypr",
+  "nameGen": "Cypru",
+  "capital": "Nikozja",
+  "hook": "Cypr ma swój kształt na własnej fladze."
+ },
+ "cz": {
+  "name": "Czechy",
+  "nameAcc": "Czechy",
+  "nameGen": "Czech",
+  "capital": "Praga"
+ },
+ "de": {
+  "name": "Niemcy",
+  "nameAcc": "Niemcy",
+  "nameGen": "Niemiec",
+  "capital": "Berlin"
+ },
+ "dk": {
+  "name": "Dania",
+  "nameAcc": "Danię",
+  "nameGen": "Danii",
+  "capital": "Kopenhaga"
+ },
+ "ee": {
+  "name": "Estonia",
+  "nameAcc": "Estonię",
+  "nameGen": "Estonii",
+  "capital": "Tallinn"
+ },
+ "es": {
+  "name": "Hiszpania",
+  "nameAcc": "Hiszpanię",
+  "nameGen": "Hiszpanii",
+  "capital": "Madryt"
+ },
+ "fi": {
+  "name": "Finlandia",
+  "nameAcc": "Finlandię",
+  "nameGen": "Finlandii",
+  "capital": "Helsinki"
+ },
+ "fr": {
+  "name": "Francja",
+  "nameAcc": "Francję",
+  "nameGen": "Francji",
+  "capital": "Paryż",
+  "hook": "Francja ma kształt sześciokąta."
+ },
+ "gb": {
+  "name": "Wielka Brytania",
+  "nameAcc": "Wielką Brytanię",
+  "nameGen": "Wielkiej Brytanii",
+  "capital": "Londyn"
+ },
+ "gr": {
+  "name": "Grecja",
+  "nameAcc": "Grecję",
+  "nameGen": "Grecji",
+  "capital": "Ateny"
+ },
+ "hr": {
+  "name": "Chorwacja",
+  "nameAcc": "Chorwację",
+  "nameGen": "Chorwacji",
+  "capital": "Zagrzeb",
+  "hook": "Chorwacja wygina się jak rogalik."
+ },
+ "hu": {
+  "name": "Węgry",
+  "nameAcc": "Węgry",
+  "nameGen": "Węgier",
+  "capital": "Budapeszt"
+ },
+ "ie": {
+  "name": "Irlandia",
+  "nameAcc": "Irlandię",
+  "nameGen": "Irlandii",
+  "capital": "Dublin"
+ },
+ "is": {
+  "name": "Islandia",
+  "nameAcc": "Islandię",
+  "nameGen": "Islandii",
+  "capital": "Reykjavik",
+  "hook": "Islandia to wyspa lodu i wulkanów."
+ },
+ "it": {
+  "name": "Włochy",
+  "nameAcc": "Włochy",
+  "nameGen": "Włoch",
+  "capital": "Rzym",
+  "hook": "Włochy wyglądają jak but."
+ },
+ "li": {
+  "name": "Liechtenstein",
+  "nameAcc": "Liechtenstein",
+  "nameGen": "Liechtensteinu",
+  "capital": "Vaduz"
+ },
+ "lt": {
+  "name": "Litwa",
+  "nameAcc": "Litwę",
+  "nameGen": "Litwy",
+  "capital": "Wilno"
+ },
+ "lu": {
+  "name": "Luksemburg",
+  "nameAcc": "Luksemburg",
+  "nameGen": "Luksemburga",
+  "capital": "Luksemburg"
+ },
+ "lv": {
+  "name": "Łotwa",
+  "nameAcc": "Łotwę",
+  "nameGen": "Łotwy",
+  "capital": "Ryga"
+ },
+ "mc": {
+  "name": "Monako",
+  "nameAcc": "Monako",
+  "nameGen": "Monako",
+  "capital": "Monako"
+ },
+ "md": {
+  "name": "Mołdawia",
+  "nameAcc": "Mołdawię",
+  "nameGen": "Mołdawii",
+  "capital": "Kiszyniów"
+ },
+ "me": {
+  "name": "Czarnogóra",
+  "nameAcc": "Czarnogórę",
+  "nameGen": "Czarnogóry",
+  "capital": "Podgorica"
+ },
+ "mk": {
+  "name": "Macedonia Północna",
+  "nameAcc": "Macedonię Północną",
+  "nameGen": "Macedonii Północnej",
+  "capital": "Skopje"
+ },
+ "mt": {
+  "name": "Malta",
+  "nameAcc": "Maltę",
+  "nameGen": "Malty",
+  "capital": "Valletta"
+ },
+ "nl": {
+  "name": "Holandia",
+  "nameAcc": "Holandię",
+  "nameGen": "Holandii",
+  "capital": "Amsterdam"
+ },
+ "no": {
+  "name": "Norwegia",
+  "nameAcc": "Norwegię",
+  "nameGen": "Norwegii",
+  "capital": "Oslo",
+  "hook": "Norwegia jest długa i wąska jak łyżka."
+ },
+ "pl": {
+  "name": "Polska",
+  "nameAcc": "Polskę",
+  "nameGen": "Polski",
+  "capital": "Warszawa",
+  "hook": "Flaga Polski: biały u góry, czerwony na dole."
+ },
+ "pt": {
+  "name": "Portugalia",
+  "nameAcc": "Portugalię",
+  "nameGen": "Portugalii",
+  "capital": "Lizbona"
+ },
+ "ro": {
+  "name": "Rumunia",
+  "nameAcc": "Rumunię",
+  "nameGen": "Rumunii",
+  "capital": "Bukareszt"
+ },
+ "rs": {
+  "name": "Serbia",
+  "nameAcc": "Serbię",
+  "nameGen": "Serbii",
+  "capital": "Belgrad"
+ },
+ "ru": {
+  "name": "Rosja",
+  "nameAcc": "Rosję",
+  "nameGen": "Rosji",
+  "capital": "Moskwa"
+ },
+ "se": {
+  "name": "Szwecja",
+  "nameAcc": "Szwecję",
+  "nameGen": "Szwecji",
+  "capital": "Sztokholm"
+ },
+ "si": {
+  "name": "Słowenia",
+  "nameAcc": "Słowenię",
+  "nameGen": "Słowenii",
+  "capital": "Lublana"
+ },
+ "sk": {
+  "name": "Słowacja",
+  "nameAcc": "Słowację",
+  "nameGen": "Słowacji",
+  "capital": "Bratysława"
+ },
+ "sm": {
+  "name": "San Marino",
+  "nameAcc": "San Marino",
+  "nameGen": "San Marino",
+  "capital": "San Marino"
+ },
+ "ua": {
+  "name": "Ukraina",
+  "nameAcc": "Ukrainę",
+  "nameGen": "Ukrainy",
+  "capital": "Kijów"
+ },
+ "va": {
+  "name": "Watykan",
+  "nameAcc": "Watykan",
+  "nameGen": "Watykanu",
+  "capital": "Watykan",
+  "hook": "Watykan to najmniejszy kraj świata."
+ },
+ "xk": {
+  "name": "Kosowo",
+  "nameAcc": "Kosowo",
+  "nameGen": "Kosowa",
+  "capital": "Prisztina"
+ }
+}

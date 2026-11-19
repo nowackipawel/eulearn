@@ -1,1 +1,8 @@
 .DS_Store
+tool/raw/
+.dart_tool/
+.flutter-plugins-dependencies
+build/
+*.iml
+.idea/
+test/failures/

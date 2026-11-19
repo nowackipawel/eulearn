@@ -21,13 +21,14 @@ Cechy stylu:
 | Stan kraju | Wypełnienie | Wstęga wzdłuż granicy |
 |---|---|---|
 | nie widziany | białe („mapa konturowa”) | cienka linia w barwie kraju |
-| nowy (poziom 1–2) | kropki w barwie kraju | fragment wstęgi |
-| uczę się (poziom 3–4) | szrafy (ukośne pasy) | większa część wstęgi |
-| znam (poziom 5) | pełna barwa | wstęga zamknięta |
+| nowy (poznany, 0–1 opanowana umiejętność) | kropki w barwie kraju | do ćwierci wstęgi |
+| uczę się (2–3 opanowane umiejętności) | szrafy (ukośne pasy) | połowa do trzech ćwierci |
+| znam (wszystkie 4 umiejętności) | pełna barwa | wstęga zamknięta |
 | mój kraj | róż | podwójnej grubości, sygnałowa czerwień, znak domku |
 
 - **Długość wstęgi = liczba opanowanych umiejętności** (położenie, kształt, flaga, stolica): każda dodaje ćwierć obwodu, licząc od północy zgodnie z ruchem wskazówek zegara. Cztery umiejętności zamykają pętlę.
-- **Wzór wypełnienia = poziom opanowania.** Postęp czyta się bez rozróżniania kolorów.
+- Umiejętność liczy się jako opanowana od poziomu 3 w systemie powtórek (dokument 01).
+- **Wzór wypełnienia = etap nauki kraju.** Postęp czyta się bez rozróżniania kolorów.
 - Na karcie kraju ta sama wstęga jest pokazana w powiększeniu, z czterema podpisanymi ćwiartkami.
 - Zaznaczenie kraju: wstęga grubieje, pozostałe kraje przygasają do 40%.
 - Domknięcie wstęgi jest najważniejszą animacją nagrody w aplikacji.
