@@ -69,5 +69,7 @@
  "continentOceania": "Oceania",
  "continents": "Kontynenty",
  "learnHere": "Uczę się tutaj",
- "promptNeighborsPlural": "Z kim graniczą {name}?"
+ "promptNeighborsPlural": "Z kim graniczą {name}?",
+ "hint": "Podpowiedź",
+ "skip": "Pomiń"
 }

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- Android adaptive foreground: the mark inside the safe zone, no background. -->
+  <defs>
+    <path id="c" d="M66 74 L142 46 L208 80 L196 140 L216 190 L150 216 L92 200 L46 158 Z" stroke-linejoin="round"/>
+    <clipPath id="k"><use href="#c"/></clipPath>
+  </defs>
+  <g transform="translate(128 128) scale(0.62) translate(-131 -131)">
+    <use href="#c" fill="#F4A3B5"/>
+    <use href="#c" fill="none" stroke="#D7263D" stroke-width="52" clip-path="url(#k)"/>
+    <use href="#c" fill="none" stroke="#FFFFFF" stroke-width="8"/>
+    <path d="M104 136 L130 110 L156 136 V166 H104 Z" fill="#FFFFFF" stroke="#17324D" stroke-width="8" stroke-linejoin="round"/>
+  </g>
+</svg>

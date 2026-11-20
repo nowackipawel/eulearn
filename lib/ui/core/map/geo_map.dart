@@ -306,14 +306,14 @@ class _MapPainter extends CustomPainter {
     for (final shape in w.view.byAreaDesc) {
       if (!w.view.playable.contains(shape.code) || !shape.bbox.overlaps(visible)) continue;
       final st = w.styleOf(shape.code);
-      if (st.hidden) continue;
       final small = s._isSmall(shape, scale);
-      if (small) _marker(canvas, shape, st, px, fill, line);
+      if (small && !st.hidden) _marker(canvas, shape, st, px, fill, line);
       if (w.blink.contains(shape.code)) {
         final on = s._pulse.value > 0.5;
         final p = small ? (Path()..addOval(Rect.fromCircle(center: shape.bbox.center, radius: 15 * px))) : shape.path;
         canvas.drawPath(p, line..color = on ? Tok.ink : Tok.paper..strokeWidth = 5 * px);
       }
+      if (st.hidden) continue; // an empty puzzle slot: outline only
       if (st.home && !small) _house(canvas, shape.label, px);
       if (w.pins.contains(shape.code) && shape.capital != null) _pin(canvas, shape.capital!, px, fill, line);
       final text = w.labelOf?.call(shape.code);

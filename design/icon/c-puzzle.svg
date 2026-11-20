@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <title>Two neighbours</title>
+  <rect width="256" height="256" fill="#8CC6EC"/>
+  <defs>
+    <path id="l" d="M40 84 L104 52 L126 96 L104 132 L132 170 L108 210 L52 196 L30 140 Z" stroke-linejoin="round"/>
+    <path id="r" d="M126 96 L176 60 L226 96 L214 160 L226 200 L160 220 L108 210 L132 170 L104 132 Z" stroke-linejoin="round"/>
+    <clipPath id="kl"><use href="#l"/></clipPath><clipPath id="kr"><use href="#r"/></clipPath>
+  </defs>
+  <use href="#l" fill="#F7D860"/>
+  <use href="#l" fill="none" stroke="#D9A90F" stroke-width="36" clip-path="url(#kl)"/>
+  <use href="#l" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+  <g transform="translate(16 -14) rotate(5 170 140)">
+    <use href="#r" fill="#F4A3B5"/>
+    <use href="#r" fill="none" stroke="#D7263D" stroke-width="40" clip-path="url(#kr)"/>
+    <use href="#r" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+  </g>
+</svg>

@@ -181,6 +181,29 @@ void main() {
     }
   });
 
+  testWidgets('puzzle: three misses offer a hint and a skip', (t) async {
+    await boot(t, profile: sample(), child: const _Harness(RoundScreen(mode: RoundMode.puzzle, seed: 2)));
+    expect(find.byKey(const ValueKey('puzzle-skip')), findsNothing);
+    final state = t.state(find.byType(RoundScreen)) as dynamic;
+    final piece = state.debugCurrentCode as String;
+    final wrong = piece == 'es' ? 'pt' : 'es'; // never a piece in this round's pool
+    await t.tap(find.byKey(ValueKey('piece-$piece'))); // the piece stays selected between tries
+    await t.pump(const Duration(milliseconds: 100));
+    for (var i = 0; i < 3; i++) {
+      t.widget<GeoMap>(find.byType(GeoMap)).onTap!(wrong);
+      await t.pump(const Duration(milliseconds: 100));
+    }
+    expect(find.byKey(const ValueKey('puzzle-hint')), findsOneWidget);
+    await t.tap(find.byKey(const ValueKey('puzzle-hint')));
+    await t.pump(const Duration(milliseconds: 600));
+    expect(t.widget<GeoMap>(find.byType(GeoMap)).blink, isNotEmpty, reason: 'the right place flashes');
+    await shot(t, 'round_puzzle_hint');
+    await t.tap(find.byKey(const ValueKey('puzzle-skip')));
+    await t.pump(const Duration(milliseconds: 600));
+    expect(state.debugCurrentCode, isNot(piece), reason: 'skip moves to the next puzzle');
+    expect(find.byKey(const ValueKey('puzzle-skip')), findsNothing);
+  });
+
   testWidgets('tablet and English layouts hold', (t) async {
     final p = sample().copyWith(lang: Lang.en);
     await boot(t, profile: p, size: const Size(1180, 820), child: const _Harness(RoundScreen(mode: RoundMode.flags, seed: 3), en: true));

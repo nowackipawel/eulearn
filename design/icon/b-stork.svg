@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <title>Stork</title>
+  <rect width="256" height="256" fill="#8CC6EC"/>
+  <path d="M176 256 C176 200 150 176 160 120" fill="none" stroke="#17324D" stroke-width="62" stroke-linecap="round"/>
+  <path d="M176 262 C176 200 150 176 160 120" fill="none" stroke="#FFFFFF" stroke-width="46" stroke-linecap="round"/>
+  <path d="M132 84 L22 112 L132 122 Z" fill="#D7263D" stroke="#17324D" stroke-width="8" stroke-linejoin="round"/>
+  <circle cx="160" cy="100" r="46" fill="#FFFFFF" stroke="#17324D" stroke-width="8"/>
+  <circle cx="148" cy="92" r="9" fill="#17324D"/>
+</svg>

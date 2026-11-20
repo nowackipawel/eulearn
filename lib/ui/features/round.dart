@@ -40,6 +40,8 @@ class _RoundState extends ConsumerState<RoundScreen> with SingleTickerProviderSt
   final _placed = <String>{}; // puzzle pieces placed
   final _ruledOut = <String>{}; // wrong options already tried
   String? _piece; // selected puzzle piece
+  int _pieceMisses = 0; // wrong placements in this puzzle
+  String? _hintPiece; // piece whose place is being shown
   String? _note; // "This is Spain" after a wrong tap
   bool _good = false; // right-answer feedback is showing
 
@@ -92,6 +94,8 @@ class _RoundState extends ConsumerState<RoundScreen> with SingleTickerProviderSt
     _placed.clear();
     _ruledOut.clear();
     _piece = null;
+    _pieceMisses = 0;
+    _hintPiece = null;
     _note = null;
     _good = false;
     if (_s.finished) {
@@ -238,10 +242,14 @@ class _RoundState extends ConsumerState<RoundScreen> with SingleTickerProviderSt
   void _place(String piece, String? target) {
     final q = _q as PlacePiecesQuestion;
     if (_good || _placed.contains(piece)) return;
-    if (target != piece) return _wrong(null);
+    if (target != piece) {
+      _pieceMisses++;
+      return _wrong(null);
+    }
     setState(() {
       _placed.add(piece);
       _piece = null;
+      _hintPiece = null;
     });
     if (_placed.length == q.pieces.length) {
       _right();
@@ -249,6 +257,26 @@ class _RoundState extends ConsumerState<RoundScreen> with SingleTickerProviderSt
       ref.read(sfxProvider).play(Sfx.snap);
       _say(_both(_t(piece).name, _o(piece).name), always: true);
     }
+  }
+
+  /// After three misses: show where a piece goes.
+  void _hint() {
+    final q = _q as PlacePiecesQuestion;
+    final piece = _piece ?? q.pieces.firstWhere((c) => !_placed.contains(c));
+    setState(() {
+      _piece = piece;
+      _hintPiece = piece;
+    });
+    _map.focusOn([piece, ..._geo.graph[piece]!.around]);
+    _say(_both(_t(piece).name, _o(piece).name), always: true);
+  }
+
+  /// After three misses: leave this puzzle. Nothing is taken away; the
+  /// countries simply come back another day.
+  void _skip() {
+    _missed.add(_scoredIndex);
+    _s = _s.apply(Answer(playerId: _p.id, correct: true, hinted: true));
+    _enter();
   }
 
   CountryStyle _style(String code) {
@@ -297,6 +325,7 @@ class _RoundState extends ConsumerState<RoundScreen> with SingleTickerProviderSt
     final blink = <String>{
       if (_s.hintDue && q is TapOnMapQuestion) q.code,
       if (_s.hintDue && q is NeighborsQuestion) ...q.answers.where((c) => !_found.contains(c)),
+      ?_hintPiece,
     };
     final map = MapScreen(
       controller: _map,
@@ -432,6 +461,29 @@ class _RoundState extends ConsumerState<RoundScreen> with SingleTickerProviderSt
     return AppPanel(
       child: SingleChildScrollView(
         child: Column(children: [
+          if (_pieceMisses >= 3) ...[
+            SizedBox(
+              width: double.infinity,
+              child: AppButton(
+                key: const ValueKey('puzzle-hint'),
+                kind: ButtonKind.voice,
+                icon: Icons.lightbulb_rounded,
+                label: _l.hint,
+                onTap: _hint,
+              ),
+            ),
+            const SizedBox(height: 8),
+            SizedBox(
+              width: double.infinity,
+              child: AppButton(
+                key: const ValueKey('puzzle-skip'),
+                icon: Icons.skip_next_rounded,
+                label: _l.skip,
+                onTap: _skip,
+              ),
+            ),
+            const SizedBox(height: 12),
+          ],
           for (final c in q.pieces.where((c) => !_placed.contains(c)))
             Padding(
               padding: const EdgeInsets.only(bottom: 10),

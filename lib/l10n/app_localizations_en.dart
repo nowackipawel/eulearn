@@ -246,4 +246,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String promptNeighborsPlural(String name) {
     return 'Which countries border $name?';
   }
+
+  @override
+  String get hint => 'Hint';
+
+  @override
+  String get skip => 'Skip';
 }

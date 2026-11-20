@@ -176,5 +176,7 @@
     "type": "String"
    }
   }
- }
+ },
+ "hint": "Hint",
+ "skip": "Skip"
 }

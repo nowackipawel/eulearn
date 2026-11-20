@@ -246,4 +246,10 @@ class AppLocalizationsPl extends AppLocalizations {
   String promptNeighborsPlural(String name) {
     return 'Z kim graniczą $name?';
   }
+
+  @override
+  String get hint => 'Podpowiedź';
+
+  @override
+  String get skip => 'Pomiń';
 }
