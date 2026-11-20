@@ -10,6 +10,7 @@ class Profile {
     required this.name,
     required this.home,
     required this.lang,
+    required this.region,
     this.avatar = 0,
     this.secondLang = true,
     this.readAloud = true,
@@ -26,6 +27,9 @@ class Profile {
   /// "My country".
   final String home;
   final Lang lang;
+
+  /// Continent the child is learning now.
+  final String region;
 
   /// Also speak names in the other language.
   final bool secondLang;
@@ -45,6 +49,7 @@ class Profile {
     String? name,
     String? home,
     Lang? lang,
+    String? region,
     bool? secondLang,
     bool? readAloud,
     bool? sfx,
@@ -58,6 +63,7 @@ class Profile {
         name: name ?? this.name,
         home: home ?? this.home,
         lang: lang ?? this.lang,
+        region: region ?? this.region,
         secondLang: secondLang ?? this.secondLang,
         readAloud: readAloud ?? this.readAloud,
         sfx: sfx ?? this.sfx,
@@ -81,6 +87,7 @@ class Profile {
         'avatar': avatar,
         'home': home,
         'lang': lang.name,
+        'region': region,
         'secondLang': secondLang,
         'readAloud': readAloud,
         'sfx': sfx,
@@ -95,6 +102,8 @@ class Profile {
         avatar: j['avatar'] as int? ?? 0,
         home: j['home'] as String,
         lang: Lang.values.byName(j['lang'] as String),
+        // Profiles saved before other continents existed were all in Europe.
+        region: j['region'] as String? ?? 'europe',
         secondLang: j['secondLang'] as bool? ?? true,
         readAloud: j['readAloud'] as bool? ?? true,
         sfx: j['sfx'] as bool? ?? true,

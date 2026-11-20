@@ -32,7 +32,9 @@ PER_COUNTRY = [('promptFind', 'acc'), ('promptCapitalOf', 'gen'), ('promptPickFl
                ('promptNeighbors', 'name'), ('promptWhereCapital', 'capital'),
                ('thisIs', 'name'), ('capitalIs', 'capital')]
 FIXED = ['promptWhoseFlag', 'promptPuzzle', 'promptListen', 'wellDone', 'whereDoYouLive', 'meetFirst',
-         'legendHome', 'legendKnown', 'legendLearning', 'legendNew']
+         'legendHome', 'legendKnown', 'legendLearning', 'legendNew',
+         'continentEurope', 'continentAsia', 'continentAfrica', 'continentNorthAmerica',
+         'continentSouthAmerica', 'continentOceania']
 
 
 def key(lang, text):
@@ -56,6 +58,8 @@ def phrases(lang):
             out.append(c['hook'])
         for k, form in PER_COUNTRY:
             placeholder = 'capital' if form == 'capital' else 'name'
+            if k == 'promptNeighbors' and c.get('plural'):
+                k = 'promptNeighborsPlural'  # Niemcy, Chiny: plural verb
             out.append(arb[k].replace('{%s}' % placeholder, forms[form]))
     return list(dict.fromkeys(out))  # unique, order kept
 

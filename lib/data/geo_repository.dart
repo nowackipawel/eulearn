@@ -7,7 +7,15 @@ import '../domain/models.dart';
 
 /// Names of one country in one language.
 class GeoText {
-  const GeoText({required this.name, required this.capital, String? acc, String? gen, String? inSentence, this.hook})
+  const GeoText({
+    required this.name,
+    required this.capital,
+    String? acc,
+    String? gen,
+    String? inSentence,
+    this.hook,
+    this.plural = false,
+  })
       : acc = acc ?? inSentence ?? name,
         gen = gen ?? inSentence ?? name;
 
@@ -21,6 +29,9 @@ class GeoText {
   final String gen;
   final String? hook;
 
+  /// Polish plural-only names (Niemcy, Chiny) take a plural verb.
+  final bool plural;
+
   factory GeoText.fromJson(Map<String, dynamic> j) => GeoText(
         name: j['name'] as String,
         capital: j['capital'] as String,
@@ -28,6 +39,7 @@ class GeoText {
         gen: j['nameGen'] as String?,
         inSentence: j['nameInSentence'] as String?,
         hook: j['hook'] as String?,
+        plural: j['plural'] as bool? ?? false,
       );
 }
 
@@ -58,7 +70,7 @@ class CountryShape {
 }
 
 class GeoView {
-  GeoView({required this.size, required this.frame, required this.shapes})
+  GeoView({required this.size, required this.frame, required this.shapes, required this.playable})
       : byAreaDesc = shapes.values.toList()..sort((a, b) => b.area.compareTo(a.area));
   final Size size;
 
@@ -66,30 +78,51 @@ class GeoView {
   final Rect frame;
   final Map<String, CountryShape> shapes;
 
+  /// Countries that are part of the game in this view; the rest is backdrop.
+  final Set<String> playable;
+
   /// Draw order: big first, so enclaves land on top of their hosts.
   final List<CountryShape> byAreaDesc;
 }
 
 class GeoRepository {
-  GeoRepository({required this.graph, required this.tint, required this.europe, required this.texts});
+  GeoRepository({required this.graph, required this.tint, required this.continent, required this.views, required this.texts});
 
   final Map<String, CountryNode> graph;
 
   /// Index into the map tint palette; neighbours never share one.
   final Map<String, int> tint;
-  final GeoView europe;
+  /// Continent of each country.
+  final Map<String, String> continent;
+
+  /// One view per continent, plus [world].
+  final Map<String, GeoView> views;
+
+  static const world = 'world';
+  static const continents = ['europe', 'asia', 'africa', 'north_america', 'south_america', 'oceania'];
+
+  /// Where learning starts on a continent that is not the child's own.
+  static const anchors = {
+    'europe': 'de',
+    'asia': 'cn',
+    'africa': 'eg',
+    'north_america': 'us',
+    'south_america': 'br',
+    'oceania': 'au',
+  };
+
+  Set<String> members(String region) => views[region]!.playable;
   final Map<Lang, Map<String, GeoText>> texts;
 
   bool playable(String code) => graph.containsKey(code);
   GeoText text(String code, Lang lang) => texts[lang]![code]!;
 
-  // ponytail: parsed on the UI thread (≈70 kB JSON, one continent).
-  // Move to an isolate when the world view lands and startup shows jank.
+  // ponytail: all views are parsed on the UI thread at start (≈550 kB JSON).
+  // Load a continent on demand, or parse in an isolate, if startup shows jank.
   static Future<GeoRepository> load(AssetBundle bundle) async {
     Future<Map<String, dynamic>> read(String p) async =>
         jsonDecode(await bundle.loadString(p)) as Map<String, dynamic>;
     final countries = await read('assets/geo/countries.json');
-    final view = await read('assets/geo/view_europe.json');
     final texts = {
       for (final l in Lang.values)
         l: (await read('assets/i18n/geo_${l.name}.json'))
@@ -105,26 +138,36 @@ class GeoRepository {
       return p..close();
     }
 
-    final shapes = <String, CountryShape>{};
-    (view['countries'] as Map<String, dynamic>).forEach((code, v) {
-      final rings = [for (final r in v['rings'] as List) ring(nums(r))];
-      final path = Path();
-      for (final r in rings) {
-        path.addPath(r, Offset.zero);
-      }
-      final b = nums(v['bbox']), l = nums(v['label']);
-      final c = v['capital'] == null ? null : nums(v['capital']);
-      shapes[code] = CountryShape(
-        code: code,
-        path: path,
-        mainRing: rings.first,
-        bbox: Rect.fromLTRB(b[0], b[1], b[2], b[3]),
-        label: Offset(l[0], l[1]),
-        capital: c == null ? null : Offset(c[0], c[1]),
-        area: (v['area'] as num).toDouble(),
+    Future<GeoView> loadView(String name) async {
+      final view = await read('assets/geo/view_$name.json');
+      final shapes = <String, CountryShape>{};
+      (view['countries'] as Map<String, dynamic>).forEach((code, v) {
+        final rings = [for (final r in v['rings'] as List) ring(nums(r))];
+        final path = Path();
+        for (final r in rings) {
+          path.addPath(r, Offset.zero);
+        }
+        final b = nums(v['bbox']), l = nums(v['label']);
+        final c = v['capital'] == null ? null : nums(v['capital']);
+        shapes[code] = CountryShape(
+          code: code,
+          path: path,
+          mainRing: rings.first,
+          bbox: Rect.fromLTRB(b[0], b[1], b[2], b[3]),
+          label: Offset(l[0], l[1]),
+          capital: c == null ? null : Offset(c[0], c[1]),
+          area: (v['area'] as num).toDouble(),
+        );
+      });
+      final size = nums(view['size']), f = nums(view['frame']);
+      return GeoView(
+        size: Size(size[0], size[1]),
+        frame: Rect.fromLTRB(f[0], f[1], f[2], f[3]),
+        shapes: shapes,
+        playable: (view['playable'] as List).cast<String>().toSet(),
       );
-    });
-    final size = nums(view['size']), f = nums(view['frame']);
+    }
+
     return GeoRepository(
       graph: {
         for (final e in countries.entries)
@@ -136,11 +179,8 @@ class GeoRepository {
           ),
       },
       tint: {for (final e in countries.entries) e.key: e.value['color'] as int},
-      europe: GeoView(
-        size: Size(size[0], size[1]),
-        frame: Rect.fromLTRB(f[0], f[1], f[2], f[3]),
-        shapes: shapes,
-      ),
+      continent: {for (final e in countries.entries) e.key: e.value['continent'] as String},
+      views: {for (final v in [world, ...continents]) v: await loadView(v)},
       texts: texts,
     );
   }

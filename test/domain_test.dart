@@ -43,7 +43,7 @@ void main() {
         final acc = c['nameAcc'] as String? ?? inSentence, gen = c['nameGen'] as String? ?? inSentence;
         for (final text in [
           name, capital, l.promptFind(acc), l.promptCapitalOf(gen), l.promptPickFlag(gen),
-          l.promptNeighbors(name), l.promptWhereCapital(capital), l.thisIs(name), l.capitalIs(capital),
+          c['plural'] == true ? l.promptNeighborsPlural(name) : l.promptNeighbors(name), l.promptWhereCapital(capital), l.thisIs(name), l.capitalIs(capital),
         ]) {
           expect(index, contains('${lang.name}/${voiceKey(lang, text)}'), reason: '${lang.name}: $text');
         }
@@ -163,17 +163,24 @@ void main() {
 
   test('data: neighbours symmetric and differently coloured, content complete in both languages', () {
     final c = jsonDecode(File('assets/geo/countries.json').readAsStringSync()) as Map<String, dynamic>;
-    final v = (jsonDecode(File('assets/geo/view_europe.json').readAsStringSync())['countries']) as Map<String, dynamic>;
+    final views = {
+      for (final n in ['world', 'europe', 'asia', 'africa', 'north_america', 'south_america', 'oceania'])
+        n: jsonDecode(File('assets/geo/view_$n.json').readAsStringSync()) as Map<String, dynamic>,
+    };
     final pl = jsonDecode(File('assets/i18n/geo_pl.json').readAsStringSync()) as Map<String, dynamic>;
     final en = jsonDecode(File('assets/i18n/geo_en.json').readAsStringSync()) as Map<String, dynamic>;
-    expect(c.length, 46);
+    expect(c.length, 197);
     for (final e in c.entries) {
       final code = e.key;
       for (final n in e.value['neighbors'] as List) {
         expect(c[n]['neighbors'], contains(code), reason: '$code-$n');
         expect(c[n]['color'], isNot(e.value['color']), reason: '$code-$n colour');
       }
-      expect(v[code]['capital'], isNotNull, reason: code);
+      // Every country is on the world map and on its own continent's map, with its capital.
+      for (final n in ['world', e.value['continent'] as String]) {
+        expect(views[n]!['playable'], contains(code), reason: '$n $code');
+        expect(views[n]!['countries'][code]?['capital'], isNotNull, reason: '$n $code capital');
+      }
       expect(File('assets/flags/$code.svg').existsSync(), isTrue, reason: code);
       for (final k in ['name', 'nameAcc', 'nameGen', 'capital']) {
         expect(pl[code][k], isA<String>(), reason: 'pl $code $k');

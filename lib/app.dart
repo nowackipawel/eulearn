@@ -6,6 +6,7 @@ import 'domain/models.dart';
 import 'l10n/app_localizations.dart';
 import 'providers.dart';
 import 'ui/core/theme.dart';
+import 'ui/features/continents.dart';
 import 'ui/features/explorer.dart';
 import 'ui/features/home.dart';
 import 'ui/features/onboarding.dart';
@@ -32,6 +33,7 @@ class _AppState extends ConsumerState<App> {
     routes: [
       GoRoute(path: '/', builder: (_, _) => const HomeScreen()),
       GoRoute(path: '/onboarding', builder: (_, _) => const OnboardingScreen()),
+      GoRoute(path: '/continents', builder: (_, _) => const ContinentsScreen()),
       GoRoute(path: '/games', builder: (_, _) => const GamesScreen()),
       GoRoute(path: '/explorer', builder: (_, _) => const ExplorerScreen()),
       GoRoute(path: '/passport', builder: (_, _) => const PassportScreen()),

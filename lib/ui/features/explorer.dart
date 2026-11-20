@@ -80,7 +80,7 @@ class _ExplorerState extends ConsumerState<ExplorerScreen> {
               const Spacer(),
               // The same ribbon as on the map, large enough to read.
               CountryThumb(
-                shape: geo.europe.shapes[c]!,
+                shape: geo.views[p.region]!.shapes[c]!,
                 tint: home ? Tok.homeTint : Tok.tints[i],
                 ribbonColor: home ? Tok.homeRibbon : Tok.ribbons[i],
                 ribbon: p.progress.skillsKnown(c) / 4,

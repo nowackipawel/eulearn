@@ -58,13 +58,15 @@
   "name": "Czechy",
   "nameAcc": "Czechy",
   "nameGen": "Czech",
-  "capital": "Praga"
+  "capital": "Praga",
+  "plural": true
  },
  "de": {
   "name": "Niemcy",
   "nameAcc": "Niemcy",
   "nameGen": "Niemiec",
-  "capital": "Berlin"
+  "capital": "Berlin",
+  "plural": true
  },
  "dk": {
   "name": "Dania",
@@ -120,7 +122,8 @@
   "name": "Węgry",
   "nameAcc": "Węgry",
   "nameGen": "Węgier",
-  "capital": "Budapeszt"
+  "capital": "Budapeszt",
+  "plural": true
  },
  "ie": {
   "name": "Irlandia",
@@ -140,7 +143,8 @@
   "nameAcc": "Włochy",
   "nameGen": "Włoch",
   "capital": "Rzym",
-  "hook": "Włochy wyglądają jak but."
+  "hook": "Włochy wyglądają jak but.",
+  "plural": true
  },
  "li": {
   "name": "Liechtenstein",
@@ -238,7 +242,8 @@
   "name": "Rosja",
   "nameAcc": "Rosję",
   "nameGen": "Rosji",
-  "capital": "Moskwa"
+  "capital": "Moskwa",
+  "hook": "Rosja to największy kraj świata."
  },
  "se": {
   "name": "Szwecja",
@@ -282,5 +287,930 @@
   "nameAcc": "Kosowo",
   "nameGen": "Kosowa",
   "capital": "Prisztina"
+ },
+ "af": {
+  "name": "Afganistan",
+  "nameAcc": "Afganistan",
+  "nameGen": "Afganistanu",
+  "capital": "Kabul"
+ },
+ "am": {
+  "name": "Armenia",
+  "nameAcc": "Armenię",
+  "nameGen": "Armenii",
+  "capital": "Erywań"
+ },
+ "az": {
+  "name": "Azerbejdżan",
+  "nameAcc": "Azerbejdżan",
+  "nameGen": "Azerbejdżanu",
+  "capital": "Baku"
+ },
+ "bh": {
+  "name": "Bahrajn",
+  "nameAcc": "Bahrajn",
+  "nameGen": "Bahrajnu",
+  "capital": "Manama"
+ },
+ "bd": {
+  "name": "Bangladesz",
+  "nameAcc": "Bangladesz",
+  "nameGen": "Bangladeszu",
+  "capital": "Dhaka"
+ },
+ "bt": {
+  "name": "Bhutan",
+  "nameAcc": "Bhutan",
+  "nameGen": "Bhutanu",
+  "capital": "Thimphu"
+ },
+ "bn": {
+  "name": "Brunei",
+  "nameAcc": "Brunei",
+  "nameGen": "Brunei",
+  "capital": "Bandar Seri Begawan"
+ },
+ "kh": {
+  "name": "Kambodża",
+  "nameAcc": "Kambodżę",
+  "nameGen": "Kambodży",
+  "capital": "Phnom Penh"
+ },
+ "cn": {
+  "name": "Chiny",
+  "nameAcc": "Chiny",
+  "nameGen": "Chin",
+  "capital": "Pekin",
+  "plural": true
+ },
+ "ge": {
+  "name": "Gruzja",
+  "nameAcc": "Gruzję",
+  "nameGen": "Gruzji",
+  "capital": "Tbilisi"
+ },
+ "in": {
+  "name": "Indie",
+  "nameAcc": "Indie",
+  "nameGen": "Indii",
+  "capital": "Nowe Delhi",
+  "hook": "Indie mają kształt wielkiego trójkąta.",
+  "plural": true
+ },
+ "id": {
+  "name": "Indonezja",
+  "nameAcc": "Indonezję",
+  "nameGen": "Indonezji",
+  "capital": "Dżakarta"
+ },
+ "ir": {
+  "name": "Iran",
+  "nameAcc": "Iran",
+  "nameGen": "Iranu",
+  "capital": "Teheran"
+ },
+ "iq": {
+  "name": "Irak",
+  "nameAcc": "Irak",
+  "nameGen": "Iraku",
+  "capital": "Bagdad"
+ },
+ "il": {
+  "name": "Izrael",
+  "nameAcc": "Izrael",
+  "nameGen": "Izraela",
+  "capital": "Jerozolima"
+ },
+ "jp": {
+  "name": "Japonia",
+  "nameAcc": "Japonię",
+  "nameGen": "Japonii",
+  "capital": "Tokio",
+  "hook": "Japonia — czerwone słońce na białym niebie."
+ },
+ "jo": {
+  "name": "Jordania",
+  "nameAcc": "Jordanię",
+  "nameGen": "Jordanii",
+  "capital": "Amman"
+ },
+ "kz": {
+  "name": "Kazachstan",
+  "nameAcc": "Kazachstan",
+  "nameGen": "Kazachstanu",
+  "capital": "Astana"
+ },
+ "kw": {
+  "name": "Kuwejt",
+  "nameAcc": "Kuwejt",
+  "nameGen": "Kuwejtu",
+  "capital": "Kuwejt"
+ },
+ "kg": {
+  "name": "Kirgistan",
+  "nameAcc": "Kirgistan",
+  "nameGen": "Kirgistanu",
+  "capital": "Biszkek"
+ },
+ "la": {
+  "name": "Laos",
+  "nameAcc": "Laos",
+  "nameGen": "Laosu",
+  "capital": "Wientian"
+ },
+ "lb": {
+  "name": "Liban",
+  "nameAcc": "Liban",
+  "nameGen": "Libanu",
+  "capital": "Bejrut"
+ },
+ "my": {
+  "name": "Malezja",
+  "nameAcc": "Malezję",
+  "nameGen": "Malezji",
+  "capital": "Kuala Lumpur"
+ },
+ "mv": {
+  "name": "Malediwy",
+  "nameAcc": "Malediwy",
+  "nameGen": "Malediwów",
+  "capital": "Male",
+  "plural": true
+ },
+ "mn": {
+  "name": "Mongolia",
+  "nameAcc": "Mongolię",
+  "nameGen": "Mongolii",
+  "capital": "Ułan Bator"
+ },
+ "mm": {
+  "name": "Mjanma",
+  "nameAcc": "Mjanmę",
+  "nameGen": "Mjanmy",
+  "capital": "Naypyidaw"
+ },
+ "np": {
+  "name": "Nepal",
+  "nameAcc": "Nepal",
+  "nameGen": "Nepalu",
+  "capital": "Katmandu"
+ },
+ "kp": {
+  "name": "Korea Północna",
+  "nameAcc": "Koreę Północną",
+  "nameGen": "Korei Północnej",
+  "capital": "Pjongjang"
+ },
+ "om": {
+  "name": "Oman",
+  "nameAcc": "Oman",
+  "nameGen": "Omanu",
+  "capital": "Maskat"
+ },
+ "pk": {
+  "name": "Pakistan",
+  "nameAcc": "Pakistan",
+  "nameGen": "Pakistanu",
+  "capital": "Islamabad"
+ },
+ "ph": {
+  "name": "Filipiny",
+  "nameAcc": "Filipiny",
+  "nameGen": "Filipin",
+  "capital": "Manila",
+  "plural": true
+ },
+ "qa": {
+  "name": "Katar",
+  "nameAcc": "Katar",
+  "nameGen": "Kataru",
+  "capital": "Doha"
+ },
+ "sa": {
+  "name": "Arabia Saudyjska",
+  "nameAcc": "Arabię Saudyjską",
+  "nameGen": "Arabii Saudyjskiej",
+  "capital": "Rijad"
+ },
+ "sg": {
+  "name": "Singapur",
+  "nameAcc": "Singapur",
+  "nameGen": "Singapuru",
+  "capital": "Singapur"
+ },
+ "kr": {
+  "name": "Korea Południowa",
+  "nameAcc": "Koreę Południową",
+  "nameGen": "Korei Południowej",
+  "capital": "Seul"
+ },
+ "lk": {
+  "name": "Sri Lanka",
+  "nameAcc": "Sri Lankę",
+  "nameGen": "Sri Lanki",
+  "capital": "Sri Dźajawardanapura Kotte"
+ },
+ "sy": {
+  "name": "Syria",
+  "nameAcc": "Syrię",
+  "nameGen": "Syrii",
+  "capital": "Damaszek"
+ },
+ "tj": {
+  "name": "Tadżykistan",
+  "nameAcc": "Tadżykistan",
+  "nameGen": "Tadżykistanu",
+  "capital": "Duszanbe"
+ },
+ "th": {
+  "name": "Tajlandia",
+  "nameAcc": "Tajlandię",
+  "nameGen": "Tajlandii",
+  "capital": "Bangkok"
+ },
+ "tl": {
+  "name": "Timor Wschodni",
+  "nameAcc": "Timor Wschodni",
+  "nameGen": "Timoru Wschodniego",
+  "capital": "Dili"
+ },
+ "tr": {
+  "name": "Turcja",
+  "nameAcc": "Turcję",
+  "nameGen": "Turcji",
+  "capital": "Ankara"
+ },
+ "tm": {
+  "name": "Turkmenistan",
+  "nameAcc": "Turkmenistan",
+  "nameGen": "Turkmenistanu",
+  "capital": "Aszchabad"
+ },
+ "ae": {
+  "name": "Zjednoczone Emiraty Arabskie",
+  "nameAcc": "Zjednoczone Emiraty Arabskie",
+  "nameGen": "Zjednoczonych Emiratów Arabskich",
+  "capital": "Abu Zabi",
+  "plural": true
+ },
+ "uz": {
+  "name": "Uzbekistan",
+  "nameAcc": "Uzbekistan",
+  "nameGen": "Uzbekistanu",
+  "capital": "Taszkent"
+ },
+ "vn": {
+  "name": "Wietnam",
+  "nameAcc": "Wietnam",
+  "nameGen": "Wietnamu",
+  "capital": "Hanoi"
+ },
+ "ye": {
+  "name": "Jemen",
+  "nameAcc": "Jemen",
+  "nameGen": "Jemenu",
+  "capital": "Sana"
+ },
+ "ps": {
+  "name": "Palestyna",
+  "nameAcc": "Palestynę",
+  "nameGen": "Palestyny",
+  "capital": "Ramallah"
+ },
+ "tw": {
+  "name": "Tajwan",
+  "nameAcc": "Tajwan",
+  "nameGen": "Tajwanu",
+  "capital": "Tajpej"
+ },
+ "dz": {
+  "name": "Algieria",
+  "nameAcc": "Algierię",
+  "nameGen": "Algierii",
+  "capital": "Algier"
+ },
+ "ao": {
+  "name": "Angola",
+  "nameAcc": "Angolę",
+  "nameGen": "Angoli",
+  "capital": "Luanda"
+ },
+ "bj": {
+  "name": "Benin",
+  "nameAcc": "Benin",
+  "nameGen": "Beninu",
+  "capital": "Porto-Novo"
+ },
+ "bw": {
+  "name": "Botswana",
+  "nameAcc": "Botswanę",
+  "nameGen": "Botswany",
+  "capital": "Gaborone"
+ },
+ "bf": {
+  "name": "Burkina Faso",
+  "nameAcc": "Burkina Faso",
+  "nameGen": "Burkina Faso",
+  "capital": "Wagadugu"
+ },
+ "bi": {
+  "name": "Burundi",
+  "nameAcc": "Burundi",
+  "nameGen": "Burundi",
+  "capital": "Gitega"
+ },
+ "cv": {
+  "name": "Republika Zielonego Przylądka",
+  "nameAcc": "Republikę Zielonego Przylądka",
+  "nameGen": "Republiki Zielonego Przylądka",
+  "capital": "Praia"
+ },
+ "cm": {
+  "name": "Kamerun",
+  "nameAcc": "Kamerun",
+  "nameGen": "Kamerunu",
+  "capital": "Jaunde"
+ },
+ "cf": {
+  "name": "Republika Środkowoafrykańska",
+  "nameAcc": "Republikę Środkowoafrykańską",
+  "nameGen": "Republiki Środkowoafrykańskiej",
+  "capital": "Bangi"
+ },
+ "td": {
+  "name": "Czad",
+  "nameAcc": "Czad",
+  "nameGen": "Czadu",
+  "capital": "Ndżamena"
+ },
+ "km": {
+  "name": "Komory",
+  "nameAcc": "Komory",
+  "nameGen": "Komorów",
+  "capital": "Moroni",
+  "plural": true
+ },
+ "cg": {
+  "name": "Kongo",
+  "nameAcc": "Kongo",
+  "nameGen": "Konga",
+  "capital": "Brazzaville"
+ },
+ "cd": {
+  "name": "Demokratyczna Republika Konga",
+  "nameAcc": "Demokratyczną Republikę Konga",
+  "nameGen": "Demokratycznej Republiki Konga",
+  "capital": "Kinszasa"
+ },
+ "ci": {
+  "name": "Wybrzeże Kości Słoniowej",
+  "nameAcc": "Wybrzeże Kości Słoniowej",
+  "nameGen": "Wybrzeża Kości Słoniowej",
+  "capital": "Jamusukro"
+ },
+ "dj": {
+  "name": "Dżibuti",
+  "nameAcc": "Dżibuti",
+  "nameGen": "Dżibuti",
+  "capital": "Dżibuti"
+ },
+ "eg": {
+  "name": "Egipt",
+  "nameAcc": "Egipt",
+  "nameGen": "Egiptu",
+  "capital": "Kair",
+  "hook": "W Egipcie stoją piramidy."
+ },
+ "gq": {
+  "name": "Gwinea Równikowa",
+  "nameAcc": "Gwineę Równikową",
+  "nameGen": "Gwinei Równikowej",
+  "capital": "Malabo"
+ },
+ "er": {
+  "name": "Erytrea",
+  "nameAcc": "Erytreę",
+  "nameGen": "Erytrei",
+  "capital": "Asmara"
+ },
+ "sz": {
+  "name": "Eswatini",
+  "nameAcc": "Eswatini",
+  "nameGen": "Eswatini",
+  "capital": "Mbabane"
+ },
+ "et": {
+  "name": "Etiopia",
+  "nameAcc": "Etiopię",
+  "nameGen": "Etiopii",
+  "capital": "Addis Abeba"
+ },
+ "ga": {
+  "name": "Gabon",
+  "nameAcc": "Gabon",
+  "nameGen": "Gabonu",
+  "capital": "Libreville"
+ },
+ "gm": {
+  "name": "Gambia",
+  "nameAcc": "Gambię",
+  "nameGen": "Gambii",
+  "capital": "Bandżul"
+ },
+ "gh": {
+  "name": "Ghana",
+  "nameAcc": "Ghanę",
+  "nameGen": "Ghany",
+  "capital": "Akra"
+ },
+ "gn": {
+  "name": "Gwinea",
+  "nameAcc": "Gwineę",
+  "nameGen": "Gwinei",
+  "capital": "Konakry"
+ },
+ "gw": {
+  "name": "Gwinea Bissau",
+  "nameAcc": "Gwineę Bissau",
+  "nameGen": "Gwinei Bissau",
+  "capital": "Bissau"
+ },
+ "ke": {
+  "name": "Kenia",
+  "nameAcc": "Kenię",
+  "nameGen": "Kenii",
+  "capital": "Nairobi"
+ },
+ "ls": {
+  "name": "Lesotho",
+  "nameAcc": "Lesotho",
+  "nameGen": "Lesotho",
+  "capital": "Maseru"
+ },
+ "lr": {
+  "name": "Liberia",
+  "nameAcc": "Liberię",
+  "nameGen": "Liberii",
+  "capital": "Monrovia"
+ },
+ "ly": {
+  "name": "Libia",
+  "nameAcc": "Libię",
+  "nameGen": "Libii",
+  "capital": "Trypolis"
+ },
+ "mg": {
+  "name": "Madagaskar",
+  "nameAcc": "Madagaskar",
+  "nameGen": "Madagaskaru",
+  "capital": "Antananarywa"
+ },
+ "mw": {
+  "name": "Malawi",
+  "nameAcc": "Malawi",
+  "nameGen": "Malawi",
+  "capital": "Lilongwe"
+ },
+ "ml": {
+  "name": "Mali",
+  "nameAcc": "Mali",
+  "nameGen": "Mali",
+  "capital": "Bamako"
+ },
+ "mr": {
+  "name": "Mauretania",
+  "nameAcc": "Mauretanię",
+  "nameGen": "Mauretanii",
+  "capital": "Nawakszut"
+ },
+ "mu": {
+  "name": "Mauritius",
+  "nameAcc": "Mauritius",
+  "nameGen": "Mauritiusa",
+  "capital": "Port Louis"
+ },
+ "ma": {
+  "name": "Maroko",
+  "nameAcc": "Maroko",
+  "nameGen": "Maroka",
+  "capital": "Rabat"
+ },
+ "mz": {
+  "name": "Mozambik",
+  "nameAcc": "Mozambik",
+  "nameGen": "Mozambiku",
+  "capital": "Maputo"
+ },
+ "na": {
+  "name": "Namibia",
+  "nameAcc": "Namibię",
+  "nameGen": "Namibii",
+  "capital": "Windhuk"
+ },
+ "ne": {
+  "name": "Niger",
+  "nameAcc": "Niger",
+  "nameGen": "Nigru",
+  "capital": "Niamey"
+ },
+ "ng": {
+  "name": "Nigeria",
+  "nameAcc": "Nigerię",
+  "nameGen": "Nigerii",
+  "capital": "Abudża"
+ },
+ "rw": {
+  "name": "Rwanda",
+  "nameAcc": "Rwandę",
+  "nameGen": "Rwandy",
+  "capital": "Kigali"
+ },
+ "st": {
+  "name": "Wyspy Świętego Tomasza i Książęca",
+  "nameAcc": "Wyspy Świętego Tomasza i Książęcą",
+  "nameGen": "Wysp Świętego Tomasza i Książęcej",
+  "capital": "São Tomé",
+  "plural": true
+ },
+ "sn": {
+  "name": "Senegal",
+  "nameAcc": "Senegal",
+  "nameGen": "Senegalu",
+  "capital": "Dakar"
+ },
+ "sc": {
+  "name": "Seszele",
+  "nameAcc": "Seszele",
+  "nameGen": "Seszeli",
+  "capital": "Victoria",
+  "plural": true
+ },
+ "sl": {
+  "name": "Sierra Leone",
+  "nameAcc": "Sierra Leone",
+  "nameGen": "Sierra Leone",
+  "capital": "Freetown"
+ },
+ "so": {
+  "name": "Somalia",
+  "nameAcc": "Somalię",
+  "nameGen": "Somalii",
+  "capital": "Mogadiszu"
+ },
+ "za": {
+  "name": "Republika Południowej Afryki",
+  "nameAcc": "Republikę Południowej Afryki",
+  "nameGen": "Republiki Południowej Afryki",
+  "capital": "Pretoria"
+ },
+ "ss": {
+  "name": "Sudan Południowy",
+  "nameAcc": "Sudan Południowy",
+  "nameGen": "Sudanu Południowego",
+  "capital": "Dżuba"
+ },
+ "sd": {
+  "name": "Sudan",
+  "nameAcc": "Sudan",
+  "nameGen": "Sudanu",
+  "capital": "Chartum"
+ },
+ "tz": {
+  "name": "Tanzania",
+  "nameAcc": "Tanzanię",
+  "nameGen": "Tanzanii",
+  "capital": "Dodoma"
+ },
+ "tg": {
+  "name": "Togo",
+  "nameAcc": "Togo",
+  "nameGen": "Togo",
+  "capital": "Lomé"
+ },
+ "tn": {
+  "name": "Tunezja",
+  "nameAcc": "Tunezję",
+  "nameGen": "Tunezji",
+  "capital": "Tunis"
+ },
+ "ug": {
+  "name": "Uganda",
+  "nameAcc": "Ugandę",
+  "nameGen": "Ugandy",
+  "capital": "Kampala"
+ },
+ "zm": {
+  "name": "Zambia",
+  "nameAcc": "Zambię",
+  "nameGen": "Zambii",
+  "capital": "Lusaka"
+ },
+ "zw": {
+  "name": "Zimbabwe",
+  "nameAcc": "Zimbabwe",
+  "nameGen": "Zimbabwe",
+  "capital": "Harare"
+ },
+ "ag": {
+  "name": "Antigua i Barbuda",
+  "nameAcc": "Antiguę i Barbudę",
+  "nameGen": "Antigui i Barbudy",
+  "capital": "Saint John's"
+ },
+ "bs": {
+  "name": "Bahamy",
+  "nameAcc": "Bahamy",
+  "nameGen": "Bahamów",
+  "capital": "Nassau",
+  "plural": true
+ },
+ "bb": {
+  "name": "Barbados",
+  "nameAcc": "Barbados",
+  "nameGen": "Barbadosu",
+  "capital": "Bridgetown"
+ },
+ "bz": {
+  "name": "Belize",
+  "nameAcc": "Belize",
+  "nameGen": "Belize",
+  "capital": "Belmopan"
+ },
+ "ca": {
+  "name": "Kanada",
+  "nameAcc": "Kanadę",
+  "nameGen": "Kanady",
+  "capital": "Ottawa",
+  "hook": "Na fladze Kanady jest liść klonu."
+ },
+ "cr": {
+  "name": "Kostaryka",
+  "nameAcc": "Kostarykę",
+  "nameGen": "Kostaryki",
+  "capital": "San José"
+ },
+ "cu": {
+  "name": "Kuba",
+  "nameAcc": "Kubę",
+  "nameGen": "Kuby",
+  "capital": "Hawana"
+ },
+ "dm": {
+  "name": "Dominika",
+  "nameAcc": "Dominikę",
+  "nameGen": "Dominiki",
+  "capital": "Roseau"
+ },
+ "do": {
+  "name": "Dominikana",
+  "nameAcc": "Dominikanę",
+  "nameGen": "Dominikany",
+  "capital": "Santo Domingo"
+ },
+ "sv": {
+  "name": "Salwador",
+  "nameAcc": "Salwador",
+  "nameGen": "Salwadoru",
+  "capital": "San Salvador"
+ },
+ "gd": {
+  "name": "Grenada",
+  "nameAcc": "Grenadę",
+  "nameGen": "Grenady",
+  "capital": "Saint George's"
+ },
+ "gt": {
+  "name": "Gwatemala",
+  "nameAcc": "Gwatemalę",
+  "nameGen": "Gwatemali",
+  "capital": "Gwatemala"
+ },
+ "ht": {
+  "name": "Haiti",
+  "nameAcc": "Haiti",
+  "nameGen": "Haiti",
+  "capital": "Port-au-Prince"
+ },
+ "hn": {
+  "name": "Honduras",
+  "nameAcc": "Honduras",
+  "nameGen": "Hondurasu",
+  "capital": "Tegucigalpa"
+ },
+ "jm": {
+  "name": "Jamajka",
+  "nameAcc": "Jamajkę",
+  "nameGen": "Jamajki",
+  "capital": "Kingston"
+ },
+ "mx": {
+  "name": "Meksyk",
+  "nameAcc": "Meksyk",
+  "nameGen": "Meksyku",
+  "capital": "Meksyk"
+ },
+ "ni": {
+  "name": "Nikaragua",
+  "nameAcc": "Nikaraguę",
+  "nameGen": "Nikaragui",
+  "capital": "Managua"
+ },
+ "pa": {
+  "name": "Panama",
+  "nameAcc": "Panamę",
+  "nameGen": "Panamy",
+  "capital": "Panama"
+ },
+ "kn": {
+  "name": "Saint Kitts i Nevis",
+  "nameAcc": "Saint Kitts i Nevis",
+  "nameGen": "Saint Kitts i Nevis",
+  "capital": "Basseterre"
+ },
+ "lc": {
+  "name": "Saint Lucia",
+  "nameAcc": "Saint Lucię",
+  "nameGen": "Saint Lucii",
+  "capital": "Castries"
+ },
+ "vc": {
+  "name": "Saint Vincent i Grenadyny",
+  "nameAcc": "Saint Vincent i Grenadyny",
+  "nameGen": "Saint Vincent i Grenadyn",
+  "capital": "Kingstown"
+ },
+ "tt": {
+  "name": "Trynidad i Tobago",
+  "nameAcc": "Trynidad i Tobago",
+  "nameGen": "Trynidadu i Tobago",
+  "capital": "Port-of-Spain"
+ },
+ "us": {
+  "name": "Stany Zjednoczone",
+  "nameAcc": "Stany Zjednoczone",
+  "nameGen": "Stanów Zjednoczonych",
+  "capital": "Waszyngton",
+  "plural": true
+ },
+ "ar": {
+  "name": "Argentyna",
+  "nameAcc": "Argentynę",
+  "nameGen": "Argentyny",
+  "capital": "Buenos Aires"
+ },
+ "bo": {
+  "name": "Boliwia",
+  "nameAcc": "Boliwię",
+  "nameGen": "Boliwii",
+  "capital": "Sucre"
+ },
+ "br": {
+  "name": "Brazylia",
+  "nameAcc": "Brazylię",
+  "nameGen": "Brazylii",
+  "capital": "Brasília",
+  "hook": "Brazylia to największy kraj Ameryki Południowej."
+ },
+ "cl": {
+  "name": "Chile",
+  "nameAcc": "Chile",
+  "nameGen": "Chile",
+  "capital": "Santiago",
+  "hook": "Chile jest długie i wąskie jak wstążka."
+ },
+ "co": {
+  "name": "Kolumbia",
+  "nameAcc": "Kolumbię",
+  "nameGen": "Kolumbii",
+  "capital": "Bogota"
+ },
+ "ec": {
+  "name": "Ekwador",
+  "nameAcc": "Ekwador",
+  "nameGen": "Ekwadoru",
+  "capital": "Quito"
+ },
+ "gy": {
+  "name": "Gujana",
+  "nameAcc": "Gujanę",
+  "nameGen": "Gujany",
+  "capital": "Georgetown"
+ },
+ "py": {
+  "name": "Paragwaj",
+  "nameAcc": "Paragwaj",
+  "nameGen": "Paragwaju",
+  "capital": "Asunción"
+ },
+ "pe": {
+  "name": "Peru",
+  "nameAcc": "Peru",
+  "nameGen": "Peru",
+  "capital": "Lima"
+ },
+ "sr": {
+  "name": "Surinam",
+  "nameAcc": "Surinam",
+  "nameGen": "Surinamu",
+  "capital": "Paramaribo"
+ },
+ "uy": {
+  "name": "Urugwaj",
+  "nameAcc": "Urugwaj",
+  "nameGen": "Urugwaju",
+  "capital": "Montevideo"
+ },
+ "ve": {
+  "name": "Wenezuela",
+  "nameAcc": "Wenezuelę",
+  "nameGen": "Wenezueli",
+  "capital": "Caracas"
+ },
+ "au": {
+  "name": "Australia",
+  "nameAcc": "Australię",
+  "nameGen": "Australii",
+  "capital": "Canberra",
+  "hook": "Australia to jednocześnie kraj i kontynent."
+ },
+ "fj": {
+  "name": "Fidżi",
+  "nameAcc": "Fidżi",
+  "nameGen": "Fidżi",
+  "capital": "Suva"
+ },
+ "ki": {
+  "name": "Kiribati",
+  "nameAcc": "Kiribati",
+  "nameGen": "Kiribati",
+  "capital": "Tarawa"
+ },
+ "mh": {
+  "name": "Wyspy Marshalla",
+  "nameAcc": "Wyspy Marshalla",
+  "nameGen": "Wysp Marshalla",
+  "capital": "Majuro",
+  "plural": true
+ },
+ "fm": {
+  "name": "Mikronezja",
+  "nameAcc": "Mikronezję",
+  "nameGen": "Mikronezji",
+  "capital": "Palikir"
+ },
+ "nr": {
+  "name": "Nauru",
+  "nameAcc": "Nauru",
+  "nameGen": "Nauru",
+  "capital": "Yaren"
+ },
+ "nz": {
+  "name": "Nowa Zelandia",
+  "nameAcc": "Nową Zelandię",
+  "nameGen": "Nowej Zelandii",
+  "capital": "Wellington"
+ },
+ "pw": {
+  "name": "Palau",
+  "nameAcc": "Palau",
+  "nameGen": "Palau",
+  "capital": "Ngerulmud"
+ },
+ "pg": {
+  "name": "Papua-Nowa Gwinea",
+  "nameAcc": "Papuę-Nową Gwineę",
+  "nameGen": "Papui-Nowej Gwinei",
+  "capital": "Port Moresby"
+ },
+ "ws": {
+  "name": "Samoa",
+  "nameAcc": "Samoa",
+  "nameGen": "Samoa",
+  "capital": "Apia"
+ },
+ "sb": {
+  "name": "Wyspy Salomona",
+  "nameAcc": "Wyspy Salomona",
+  "nameGen": "Wysp Salomona",
+  "capital": "Honiara",
+  "plural": true
+ },
+ "to": {
+  "name": "Tonga",
+  "nameAcc": "Tonga",
+  "nameGen": "Tonga",
+  "capital": "Nuku'alofa"
+ },
+ "tv": {
+  "name": "Tuvalu",
+  "nameAcc": "Tuvalu",
+  "nameGen": "Tuvalu",
+  "capital": "Funafuti"
+ },
+ "vu": {
+  "name": "Vanuatu",
+  "nameAcc": "Vanuatu",
+  "nameGen": "Vanuatu",
+  "capital": "Port Vila"
  }
 }

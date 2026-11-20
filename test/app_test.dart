@@ -46,7 +46,7 @@ Profile sample() {
   set('sk', [1, 1, 1, 1]);
   set('lt', [3, 3, 1, 1]);
   set('ua', [1, 1, 1, 1]);
-  return Profile(id: 'p1', name: 'Ola', home: 'pl', lang: Lang.pl, progress: p, streak: 3);
+  return Profile(id: 'p1', name: 'Ola', home: 'pl', lang: Lang.pl, region: 'europe', progress: p, streak: 3);
 }
 
 late GeoRepository geo;
@@ -154,6 +154,31 @@ void main() {
     expect(after.progress.items.length, greaterThanOrEqualTo(before.items.length));
     expect(after.lastPlayed, isNotNull);
     await shot(t, 'round_result');
+  });
+
+  testWidgets('every continent can be picked and played', (t) async {
+    await boot(t, profile: sample());
+    await t.tap(find.byKey(const ValueKey('continents')));
+    await t.pump(const Duration(milliseconds: 600));
+    t.widget<GeoMap>(find.byType(GeoMap)).onTap!('br');
+    await t.pump(const Duration(milliseconds: 600));
+    expect(find.text('Ameryka Południowa'), findsOneWidget);
+    await shot(t, 'continents');
+    await t.tap(find.byKey(const ValueKey('learn-here')));
+    await t.pump(const Duration(milliseconds: 600));
+    await t.pump(const Duration(milliseconds: 600));
+    final c = ProviderScope.containerOf(t.element(find.byType(App)));
+    expect(c.read(profilesProvider).active!.region, 'south_america');
+    await t.pumpWidget(const SizedBox.shrink());
+
+    for (final region in ['asia', 'africa', 'north_america', 'south_america', 'oceania']) {
+      // A round away from home starts at the continent's anchor country.
+      await boot(t,
+          profile: sample().copyWith(region: region), child: const _Harness(RoundScreen(mode: RoundMode.find, seed: 4)));
+      expect(find.text('Dalej'), findsOneWidget, reason: '$region: first card introduces a country');
+      await shot(t, 'round_$region');
+      await t.pumpWidget(const SizedBox.shrink());
+    }
   });
 
   testWidgets('tablet and English layouts hold', (t) async {

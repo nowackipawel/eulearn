@@ -76,9 +76,11 @@ class _RoundState extends ConsumerState<RoundScreen> with SingleTickerProviderSt
       seed: widget.seed ?? now.millisecondsSinceEpoch,
       now: now,
       secondLang: _p.secondLang,
+      region: _geo.members(_p.region),
+      anchor: GeoRepository.anchors[_p.region],
     );
     _s = GameSession(seed: widget.seed ?? 0, questions: qs, playerIds: [_p.id]);
-    _region = activePool(learningOrder(_geo.graph, _p.home), _p.progress);
+    _region = activePool(regionOrder(_geo, _p), _p.progress);
     _missed.clear();
     WidgetsBinding.instance.addPostFrameCallback((_) => _enter());
   }
@@ -137,7 +139,8 @@ class _RoundState extends ConsumerState<RoundScreen> with SingleTickerProviderSt
       ChoiceQuestion(kind: ChoiceKind.flagOfCountry) => _l.promptPickFlag(_t(q.code).gen),
       ChoiceQuestion(kind: ChoiceKind.countryOfFlag) => _l.promptWhoseFlag,
       ChoiceQuestion() => _l.promptCapitalOf(_t(q.code).gen),
-      NeighborsQuestion() => _l.promptNeighbors(_t(q.code).name),
+      NeighborsQuestion() =>
+        _t(q.code).plural ? _l.promptNeighborsPlural(_t(q.code).name) : _l.promptNeighbors(_t(q.code).name),
       PlacePiecesQuestion() => _l.promptPuzzle,
     };
   }
@@ -419,7 +422,7 @@ class _RoundState extends ConsumerState<RoundScreen> with SingleTickerProviderSt
       final i = _geo.tint[c]!;
       final home = c == _p.home;
       return CountryThumb(
-        shape: _geo.europe.shapes[c]!,
+        shape: _geo.views[_p.region]!.shapes[c]!,
         tint: home ? Tok.homeTint : Tok.tints[i],
         ribbonColor: home ? Tok.homeRibbon : Tok.ribbons[i],
         size: size,

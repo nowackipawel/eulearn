@@ -52,7 +52,6 @@
  "cancel": "Anuluj",
  "countriesKnown": "Znane kraje: {n} z {total}",
  "addChild": "Dodaj dziecko",
- "europe": "EUROPA",
  "meetFirst": "Najpierw poznaj kilka krajów",
  "back": "Wróć",
  "sayAgain": "Powtórz",
@@ -61,5 +60,14 @@
  "dayStreak": "{n}. dzień wyprawy",
  "noVoice": "Na tym urządzeniu nie ma głosu dla języka: {language}. Dodaj go w systemowych ustawieniach syntezy mowy.",
  "licenses": "Licencje",
- "soundEffects": "Efekty dźwiękowe"
+ "soundEffects": "Efekty dźwiękowe",
+ "continentEurope": "Europa",
+ "continentAsia": "Azja",
+ "continentAfrica": "Afryka",
+ "continentNorthAmerica": "Ameryka Północna",
+ "continentSouthAmerica": "Ameryka Południowa",
+ "continentOceania": "Oceania",
+ "continents": "Kontynenty",
+ "learnHere": "Uczę się tutaj",
+ "promptNeighborsPlural": "Z kim graniczą {name}?"
 }

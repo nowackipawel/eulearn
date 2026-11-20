@@ -188,9 +188,6 @@ class AppLocalizationsPl extends AppLocalizations {
   String get addChild => 'Dodaj dziecko';
 
   @override
-  String get europe => 'EUROPA';
-
-  @override
   String get meetFirst => 'Najpierw poznaj kilka krajów';
 
   @override
@@ -220,4 +217,33 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get soundEffects => 'Efekty dźwiękowe';
+
+  @override
+  String get continentEurope => 'Europa';
+
+  @override
+  String get continentAsia => 'Azja';
+
+  @override
+  String get continentAfrica => 'Afryka';
+
+  @override
+  String get continentNorthAmerica => 'Ameryka Północna';
+
+  @override
+  String get continentSouthAmerica => 'Ameryka Południowa';
+
+  @override
+  String get continentOceania => 'Oceania';
+
+  @override
+  String get continents => 'Kontynenty';
+
+  @override
+  String get learnHere => 'Uczę się tutaj';
+
+  @override
+  String promptNeighborsPlural(String name) {
+    return 'Z kim graniczą $name?';
+  }
 }

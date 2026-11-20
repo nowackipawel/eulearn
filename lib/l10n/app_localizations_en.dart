@@ -188,9 +188,6 @@ class AppLocalizationsEn extends AppLocalizations {
   String get addChild => 'Add a child';
 
   @override
-  String get europe => 'EUROPE';
-
-  @override
   String get meetFirst => 'Meet a few countries first';
 
   @override
@@ -220,4 +217,33 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get soundEffects => 'Sound effects';
+
+  @override
+  String get continentEurope => 'Europe';
+
+  @override
+  String get continentAsia => 'Asia';
+
+  @override
+  String get continentAfrica => 'Africa';
+
+  @override
+  String get continentNorthAmerica => 'North America';
+
+  @override
+  String get continentSouthAmerica => 'South America';
+
+  @override
+  String get continentOceania => 'Oceania';
+
+  @override
+  String get continents => 'Continents';
+
+  @override
+  String get learnHere => 'Learn here';
+
+  @override
+  String promptNeighborsPlural(String name) {
+    return 'Which countries border $name?';
+  }
 }

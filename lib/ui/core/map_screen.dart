@@ -4,8 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../data/geo_repository.dart';
 import '../../data/profile.dart';
 import '../../domain/models.dart';
+import '../../domain/question_factory.dart';
 import '../../l10n/app_localizations.dart';
 import '../../providers.dart';
 import 'map/geo_map.dart';
@@ -24,6 +26,24 @@ CountryStyle progressStyle(Profile p, String code, {bool dim = false, bool hidde
     hidden: hidden,
   );
 }
+
+/// Countries of the child's current continent, from home (or the continent's
+/// anchor) outwards.
+List<String> regionOrder(GeoRepository geo, Profile p) => learningOrder(
+      geo.graph,
+      p.home,
+      region: geo.members(p.region),
+      anchor: GeoRepository.anchors[p.region],
+    );
+
+String continentName(AppLocalizations l, String region) => switch (region) {
+      'asia' => l.continentAsia,
+      'africa' => l.continentAfrica,
+      'north_america' => l.continentNorthAmerica,
+      'south_america' => l.continentSouthAmerica,
+      'oceania' => l.continentOceania,
+      _ => l.continentEurope,
+    };
 
 /// The shell every map screen shares: full-bleed map, back top-left, prompt
 /// top-centre, legend bottom-left, zoom bottom-right (docs/02 §9).
@@ -46,6 +66,8 @@ class MapScreen extends ConsumerWidget {
     this.showLegend = true,
     this.interactive = true,
     this.mapKey,
+    this.view,
+    this.markers = true,
   });
 
   final CountryStyle Function(String code) styleOf;
@@ -57,6 +79,10 @@ class MapScreen extends ConsumerWidget {
   final MascotMood mood;
   final bool showBack, showLegend, interactive;
   final Key? mapKey;
+
+  /// Map to show; defaults to the active profile's continent.
+  final String? view;
+  final bool markers;
 
   static double rightWidth(Size s) => math.min(360, s.width * 0.4);
 
@@ -76,7 +102,7 @@ class MapScreen extends ConsumerWidget {
         Positioned.fill(
           child: GeoMap(
             key: mapKey,
-            view: geo.europe,
+            view: geo.views[view ?? ref.watch(profilesProvider).active?.region ?? GeoRepository.world]!,
             geo: geo,
             styleOf: styleOf,
             labelOf: labelOf,
@@ -85,6 +111,7 @@ class MapScreen extends ConsumerWidget {
             onTap: onTap,
             controller: controller,
             interactive: interactive,
+            markers: markers,
             padding: EdgeInsets.fromLTRB(
               safe.left + g + (left != null ? leftW + g : 0),
               safe.top + g + (top != null ? 76 : 0),

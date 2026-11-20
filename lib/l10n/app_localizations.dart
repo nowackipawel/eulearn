@@ -410,12 +410,6 @@ abstract class AppLocalizations {
   /// **'Add a child'**
   String get addChild;
 
-  /// No description provided for @europe.
-  ///
-  /// In en, this message translates to:
-  /// **'EUROPE'**
-  String get europe;
-
   /// No description provided for @meetFirst.
   ///
   /// In en, this message translates to:
@@ -469,6 +463,60 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Sound effects'**
   String get soundEffects;
+
+  /// No description provided for @continentEurope.
+  ///
+  /// In en, this message translates to:
+  /// **'Europe'**
+  String get continentEurope;
+
+  /// No description provided for @continentAsia.
+  ///
+  /// In en, this message translates to:
+  /// **'Asia'**
+  String get continentAsia;
+
+  /// No description provided for @continentAfrica.
+  ///
+  /// In en, this message translates to:
+  /// **'Africa'**
+  String get continentAfrica;
+
+  /// No description provided for @continentNorthAmerica.
+  ///
+  /// In en, this message translates to:
+  /// **'North America'**
+  String get continentNorthAmerica;
+
+  /// No description provided for @continentSouthAmerica.
+  ///
+  /// In en, this message translates to:
+  /// **'South America'**
+  String get continentSouthAmerica;
+
+  /// No description provided for @continentOceania.
+  ///
+  /// In en, this message translates to:
+  /// **'Oceania'**
+  String get continentOceania;
+
+  /// No description provided for @continents.
+  ///
+  /// In en, this message translates to:
+  /// **'Continents'**
+  String get continents;
+
+  /// No description provided for @learnHere.
+  ///
+  /// In en, this message translates to:
+  /// **'Learn here'**
+  String get learnHere;
+
+  /// No description provided for @promptNeighborsPlural.
+  ///
+  /// In en, this message translates to:
+  /// **'Which countries border {name}?'**
+  String promptNeighborsPlural(String name);
 }
 
 class _AppLocalizationsDelegate

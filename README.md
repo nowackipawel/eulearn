@@ -1,6 +1,6 @@
 # EuLearn
 
-Aplikacja mobilna (Flutter, Android + iOS) dla dzieci 6–10 lat do nauki mapy: położenie krajów, granice i sąsiedzi, flagi, stolice. Polski i angielski; nazwy krajów i stolic czytane w obu językach.
+Aplikacja mobilna (Flutter, Android + iOS) dla dzieci 6–10 lat do nauki mapy świata (197 krajów, 6 kontynentów): położenie krajów, granice i sąsiedzi, flagi, stolice. Polski i angielski; nazwy krajów i stolic czytane w obu językach.
 
 Dokumentacja projektowa: [docs/](docs/README.md).
 
@@ -21,7 +21,7 @@ flutter test --update-goldens test/app_test.dart   # odświeża zrzuty ekranów 
 
 ## Dane mapy
 
-Geometria, sąsiedztwo i barwy krajów są generowane z Natural Earth:
+Geometria, sąsiedztwo i barwy krajów są generowane z Natural Earth (plik „Poland point of view”, który rozstrzyga terytoria sporne tak, jak polskie mapy; np. Krym należy do Ukrainy). Powstaje mapa świata i osobny widok każdego kontynentu:
 
 ```sh
 dart run tool/build_geo.dart    # wymaga Node (npx mapshaper); pisze do assets/geo/
@@ -39,7 +39,7 @@ python3 tool/build_sfx.py       # pisze do assets/audio/sfx/
 
 ## Głos lektora
 
-Bez nagrań aplikacja czyta systemowym syntezatorem telefonu. Nagrania wszystkich zdań (855 krótkich klipów, PL i EN) robi skrypt korzystający z API mowy OpenAI:
+Bez nagrań aplikacja czyta systemowym syntezatorem telefonu. Nagrania wszystkich zdań (ok. 3600 krótkich klipów, PL i EN) robi skrypt korzystający z API mowy OpenAI:
 
 ```sh
 export OPENAI_API_KEY=...

@@ -13,6 +13,45 @@
    "es"
   ]
  },
+ "ae": {
+  "continent": "asia",
+  "neighbors": [
+   "om",
+   "sa"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": [
+   "kw",
+   "jo",
+   "sd"
+  ]
+ },
+ "af": {
+  "continent": "asia",
+  "neighbors": [
+   "cn",
+   "ir",
+   "pk",
+   "tj",
+   "tm",
+   "uz"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": []
+ },
+ "ag": {
+  "continent": "north_america",
+  "neighbors": [],
+  "near": [
+   "kn",
+   "dm",
+   "lc"
+  ],
+  "color": 0,
+  "similarFlags": []
+ },
  "al": {
   "continent": "europe",
   "neighbors": [
@@ -27,6 +66,47 @@
    "me",
    "mk",
    "ch"
+  ]
+ },
+ "am": {
+  "continent": "asia",
+  "neighbors": [
+   "az",
+   "ge",
+   "ir",
+   "tr"
+  ],
+  "near": [],
+  "color": 3,
+  "similarFlags": []
+ },
+ "ao": {
+  "continent": "africa",
+  "neighbors": [
+   "cd",
+   "cg",
+   "na",
+   "zm"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": []
+ },
+ "ar": {
+  "continent": "south_america",
+  "neighbors": [
+   "bo",
+   "br",
+   "cl",
+   "py",
+   "uy"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": [
+   "hn",
+   "ni",
+   "uy"
   ]
  },
  "at": {
@@ -49,6 +129,34 @@
    "mc"
   ]
  },
+ "au": {
+  "continent": "oceania",
+  "neighbors": [],
+  "near": [
+   "pg",
+   "sb",
+   "vu"
+  ],
+  "color": 0,
+  "similarFlags": [
+   "nz",
+   "fj",
+   "tv"
+  ]
+ },
+ "az": {
+  "continent": "asia",
+  "neighbors": [
+   "am",
+   "ge",
+   "ir",
+   "ru",
+   "tr"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": []
+ },
  "ba": {
   "continent": "europe",
   "neighbors": [
@@ -62,6 +170,31 @@
    "xk",
    "ua",
    "se"
+  ]
+ },
+ "bb": {
+  "continent": "north_america",
+  "neighbors": [],
+  "near": [
+   "lc",
+   "vc",
+   "gd"
+  ],
+  "color": 0,
+  "similarFlags": []
+ },
+ "bd": {
+  "continent": "asia",
+  "neighbors": [
+   "in",
+   "mm"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": [
+   "jp",
+   "pw",
+   "la"
   ]
  },
  "be": {
@@ -80,13 +213,28 @@
    "fr"
   ]
  },
+ "bf": {
+  "continent": "africa",
+  "neighbors": [
+   "bj",
+   "ci",
+   "gh",
+   "ml",
+   "ne",
+   "tg"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": []
+ },
  "bg": {
   "continent": "europe",
   "neighbors": [
    "gr",
    "mk",
    "ro",
-   "rs"
+   "rs",
+   "tr"
   ],
   "near": [],
   "color": 1,
@@ -95,6 +243,120 @@
    "it",
    "ru"
   ]
+ },
+ "bh": {
+  "continent": "asia",
+  "neighbors": [],
+  "near": [
+   "qa",
+   "ae",
+   "kw"
+  ],
+  "color": 0,
+  "similarFlags": [
+   "qa",
+   "lv",
+   "at"
+  ]
+ },
+ "bi": {
+  "continent": "africa",
+  "neighbors": [
+   "cd",
+   "rw",
+   "tz"
+  ],
+  "near": [],
+  "color": 3,
+  "similarFlags": []
+ },
+ "bj": {
+  "continent": "africa",
+  "neighbors": [
+   "bf",
+   "ne",
+   "ng",
+   "tg"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": []
+ },
+ "bn": {
+  "continent": "asia",
+  "neighbors": [
+   "my"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": []
+ },
+ "bo": {
+  "continent": "south_america",
+  "neighbors": [
+   "ar",
+   "br",
+   "cl",
+   "pe",
+   "py"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": [
+   "gh",
+   "et",
+   "lt"
+  ]
+ },
+ "br": {
+  "continent": "south_america",
+  "neighbors": [
+   "ar",
+   "bo",
+   "co",
+   "fr",
+   "gy",
+   "pe",
+   "py",
+   "sr",
+   "uy",
+   "ve"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": []
+ },
+ "bs": {
+  "continent": "north_america",
+  "neighbors": [],
+  "near": [
+   "cu",
+   "jm",
+   "ht"
+  ],
+  "color": 0,
+  "similarFlags": []
+ },
+ "bt": {
+  "continent": "asia",
+  "neighbors": [
+   "cn",
+   "in"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": []
+ },
+ "bw": {
+  "continent": "africa",
+  "neighbors": [
+   "na",
+   "za",
+   "zw"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": []
  },
  "by": {
   "continent": "europe",
@@ -106,12 +368,75 @@
    "ua"
   ],
   "near": [],
-  "color": 2,
+  "color": 3,
   "similarFlags": [
    "hu",
    "bg",
    "mk"
   ]
+ },
+ "bz": {
+  "continent": "north_america",
+  "neighbors": [
+   "gt",
+   "mx"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": []
+ },
+ "ca": {
+  "continent": "north_america",
+  "neighbors": [
+   "us"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": []
+ },
+ "cd": {
+  "continent": "africa",
+  "neighbors": [
+   "ao",
+   "bi",
+   "cf",
+   "cg",
+   "rw",
+   "ss",
+   "tz",
+   "ug",
+   "zm"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": []
+ },
+ "cf": {
+  "continent": "africa",
+  "neighbors": [
+   "cd",
+   "cg",
+   "cm",
+   "sd",
+   "ss",
+   "td"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": []
+ },
+ "cg": {
+  "continent": "africa",
+  "neighbors": [
+   "ao",
+   "cd",
+   "cf",
+   "cm",
+   "ga"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": []
  },
  "ch": {
   "continent": "europe",
@@ -129,6 +454,131 @@
    "gb",
    "mt"
   ]
+ },
+ "ci": {
+  "continent": "africa",
+  "neighbors": [
+   "bf",
+   "gh",
+   "gn",
+   "lr",
+   "ml"
+  ],
+  "near": [],
+  "color": 3,
+  "similarFlags": [
+   "ie",
+   "it",
+   "ne"
+  ]
+ },
+ "cl": {
+  "continent": "south_america",
+  "neighbors": [
+   "ar",
+   "bo",
+   "pe"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": [
+   "cu",
+   "lr",
+   "cz"
+  ]
+ },
+ "cm": {
+  "continent": "africa",
+  "neighbors": [
+   "cf",
+   "cg",
+   "ga",
+   "gq",
+   "ng",
+   "td"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": []
+ },
+ "cn": {
+  "continent": "asia",
+  "neighbors": [
+   "af",
+   "bt",
+   "in",
+   "kg",
+   "kp",
+   "kz",
+   "la",
+   "mm",
+   "mn",
+   "np",
+   "pk",
+   "ru",
+   "tj",
+   "vn"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": []
+ },
+ "co": {
+  "continent": "south_america",
+  "neighbors": [
+   "br",
+   "ec",
+   "pa",
+   "pe",
+   "ve"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": [
+   "ec",
+   "ve",
+   "am"
+  ]
+ },
+ "cr": {
+  "continent": "north_america",
+  "neighbors": [
+   "ni",
+   "pa"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": [
+   "th",
+   "nl",
+   "cu"
+  ]
+ },
+ "cu": {
+  "continent": "north_america",
+  "neighbors": [],
+  "near": [
+   "bs",
+   "jm",
+   "ht"
+  ],
+  "color": 0,
+  "similarFlags": [
+   "cl",
+   "cr",
+   "pa"
+  ]
+ },
+ "cv": {
+  "continent": "africa",
+  "neighbors": [],
+  "near": [
+   "gm",
+   "gw",
+   "sn"
+  ],
+  "color": 0,
+  "similarFlags": []
  },
  "cy": {
   "continent": "europe",
@@ -152,7 +602,7 @@
    "sk"
   ],
   "near": [],
-  "color": 2,
+  "color": 4,
   "similarFlags": [
    "sk",
    "pl",
@@ -180,6 +630,17 @@
    "es"
   ]
  },
+ "dj": {
+  "continent": "africa",
+  "neighbors": [
+   "er",
+   "et",
+   "so"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": []
+ },
  "dk": {
   "continent": "europe",
   "neighbors": [
@@ -193,6 +654,54 @@
    "se"
   ]
  },
+ "dm": {
+  "continent": "north_america",
+  "neighbors": [],
+  "near": [
+   "lc",
+   "ag",
+   "vc"
+  ],
+  "color": 0,
+  "similarFlags": []
+ },
+ "do": {
+  "continent": "north_america",
+  "neighbors": [
+   "ht"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": []
+ },
+ "dz": {
+  "continent": "africa",
+  "neighbors": [
+   "ly",
+   "ma",
+   "ml",
+   "mr",
+   "ne",
+   "tn"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": []
+ },
+ "ec": {
+  "continent": "south_america",
+  "neighbors": [
+   "co",
+   "pe"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": [
+   "co",
+   "ve",
+   "bo"
+  ]
+ },
  "ee": {
   "continent": "europe",
   "neighbors": [
@@ -200,12 +709,39 @@
    "ru"
   ],
   "near": [],
-  "color": 2,
+  "color": 0,
   "similarFlags": [
    "fi",
    "de",
    "ru"
   ]
+ },
+ "eg": {
+  "continent": "africa",
+  "neighbors": [
+   "il",
+   "ly",
+   "ps",
+   "sd"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": [
+   "sy",
+   "iq",
+   "ye"
+  ]
+ },
+ "er": {
+  "continent": "africa",
+  "neighbors": [
+   "dj",
+   "et",
+   "sd"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": []
  },
  "es": {
   "continent": "europe",
@@ -222,6 +758,24 @@
    "me"
   ]
  },
+ "et": {
+  "continent": "africa",
+  "neighbors": [
+   "dj",
+   "er",
+   "ke",
+   "sd",
+   "so",
+   "ss"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": [
+   "gh",
+   "bo",
+   "lt"
+  ]
+ },
  "fi": {
   "continent": "europe",
   "neighbors": [
@@ -230,24 +784,48 @@
    "se"
   ],
   "near": [],
-  "color": 1,
+  "color": 0,
   "similarFlags": [
    "se",
    "gr",
    "ee"
   ]
  },
+ "fj": {
+  "continent": "oceania",
+  "neighbors": [],
+  "near": [
+   "to",
+   "tv",
+   "ws"
+  ],
+  "color": 0,
+  "similarFlags": []
+ },
+ "fm": {
+  "continent": "oceania",
+  "neighbors": [],
+  "near": [
+   "nr",
+   "mh",
+   "sb"
+  ],
+  "color": 0,
+  "similarFlags": []
+ },
  "fr": {
   "continent": "europe",
   "neighbors": [
    "ad",
    "be",
+   "br",
    "ch",
    "de",
    "es",
    "it",
    "lu",
-   "mc"
+   "mc",
+   "sr"
   ],
   "near": [],
   "color": 1,
@@ -256,6 +834,17 @@
    "it",
    "lu"
   ]
+ },
+ "ga": {
+  "continent": "africa",
+  "neighbors": [
+   "cg",
+   "cm",
+   "gq"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": []
  },
  "gb": {
   "continent": "europe",
@@ -270,12 +859,88 @@
    "ch"
   ]
  },
+ "gd": {
+  "continent": "north_america",
+  "neighbors": [],
+  "near": [
+   "vc",
+   "tt",
+   "lc"
+  ],
+  "color": 0,
+  "similarFlags": []
+ },
+ "ge": {
+  "continent": "asia",
+  "neighbors": [
+   "am",
+   "az",
+   "ru",
+   "tr"
+  ],
+  "near": [],
+  "color": 4,
+  "similarFlags": []
+ },
+ "gh": {
+  "continent": "africa",
+  "neighbors": [
+   "bf",
+   "ci",
+   "tg"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": [
+   "bo",
+   "et",
+   "ml"
+  ]
+ },
+ "gm": {
+  "continent": "africa",
+  "neighbors": [
+   "sn"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": []
+ },
+ "gn": {
+  "continent": "africa",
+  "neighbors": [
+   "ci",
+   "gw",
+   "lr",
+   "ml",
+   "sl",
+   "sn"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": [
+   "ml",
+   "sn",
+   "gh"
+  ]
+ },
+ "gq": {
+  "continent": "africa",
+  "neighbors": [
+   "cm",
+   "ga"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": []
+ },
  "gr": {
   "continent": "europe",
   "neighbors": [
    "al",
    "bg",
-   "mk"
+   "mk",
+   "tr"
   ],
   "near": [],
   "color": 3,
@@ -283,6 +948,54 @@
    "fi",
    "cy",
    "sm"
+  ]
+ },
+ "gt": {
+  "continent": "north_america",
+  "neighbors": [
+   "bz",
+   "hn",
+   "mx",
+   "sv"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": []
+ },
+ "gw": {
+  "continent": "africa",
+  "neighbors": [
+   "gn",
+   "sn"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": []
+ },
+ "gy": {
+  "continent": "south_america",
+  "neighbors": [
+   "br",
+   "sr",
+   "ve"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": []
+ },
+ "hn": {
+  "continent": "north_america",
+  "neighbors": [
+   "gt",
+   "ni",
+   "sv"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": [
+   "sv",
+   "ni",
+   "gt"
   ]
  },
  "hr": {
@@ -301,6 +1014,15 @@
    "nl",
    "si"
   ]
+ },
+ "ht": {
+  "continent": "north_america",
+  "neighbors": [
+   "do"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": []
  },
  "hu": {
   "continent": "europe",
@@ -321,6 +1043,21 @@
    "ie"
   ]
  },
+ "id": {
+  "continent": "asia",
+  "neighbors": [
+   "my",
+   "pg",
+   "tl"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": [
+   "mc",
+   "pl",
+   "sg"
+  ]
+ },
  "ie": {
   "continent": "europe",
   "neighbors": [
@@ -333,6 +1070,69 @@
    "hu",
    "fr"
   ]
+ },
+ "il": {
+  "continent": "asia",
+  "neighbors": [
+   "eg",
+   "jo",
+   "lb",
+   "ps"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": []
+ },
+ "in": {
+  "continent": "asia",
+  "neighbors": [
+   "bd",
+   "bt",
+   "cn",
+   "mm",
+   "np",
+   "pk"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": [
+   "ne",
+   "ie",
+   "ci"
+  ]
+ },
+ "iq": {
+  "continent": "asia",
+  "neighbors": [
+   "ir",
+   "jo",
+   "kw",
+   "sa",
+   "sy",
+   "tr"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": [
+   "sy",
+   "eg",
+   "ye"
+  ]
+ },
+ "ir": {
+  "continent": "asia",
+  "neighbors": [
+   "af",
+   "am",
+   "az",
+   "iq",
+   "pk",
+   "tm",
+   "tr"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": []
  },
  "is": {
   "continent": "europe",
@@ -367,6 +1167,199 @@
    "bg"
   ]
  },
+ "jm": {
+  "continent": "north_america",
+  "neighbors": [],
+  "near": [
+   "cu",
+   "ht",
+   "do"
+  ],
+  "color": 0,
+  "similarFlags": []
+ },
+ "jo": {
+  "continent": "asia",
+  "neighbors": [
+   "il",
+   "iq",
+   "ps",
+   "sa",
+   "sy"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": [
+   "ps",
+   "sd",
+   "kw"
+  ]
+ },
+ "jp": {
+  "continent": "asia",
+  "neighbors": [],
+  "near": [
+   "kr",
+   "kp",
+   "tw"
+  ],
+  "color": 0,
+  "similarFlags": [
+   "bd",
+   "pw",
+   "kr"
+  ]
+ },
+ "ke": {
+  "continent": "africa",
+  "neighbors": [
+   "et",
+   "so",
+   "ss",
+   "tz",
+   "ug"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": []
+ },
+ "kg": {
+  "continent": "asia",
+  "neighbors": [
+   "cn",
+   "kz",
+   "tj",
+   "uz"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": []
+ },
+ "kh": {
+  "continent": "asia",
+  "neighbors": [
+   "la",
+   "th",
+   "vn"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": []
+ },
+ "ki": {
+  "continent": "oceania",
+  "neighbors": [],
+  "near": [
+   "ws",
+   "tv",
+   "to"
+  ],
+  "color": 0,
+  "similarFlags": []
+ },
+ "km": {
+  "continent": "africa",
+  "neighbors": [],
+  "near": [
+   "mg",
+   "mw",
+   "mz"
+  ],
+  "color": 0,
+  "similarFlags": []
+ },
+ "kn": {
+  "continent": "north_america",
+  "neighbors": [],
+  "near": [
+   "ag",
+   "dm",
+   "lc"
+  ],
+  "color": 0,
+  "similarFlags": []
+ },
+ "kp": {
+  "continent": "asia",
+  "neighbors": [
+   "cn",
+   "kr",
+   "ru"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": []
+ },
+ "kr": {
+  "continent": "asia",
+  "neighbors": [
+   "kp"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": []
+ },
+ "kw": {
+  "continent": "asia",
+  "neighbors": [
+   "iq",
+   "sa"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": [
+   "ae",
+   "jo",
+   "ps"
+  ]
+ },
+ "kz": {
+  "continent": "asia",
+  "neighbors": [
+   "cn",
+   "kg",
+   "ru",
+   "tm",
+   "uz"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": []
+ },
+ "la": {
+  "continent": "asia",
+  "neighbors": [
+   "cn",
+   "kh",
+   "mm",
+   "th",
+   "vn"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": []
+ },
+ "lb": {
+  "continent": "asia",
+  "neighbors": [
+   "il",
+   "sy"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": []
+ },
+ "lc": {
+  "continent": "north_america",
+  "neighbors": [],
+  "near": [
+   "vc",
+   "dm",
+   "bb"
+  ],
+  "color": 0,
+  "similarFlags": []
+ },
  "li": {
   "continent": "europe",
   "neighbors": [
@@ -381,6 +1374,41 @@
    "ad"
   ]
  },
+ "lk": {
+  "continent": "asia",
+  "neighbors": [],
+  "near": [
+   "mv",
+   "in",
+   "bd"
+  ],
+  "color": 0,
+  "similarFlags": []
+ },
+ "lr": {
+  "continent": "africa",
+  "neighbors": [
+   "ci",
+   "gn",
+   "sl"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": [
+   "us",
+   "my",
+   "cl"
+  ]
+ },
+ "ls": {
+  "continent": "africa",
+  "neighbors": [
+   "za"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": []
+ },
  "lt": {
   "continent": "europe",
   "neighbors": [
@@ -390,7 +1418,7 @@
    "ru"
   ],
   "near": [],
-  "color": 3,
+  "color": 0,
   "similarFlags": [
    "de",
    "bg",
@@ -421,12 +1449,36 @@
    "ru"
   ],
   "near": [],
-  "color": 1,
+  "color": 2,
   "similarFlags": [
    "at",
    "pl",
    "dk"
   ]
+ },
+ "ly": {
+  "continent": "africa",
+  "neighbors": [
+   "dz",
+   "eg",
+   "ne",
+   "sd",
+   "td",
+   "tn"
+  ],
+  "near": [],
+  "color": 3,
+  "similarFlags": []
+ },
+ "ma": {
+  "continent": "africa",
+  "neighbors": [
+   "dz",
+   "mr"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": []
  },
  "mc": {
   "continent": "europe",
@@ -448,7 +1500,7 @@
    "ua"
   ],
   "near": [],
-  "color": 0,
+  "color": 1,
   "similarFlags": [
    "ro",
    "ad",
@@ -472,6 +1524,28 @@
    "mk"
   ]
  },
+ "mg": {
+  "continent": "africa",
+  "neighbors": [],
+  "near": [
+   "km",
+   "mu",
+   "mz"
+  ],
+  "color": 0,
+  "similarFlags": []
+ },
+ "mh": {
+  "continent": "oceania",
+  "neighbors": [],
+  "near": [
+   "nr",
+   "fm",
+   "tv"
+  ],
+  "color": 0,
+  "similarFlags": []
+ },
  "mk": {
   "continent": "europe",
   "neighbors": [
@@ -489,6 +1563,60 @@
    "by"
   ]
  },
+ "ml": {
+  "continent": "africa",
+  "neighbors": [
+   "bf",
+   "ci",
+   "dz",
+   "gn",
+   "mr",
+   "ne",
+   "sn"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": [
+   "sn",
+   "gn",
+   "gh"
+  ]
+ },
+ "mm": {
+  "continent": "asia",
+  "neighbors": [
+   "bd",
+   "cn",
+   "in",
+   "la",
+   "th"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": []
+ },
+ "mn": {
+  "continent": "asia",
+  "neighbors": [
+   "cn",
+   "ru"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": []
+ },
+ "mr": {
+  "continent": "africa",
+  "neighbors": [
+   "dz",
+   "ma",
+   "ml",
+   "sn"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": []
+ },
  "mt": {
   "continent": "europe",
   "neighbors": [],
@@ -500,6 +1628,136 @@
    "mc",
    "pl",
    "va"
+  ]
+ },
+ "mu": {
+  "continent": "africa",
+  "neighbors": [],
+  "near": [
+   "mg",
+   "sc",
+   "km"
+  ],
+  "color": 0,
+  "similarFlags": []
+ },
+ "mv": {
+  "continent": "asia",
+  "neighbors": [],
+  "near": [
+   "lk",
+   "in",
+   "om"
+  ],
+  "color": 0,
+  "similarFlags": []
+ },
+ "mw": {
+  "continent": "africa",
+  "neighbors": [
+   "mz",
+   "tz",
+   "zm"
+  ],
+  "near": [],
+  "color": 3,
+  "similarFlags": []
+ },
+ "mx": {
+  "continent": "north_america",
+  "neighbors": [
+   "bz",
+   "gt",
+   "us"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": []
+ },
+ "my": {
+  "continent": "asia",
+  "neighbors": [
+   "bn",
+   "id",
+   "th"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": [
+   "us",
+   "lr",
+   "sg"
+  ]
+ },
+ "mz": {
+  "continent": "africa",
+  "neighbors": [
+   "mw",
+   "sz",
+   "tz",
+   "za",
+   "zm",
+   "zw"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": []
+ },
+ "na": {
+  "continent": "africa",
+  "neighbors": [
+   "ao",
+   "bw",
+   "za",
+   "zm"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": []
+ },
+ "ne": {
+  "continent": "africa",
+  "neighbors": [
+   "bf",
+   "bj",
+   "dz",
+   "ly",
+   "ml",
+   "ng",
+   "td"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": [
+   "in",
+   "ci",
+   "ie"
+  ]
+ },
+ "ng": {
+  "continent": "africa",
+  "neighbors": [
+   "bj",
+   "cm",
+   "ne",
+   "td"
+  ],
+  "near": [],
+  "color": 3,
+  "similarFlags": []
+ },
+ "ni": {
+  "continent": "north_america",
+  "neighbors": [
+   "cr",
+   "hn"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": [
+   "sv",
+   "hn",
+   "ar"
   ]
  },
  "nl": {
@@ -531,6 +1789,108 @@
    "fi"
   ]
  },
+ "np": {
+  "continent": "asia",
+  "neighbors": [
+   "cn",
+   "in"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": []
+ },
+ "nr": {
+  "continent": "oceania",
+  "neighbors": [],
+  "near": [
+   "mh",
+   "sb",
+   "fm"
+  ],
+  "color": 0,
+  "similarFlags": []
+ },
+ "nz": {
+  "continent": "oceania",
+  "neighbors": [],
+  "near": [
+   "to",
+   "fj",
+   "vu"
+  ],
+  "color": 0,
+  "similarFlags": [
+   "au",
+   "fj",
+   "tv"
+  ]
+ },
+ "om": {
+  "continent": "asia",
+  "neighbors": [
+   "ae",
+   "sa",
+   "ye"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": []
+ },
+ "pa": {
+  "continent": "north_america",
+  "neighbors": [
+   "co",
+   "cr"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": []
+ },
+ "pe": {
+  "continent": "south_america",
+  "neighbors": [
+   "bo",
+   "br",
+   "cl",
+   "co",
+   "ec"
+  ],
+  "near": [],
+  "color": 3,
+  "similarFlags": []
+ },
+ "pg": {
+  "continent": "oceania",
+  "neighbors": [
+   "id"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": []
+ },
+ "ph": {
+  "continent": "asia",
+  "neighbors": [],
+  "near": [
+   "tw",
+   "bn",
+   "my"
+  ],
+  "color": 0,
+  "similarFlags": []
+ },
+ "pk": {
+  "continent": "asia",
+  "neighbors": [
+   "af",
+   "cn",
+   "in",
+   "ir"
+  ],
+  "near": [],
+  "color": 3,
+  "similarFlags": []
+ },
  "pl": {
   "continent": "europe",
   "neighbors": [
@@ -543,11 +1903,26 @@
    "ua"
   ],
   "near": [],
-  "color": 1,
+  "color": 2,
   "similarFlags": [
    "mc",
    "at",
    "lv"
+  ]
+ },
+ "ps": {
+  "continent": "asia",
+  "neighbors": [
+   "eg",
+   "il",
+   "jo"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": [
+   "jo",
+   "sd",
+   "kw"
   ]
  },
  "pt": {
@@ -563,6 +1938,49 @@
    "md"
   ]
  },
+ "pw": {
+  "continent": "oceania",
+  "neighbors": [],
+  "near": [
+   "pg",
+   "fm",
+   "sb"
+  ],
+  "color": 0,
+  "similarFlags": [
+   "jp",
+   "bd",
+   "la"
+  ]
+ },
+ "py": {
+  "continent": "south_america",
+  "neighbors": [
+   "ar",
+   "bo",
+   "br"
+  ],
+  "near": [],
+  "color": 3,
+  "similarFlags": [
+   "nl",
+   "lu",
+   "hr"
+  ]
+ },
+ "qa": {
+  "continent": "asia",
+  "neighbors": [
+   "sa"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": [
+   "bh",
+   "lv",
+   "at"
+  ]
+ },
  "ro": {
   "continent": "europe",
   "neighbors": [
@@ -573,7 +1991,7 @@
    "ua"
   ],
   "near": [],
-  "color": 4,
+  "color": 3,
   "similarFlags": [
    "ad",
    "md",
@@ -603,21 +2021,95 @@
  "ru": {
   "continent": "europe",
   "neighbors": [
+   "az",
    "by",
+   "cn",
    "ee",
    "fi",
+   "ge",
+   "kp",
+   "kz",
    "lt",
    "lv",
+   "mn",
    "no",
    "pl",
    "ua"
   ],
   "near": [],
-  "color": 0,
+  "color": 1,
   "similarFlags": [
    "sk",
    "si",
    "rs"
+  ]
+ },
+ "rw": {
+  "continent": "africa",
+  "neighbors": [
+   "bi",
+   "cd",
+   "tz",
+   "ug"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": []
+ },
+ "sa": {
+  "continent": "asia",
+  "neighbors": [
+   "ae",
+   "iq",
+   "jo",
+   "kw",
+   "om",
+   "qa",
+   "ye"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": []
+ },
+ "sb": {
+  "continent": "oceania",
+  "neighbors": [],
+  "near": [
+   "vu",
+   "nr",
+   "pg"
+  ],
+  "color": 0,
+  "similarFlags": []
+ },
+ "sc": {
+  "continent": "africa",
+  "neighbors": [],
+  "near": [
+   "km",
+   "so",
+   "mu"
+  ],
+  "color": 0,
+  "similarFlags": []
+ },
+ "sd": {
+  "continent": "africa",
+  "neighbors": [
+   "cf",
+   "eg",
+   "er",
+   "et",
+   "ly",
+   "ss",
+   "td"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": [
+   "jo",
+   "ps",
+   "kw"
   ]
  },
  "se": {
@@ -627,12 +2119,23 @@
    "no"
   ],
   "near": [],
-  "color": 0,
+  "color": 1,
   "similarFlags": [
    "fi",
    "no",
    "ua"
   ]
+ },
+ "sg": {
+  "continent": "asia",
+  "neighbors": [],
+  "near": [
+   "id",
+   "my",
+   "bn"
+  ],
+  "color": 0,
+  "similarFlags": []
  },
  "si": {
   "continent": "europe",
@@ -660,12 +2163,22 @@
    "ua"
   ],
   "near": [],
-  "color": 0,
+  "color": 3,
   "similarFlags": [
    "si",
    "ru",
    "rs"
   ]
+ },
+ "sl": {
+  "continent": "africa",
+  "neighbors": [
+   "gn",
+   "lr"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": []
  },
  "sm": {
   "continent": "europe",
@@ -680,6 +2193,282 @@
    "li"
   ]
  },
+ "sn": {
+  "continent": "africa",
+  "neighbors": [
+   "gm",
+   "gn",
+   "gw",
+   "ml",
+   "mr"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": [
+   "ml",
+   "gn",
+   "cm"
+  ]
+ },
+ "so": {
+  "continent": "africa",
+  "neighbors": [
+   "dj",
+   "et",
+   "ke"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": []
+ },
+ "sr": {
+  "continent": "south_america",
+  "neighbors": [
+   "br",
+   "fr",
+   "gy"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": []
+ },
+ "ss": {
+  "continent": "africa",
+  "neighbors": [
+   "cd",
+   "cf",
+   "et",
+   "ke",
+   "sd",
+   "ug"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": []
+ },
+ "st": {
+  "continent": "africa",
+  "neighbors": [],
+  "near": [
+   "gq",
+   "ga",
+   "cg"
+  ],
+  "color": 0,
+  "similarFlags": []
+ },
+ "sv": {
+  "continent": "north_america",
+  "neighbors": [
+   "gt",
+   "hn"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": [
+   "ni",
+   "hn",
+   "gt"
+  ]
+ },
+ "sy": {
+  "continent": "asia",
+  "neighbors": [
+   "iq",
+   "jo",
+   "lb",
+   "tr"
+  ],
+  "near": [],
+  "color": 3,
+  "similarFlags": [
+   "iq",
+   "eg",
+   "ye"
+  ]
+ },
+ "sz": {
+  "continent": "africa",
+  "neighbors": [
+   "mz",
+   "za"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": []
+ },
+ "td": {
+  "continent": "africa",
+  "neighbors": [
+   "cf",
+   "cm",
+   "ly",
+   "ne",
+   "ng",
+   "sd"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": [
+   "ro",
+   "ad",
+   "md"
+  ]
+ },
+ "tg": {
+  "continent": "africa",
+  "neighbors": [
+   "bf",
+   "bj",
+   "gh"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": []
+ },
+ "th": {
+  "continent": "asia",
+  "neighbors": [
+   "kh",
+   "la",
+   "mm",
+   "my"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": [
+   "cr",
+   "nl",
+   "lu"
+  ]
+ },
+ "tj": {
+  "continent": "asia",
+  "neighbors": [
+   "af",
+   "cn",
+   "kg",
+   "uz"
+  ],
+  "near": [],
+  "color": 3,
+  "similarFlags": []
+ },
+ "tl": {
+  "continent": "asia",
+  "neighbors": [
+   "id"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": []
+ },
+ "tm": {
+  "continent": "asia",
+  "neighbors": [
+   "af",
+   "ir",
+   "kz",
+   "uz"
+  ],
+  "near": [],
+  "color": 3,
+  "similarFlags": []
+ },
+ "tn": {
+  "continent": "africa",
+  "neighbors": [
+   "dz",
+   "ly"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": [
+   "tr",
+   "ma",
+   "al"
+  ]
+ },
+ "to": {
+  "continent": "oceania",
+  "neighbors": [],
+  "near": [
+   "fj",
+   "ws",
+   "tv"
+  ],
+  "color": 0,
+  "similarFlags": []
+ },
+ "tr": {
+  "continent": "asia",
+  "neighbors": [
+   "am",
+   "az",
+   "bg",
+   "ge",
+   "gr",
+   "iq",
+   "ir",
+   "sy"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": [
+   "tn",
+   "pk",
+   "az"
+  ]
+ },
+ "tt": {
+  "continent": "north_america",
+  "neighbors": [],
+  "near": [
+   "gd",
+   "vc",
+   "bb"
+  ],
+  "color": 0,
+  "similarFlags": []
+ },
+ "tv": {
+  "continent": "oceania",
+  "neighbors": [],
+  "near": [
+   "fj",
+   "ws",
+   "to"
+  ],
+  "color": 0,
+  "similarFlags": []
+ },
+ "tw": {
+  "continent": "asia",
+  "neighbors": [],
+  "near": [
+   "ph",
+   "kr",
+   "vn"
+  ],
+  "color": 0,
+  "similarFlags": []
+ },
+ "tz": {
+  "continent": "africa",
+  "neighbors": [
+   "bi",
+   "cd",
+   "ke",
+   "mw",
+   "mz",
+   "rw",
+   "ug",
+   "zm"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": []
+ },
  "ua": {
   "continent": "europe",
   "neighbors": [
@@ -692,12 +2481,66 @@
    "sk"
   ],
   "near": [],
-  "color": 3,
+  "color": 0,
   "similarFlags": [
    "se",
    "xk",
    "ba"
   ]
+ },
+ "ug": {
+  "continent": "africa",
+  "neighbors": [
+   "cd",
+   "ke",
+   "rw",
+   "ss",
+   "tz"
+  ],
+  "near": [],
+  "color": 3,
+  "similarFlags": []
+ },
+ "us": {
+  "continent": "north_america",
+  "neighbors": [
+   "ca",
+   "mx"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": [
+   "lr",
+   "my",
+   "cu"
+  ]
+ },
+ "uy": {
+  "continent": "south_america",
+  "neighbors": [
+   "ar",
+   "br"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": [
+   "ar",
+   "gr",
+   "hn"
+  ]
+ },
+ "uz": {
+  "continent": "asia",
+  "neighbors": [
+   "af",
+   "kg",
+   "kz",
+   "tj",
+   "tm"
+  ],
+  "near": [],
+  "color": 0,
+  "similarFlags": []
  },
  "va": {
   "continent": "europe",
@@ -711,6 +2554,65 @@
    "sm",
    "mt"
   ]
+ },
+ "vc": {
+  "continent": "north_america",
+  "neighbors": [],
+  "near": [
+   "lc",
+   "gd",
+   "bb"
+  ],
+  "color": 0,
+  "similarFlags": []
+ },
+ "ve": {
+  "continent": "south_america",
+  "neighbors": [
+   "br",
+   "co",
+   "gy"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": [
+   "co",
+   "ec",
+   "am"
+  ]
+ },
+ "vn": {
+  "continent": "asia",
+  "neighbors": [
+   "cn",
+   "kh",
+   "la"
+  ],
+  "near": [],
+  "color": 3,
+  "similarFlags": []
+ },
+ "vu": {
+  "continent": "oceania",
+  "neighbors": [],
+  "near": [
+   "sb",
+   "fj",
+   "tv"
+  ],
+  "color": 0,
+  "similarFlags": []
+ },
+ "ws": {
+  "continent": "oceania",
+  "neighbors": [],
+  "near": [
+   "to",
+   "tv",
+   "fj"
+  ],
+  "color": 0,
+  "similarFlags": []
  },
  "xk": {
   "continent": "europe",
@@ -727,5 +2629,60 @@
    "cy",
    "ua"
   ]
+ },
+ "ye": {
+  "continent": "asia",
+  "neighbors": [
+   "om",
+   "sa"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": [
+   "eg",
+   "sy",
+   "iq"
+  ]
+ },
+ "za": {
+  "continent": "africa",
+  "neighbors": [
+   "bw",
+   "ls",
+   "mz",
+   "na",
+   "sz",
+   "zw"
+  ],
+  "near": [],
+  "color": 1,
+  "similarFlags": []
+ },
+ "zm": {
+  "continent": "africa",
+  "neighbors": [
+   "ao",
+   "cd",
+   "mw",
+   "mz",
+   "na",
+   "tz",
+   "zw"
+  ],
+  "near": [],
+  "color": 2,
+  "similarFlags": []
+ },
+ "zw": {
+  "continent": "africa",
+  "neighbors": [
+   "bw",
+   "mz",
+   "za",
+   "zm"
+  ],
+  "near": [],
+  "color": 3,
+  "similarFlags": []
  }
 }

@@ -38,7 +38,8 @@
  },
  "cz": {
   "name": "Czechia",
-  "capital": "Prague"
+  "capital": "Prague",
+  "nameInSentence": "the Czech Republic"
  },
  "de": {
   "name": "Germany",
@@ -162,7 +163,8 @@
  },
  "ru": {
   "name": "Russia",
-  "capital": "Moscow"
+  "capital": "Moscow",
+  "hook": "Russia is the biggest country in the world."
  },
  "se": {
   "name": "Sweden",
@@ -192,5 +194,630 @@
  "xk": {
   "name": "Kosovo",
   "capital": "Pristina"
+ },
+ "af": {
+  "name": "Afghanistan",
+  "capital": "Kabul"
+ },
+ "am": {
+  "name": "Armenia",
+  "capital": "Yerevan"
+ },
+ "az": {
+  "name": "Azerbaijan",
+  "capital": "Baku"
+ },
+ "bh": {
+  "name": "Bahrain",
+  "capital": "Manama"
+ },
+ "bd": {
+  "name": "Bangladesh",
+  "capital": "Dhaka"
+ },
+ "bt": {
+  "name": "Bhutan",
+  "capital": "Thimphu"
+ },
+ "bn": {
+  "name": "Brunei",
+  "capital": "Bandar Seri Begawan"
+ },
+ "kh": {
+  "name": "Cambodia",
+  "capital": "Phnom Penh"
+ },
+ "cn": {
+  "name": "China",
+  "capital": "Beijing"
+ },
+ "ge": {
+  "name": "Georgia",
+  "capital": "Tbilisi"
+ },
+ "in": {
+  "name": "India",
+  "capital": "New Delhi",
+  "hook": "India is shaped like a big triangle."
+ },
+ "id": {
+  "name": "Indonesia",
+  "capital": "Jakarta"
+ },
+ "ir": {
+  "name": "Iran",
+  "capital": "Tehran"
+ },
+ "iq": {
+  "name": "Iraq",
+  "capital": "Baghdad"
+ },
+ "il": {
+  "name": "Israel",
+  "capital": "Jerusalem"
+ },
+ "jp": {
+  "name": "Japan",
+  "capital": "Tokyo",
+  "hook": "Japan: a red sun on a white sky."
+ },
+ "jo": {
+  "name": "Jordan",
+  "capital": "Amman"
+ },
+ "kz": {
+  "name": "Kazakhstan",
+  "capital": "Astana"
+ },
+ "kw": {
+  "name": "Kuwait",
+  "capital": "Kuwait City"
+ },
+ "kg": {
+  "name": "Kyrgyzstan",
+  "capital": "Bishkek"
+ },
+ "la": {
+  "name": "Laos",
+  "capital": "Vientiane"
+ },
+ "lb": {
+  "name": "Lebanon",
+  "capital": "Beirut"
+ },
+ "my": {
+  "name": "Malaysia",
+  "capital": "Kuala Lumpur"
+ },
+ "mv": {
+  "name": "Maldives",
+  "capital": "Malé",
+  "nameInSentence": "the Maldives"
+ },
+ "mn": {
+  "name": "Mongolia",
+  "capital": "Ulaanbaatar"
+ },
+ "mm": {
+  "name": "Myanmar",
+  "capital": "Naypyidaw"
+ },
+ "np": {
+  "name": "Nepal",
+  "capital": "Kathmandu"
+ },
+ "kp": {
+  "name": "North Korea",
+  "capital": "Pyongyang"
+ },
+ "om": {
+  "name": "Oman",
+  "capital": "Muscat"
+ },
+ "pk": {
+  "name": "Pakistan",
+  "capital": "Islamabad"
+ },
+ "ph": {
+  "name": "Philippines",
+  "capital": "Manila",
+  "nameInSentence": "the Philippines"
+ },
+ "qa": {
+  "name": "Qatar",
+  "capital": "Doha"
+ },
+ "sa": {
+  "name": "Saudi Arabia",
+  "capital": "Riyadh"
+ },
+ "sg": {
+  "name": "Singapore",
+  "capital": "Singapore"
+ },
+ "kr": {
+  "name": "South Korea",
+  "capital": "Seoul"
+ },
+ "lk": {
+  "name": "Sri Lanka",
+  "capital": "Sri Jayawardenepura Kotte"
+ },
+ "sy": {
+  "name": "Syria",
+  "capital": "Damascus"
+ },
+ "tj": {
+  "name": "Tajikistan",
+  "capital": "Dushanbe"
+ },
+ "th": {
+  "name": "Thailand",
+  "capital": "Bangkok"
+ },
+ "tl": {
+  "name": "East Timor",
+  "capital": "Dili"
+ },
+ "tr": {
+  "name": "Turkey",
+  "capital": "Ankara"
+ },
+ "tm": {
+  "name": "Turkmenistan",
+  "capital": "Ashgabat"
+ },
+ "ae": {
+  "name": "United Arab Emirates",
+  "capital": "Abu Dhabi",
+  "nameInSentence": "the United Arab Emirates"
+ },
+ "uz": {
+  "name": "Uzbekistan",
+  "capital": "Tashkent"
+ },
+ "vn": {
+  "name": "Vietnam",
+  "capital": "Hanoi"
+ },
+ "ye": {
+  "name": "Yemen",
+  "capital": "Sanaa"
+ },
+ "ps": {
+  "name": "Palestine",
+  "capital": "Ramallah"
+ },
+ "tw": {
+  "name": "Taiwan",
+  "capital": "Taipei"
+ },
+ "dz": {
+  "name": "Algeria",
+  "capital": "Algiers"
+ },
+ "ao": {
+  "name": "Angola",
+  "capital": "Luanda"
+ },
+ "bj": {
+  "name": "Benin",
+  "capital": "Porto-Novo"
+ },
+ "bw": {
+  "name": "Botswana",
+  "capital": "Gaborone"
+ },
+ "bf": {
+  "name": "Burkina Faso",
+  "capital": "Ouagadougou"
+ },
+ "bi": {
+  "name": "Burundi",
+  "capital": "Gitega"
+ },
+ "cv": {
+  "name": "Cape Verde",
+  "capital": "Praia"
+ },
+ "cm": {
+  "name": "Cameroon",
+  "capital": "Yaoundé"
+ },
+ "cf": {
+  "name": "Central African Republic",
+  "capital": "Bangui",
+  "nameInSentence": "the Central African Republic"
+ },
+ "td": {
+  "name": "Chad",
+  "capital": "N'Djamena"
+ },
+ "km": {
+  "name": "Comoros",
+  "capital": "Moroni",
+  "nameInSentence": "the Comoros"
+ },
+ "cg": {
+  "name": "Republic of the Congo",
+  "capital": "Brazzaville",
+  "nameInSentence": "the Republic of the Congo"
+ },
+ "cd": {
+  "name": "Democratic Republic of the Congo",
+  "capital": "Kinshasa",
+  "nameInSentence": "the Democratic Republic of the Congo"
+ },
+ "ci": {
+  "name": "Ivory Coast",
+  "capital": "Yamoussoukro"
+ },
+ "dj": {
+  "name": "Djibouti",
+  "capital": "Djibouti"
+ },
+ "eg": {
+  "name": "Egypt",
+  "capital": "Cairo",
+  "hook": "The pyramids stand in Egypt."
+ },
+ "gq": {
+  "name": "Equatorial Guinea",
+  "capital": "Malabo"
+ },
+ "er": {
+  "name": "Eritrea",
+  "capital": "Asmara"
+ },
+ "sz": {
+  "name": "Eswatini",
+  "capital": "Mbabane"
+ },
+ "et": {
+  "name": "Ethiopia",
+  "capital": "Addis Ababa"
+ },
+ "ga": {
+  "name": "Gabon",
+  "capital": "Libreville"
+ },
+ "gm": {
+  "name": "Gambia",
+  "capital": "Banjul",
+  "nameInSentence": "the Gambia"
+ },
+ "gh": {
+  "name": "Ghana",
+  "capital": "Accra"
+ },
+ "gn": {
+  "name": "Guinea",
+  "capital": "Conakry"
+ },
+ "gw": {
+  "name": "Guinea-Bissau",
+  "capital": "Bissau"
+ },
+ "ke": {
+  "name": "Kenya",
+  "capital": "Nairobi"
+ },
+ "ls": {
+  "name": "Lesotho",
+  "capital": "Maseru"
+ },
+ "lr": {
+  "name": "Liberia",
+  "capital": "Monrovia"
+ },
+ "ly": {
+  "name": "Libya",
+  "capital": "Tripoli"
+ },
+ "mg": {
+  "name": "Madagascar",
+  "capital": "Antananarivo"
+ },
+ "mw": {
+  "name": "Malawi",
+  "capital": "Lilongwe"
+ },
+ "ml": {
+  "name": "Mali",
+  "capital": "Bamako"
+ },
+ "mr": {
+  "name": "Mauritania",
+  "capital": "Nouakchott"
+ },
+ "mu": {
+  "name": "Mauritius",
+  "capital": "Port Louis"
+ },
+ "ma": {
+  "name": "Morocco",
+  "capital": "Rabat"
+ },
+ "mz": {
+  "name": "Mozambique",
+  "capital": "Maputo"
+ },
+ "na": {
+  "name": "Namibia",
+  "capital": "Windhoek"
+ },
+ "ne": {
+  "name": "Niger",
+  "capital": "Niamey"
+ },
+ "ng": {
+  "name": "Nigeria",
+  "capital": "Abuja"
+ },
+ "rw": {
+  "name": "Rwanda",
+  "capital": "Kigali"
+ },
+ "st": {
+  "name": "São Tomé and Príncipe",
+  "capital": "São Tomé"
+ },
+ "sn": {
+  "name": "Senegal",
+  "capital": "Dakar"
+ },
+ "sc": {
+  "name": "Seychelles",
+  "capital": "Victoria",
+  "nameInSentence": "the Seychelles"
+ },
+ "sl": {
+  "name": "Sierra Leone",
+  "capital": "Freetown"
+ },
+ "so": {
+  "name": "Somalia",
+  "capital": "Mogadishu"
+ },
+ "za": {
+  "name": "South Africa",
+  "capital": "Pretoria"
+ },
+ "ss": {
+  "name": "South Sudan",
+  "capital": "Juba"
+ },
+ "sd": {
+  "name": "Sudan",
+  "capital": "Khartoum"
+ },
+ "tz": {
+  "name": "Tanzania",
+  "capital": "Dodoma"
+ },
+ "tg": {
+  "name": "Togo",
+  "capital": "Lomé"
+ },
+ "tn": {
+  "name": "Tunisia",
+  "capital": "Tunis"
+ },
+ "ug": {
+  "name": "Uganda",
+  "capital": "Kampala"
+ },
+ "zm": {
+  "name": "Zambia",
+  "capital": "Lusaka"
+ },
+ "zw": {
+  "name": "Zimbabwe",
+  "capital": "Harare"
+ },
+ "ag": {
+  "name": "Antigua and Barbuda",
+  "capital": "Saint John's"
+ },
+ "bs": {
+  "name": "Bahamas",
+  "capital": "Nassau",
+  "nameInSentence": "the Bahamas"
+ },
+ "bb": {
+  "name": "Barbados",
+  "capital": "Bridgetown"
+ },
+ "bz": {
+  "name": "Belize",
+  "capital": "Belmopan"
+ },
+ "ca": {
+  "name": "Canada",
+  "capital": "Ottawa",
+  "hook": "Canada's flag has a maple leaf."
+ },
+ "cr": {
+  "name": "Costa Rica",
+  "capital": "San José"
+ },
+ "cu": {
+  "name": "Cuba",
+  "capital": "Havana"
+ },
+ "dm": {
+  "name": "Dominica",
+  "capital": "Roseau"
+ },
+ "do": {
+  "name": "Dominican Republic",
+  "capital": "Santo Domingo",
+  "nameInSentence": "the Dominican Republic"
+ },
+ "sv": {
+  "name": "El Salvador",
+  "capital": "San Salvador"
+ },
+ "gd": {
+  "name": "Grenada",
+  "capital": "Saint George's"
+ },
+ "gt": {
+  "name": "Guatemala",
+  "capital": "Guatemala City"
+ },
+ "ht": {
+  "name": "Haiti",
+  "capital": "Port-au-Prince"
+ },
+ "hn": {
+  "name": "Honduras",
+  "capital": "Tegucigalpa"
+ },
+ "jm": {
+  "name": "Jamaica",
+  "capital": "Kingston"
+ },
+ "mx": {
+  "name": "Mexico",
+  "capital": "Mexico City"
+ },
+ "ni": {
+  "name": "Nicaragua",
+  "capital": "Managua"
+ },
+ "pa": {
+  "name": "Panama",
+  "capital": "Panama City"
+ },
+ "kn": {
+  "name": "Saint Kitts and Nevis",
+  "capital": "Basseterre"
+ },
+ "lc": {
+  "name": "Saint Lucia",
+  "capital": "Castries"
+ },
+ "vc": {
+  "name": "Saint Vincent and the Grenadines",
+  "capital": "Kingstown"
+ },
+ "tt": {
+  "name": "Trinidad and Tobago",
+  "capital": "Port of Spain"
+ },
+ "us": {
+  "name": "United States",
+  "capital": "Washington",
+  "nameInSentence": "the United States"
+ },
+ "ar": {
+  "name": "Argentina",
+  "capital": "Buenos Aires"
+ },
+ "bo": {
+  "name": "Bolivia",
+  "capital": "Sucre"
+ },
+ "br": {
+  "name": "Brazil",
+  "capital": "Brasília",
+  "hook": "Brazil is the biggest country in South America."
+ },
+ "cl": {
+  "name": "Chile",
+  "capital": "Santiago",
+  "hook": "Chile is long and thin like a ribbon."
+ },
+ "co": {
+  "name": "Colombia",
+  "capital": "Bogotá"
+ },
+ "ec": {
+  "name": "Ecuador",
+  "capital": "Quito"
+ },
+ "gy": {
+  "name": "Guyana",
+  "capital": "Georgetown"
+ },
+ "py": {
+  "name": "Paraguay",
+  "capital": "Asunción"
+ },
+ "pe": {
+  "name": "Peru",
+  "capital": "Lima"
+ },
+ "sr": {
+  "name": "Suriname",
+  "capital": "Paramaribo"
+ },
+ "uy": {
+  "name": "Uruguay",
+  "capital": "Montevideo"
+ },
+ "ve": {
+  "name": "Venezuela",
+  "capital": "Caracas"
+ },
+ "au": {
+  "name": "Australia",
+  "capital": "Canberra",
+  "hook": "Australia is a country and a continent at once."
+ },
+ "fj": {
+  "name": "Fiji",
+  "capital": "Suva"
+ },
+ "ki": {
+  "name": "Kiribati",
+  "capital": "Tarawa"
+ },
+ "mh": {
+  "name": "Marshall Islands",
+  "capital": "Majuro",
+  "nameInSentence": "the Marshall Islands"
+ },
+ "fm": {
+  "name": "Micronesia",
+  "capital": "Palikir"
+ },
+ "nr": {
+  "name": "Nauru",
+  "capital": "Yaren"
+ },
+ "nz": {
+  "name": "New Zealand",
+  "capital": "Wellington"
+ },
+ "pw": {
+  "name": "Palau",
+  "capital": "Ngerulmud"
+ },
+ "pg": {
+  "name": "Papua New Guinea",
+  "capital": "Port Moresby"
+ },
+ "ws": {
+  "name": "Samoa",
+  "capital": "Apia"
+ },
+ "sb": {
+  "name": "Solomon Islands",
+  "capital": "Honiara",
+  "nameInSentence": "the Solomon Islands"
+ },
+ "to": {
+  "name": "Tonga",
+  "capital": "Nuku'alofa"
+ },
+ "tv": {
+  "name": "Tuvalu",
+  "capital": "Funafuti"
+ },
+ "vu": {
+  "name": "Vanuatu",
+  "capital": "Port Vila"
  }
 }

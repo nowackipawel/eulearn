@@ -6,7 +6,8 @@ Etapy są uporządkowane według ryzyka: najpierw to, co może się nie udać (m
 
 Zrobione (etap 0 i rdzeń etapu 1):
 
-- potok danych Europy (46 krajów), test spójności danych;
+- potok danych całego świata: 197 krajów, mapa świata i widok każdego z 6 kontynentów, test spójności danych;
+- wybór kontynentu na mapie świata; paszport z arkuszem na kontynent; nauka poza własnym kontynentem zaczyna się od kraju-kotwicy (Chiny, Egipt, USA, Brazylia, Australia);
 - mapa: wstęgi, wzory, małe kraje, przybliżanie, trafianie dotyku;
 - logika gry: powtórki, kolejność „od domu na zewnątrz”, budowanie rund, punktacja;
 - ekrany: pierwsze uruchomienie, start, gry, runda (wszystkie typy pytań), wynik, odkrywca, paszport, strefa rodzica;
@@ -154,7 +155,7 @@ Każda ma zalecenie, które obowiązuje, dopóki właściciel produktu nie zdecy
 
 | # | Decyzja | Zalecenie |
 |---|---|---|
-| 1 | Terytoria sporne (Kosowo, Tajwan, Palestyna, Sahara Zachodnia, Krym) | granice według domyślnego wariantu Natural Earth; 197 krajów jak w dokumencie 01; Sahara Zachodnia widoczna, ale bez pytań; przegląd przed publikacją w sklepach poza UE |
+| 1 | Terytoria sporne (Kosowo, Tajwan, Palestyna, Sahara Zachodnia, Krym) | zastosowane: granice według wariantu Natural Earth „Poland point of view” — Krym w Ukrainie, Cypr Północny w Cyprze, Somaliland w Somalii, Sahara Zachodnia w Maroku; Kosowo, Tajwan i Palestyna jako osobne kraje. Przegląd przed publikacją w sklepach poza UE |
 | 2 | Lektor: synteza systemowa czy nagrania (rozstrzygnięte: nagrania generowane skryptem `tool/build_voice.py`; synteza zostaje jako zapas) | MVP na syntezie; po odsłuchu w etapie 0 zdecydować o nagraniach nazw (ok. 400 krótkich plików na język) — w pierwszej kolejności dla angielskiego, bo tam wymowa jest celem nauki |
 | 3 | Odmiana angielska: brytyjska czy amerykańska | `en-GB` (bliżej szkolnego angielskiego w Polsce), zapasowo `en-US` |
 | 4 | Model biznesowy | nie przesądzać teraz; zgodne z zasadami: jednorazowy zakup lub odblokowanie kolejnych kontynentów w strefie rodzica. Bez reklam i subskrypcji kierowanych do dziecka. |

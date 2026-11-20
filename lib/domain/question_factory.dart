@@ -4,11 +4,14 @@ import 'leitner.dart';
 import 'models.dart';
 
 /// Countries ordered "from my home outwards": breadth-first over borders
-/// (nearest countries for islands), ties broken by code.
-List<String> learningOrder(Map<String, CountryNode> graph, String home) {
+/// (nearest countries for islands), ties broken by code. With a [region],
+/// only its countries are returned; when home lies elsewhere the walk starts
+/// at the region's [anchor].
+List<String> learningOrder(Map<String, CountryNode> graph, String home, {Set<String>? region, String? anchor}) {
+  final start = region == null || region.contains(home) ? home : (anchor ?? (region.toList()..sort()).first);
   final order = <String>[];
-  final seen = <String>{home};
-  var frontier = [home];
+  final seen = <String>{start};
+  var frontier = [start];
   while (frontier.isNotEmpty) {
     frontier.sort();
     order.addAll(frontier);
@@ -22,7 +25,7 @@ List<String> learningOrder(Map<String, CountryNode> graph, String home) {
   }
   // Countries not reachable over borders (other islands) come last.
   order.addAll((graph.keys.where((c) => !seen.contains(c)).toList()..sort()));
-  return order;
+  return region == null ? order : order.where(region.contains).toList();
 }
 
 /// Countries currently in play: everything already seen plus a few new ones.
@@ -38,11 +41,13 @@ List<Question> buildRound({
   required Progress progress,
   required int seed,
   required DateTime now,
+  Set<String>? region,
+  String? anchor,
   bool secondLang = true,
   int count = 8,
 }) {
   final rng = Random(seed);
-  final order = learningOrder(graph, home);
+  final order = learningOrder(graph, home, region: region, anchor: anchor);
   final pool = activePool(order, progress);
   final b = _Builder(graph, order, pool, progress, rng, now, secondLang);
 
@@ -104,6 +109,17 @@ List<Question> buildRound({
     chosen.add(x);
   }
   chosen.shuffle(rng);
+  // Review first, then new countries in learning order, so the map grows
+  // outwards from home instead of jumping around.
+  int slot((String, Skill) x) => progress.seen(x.$1) ? -1 : order.indexOf(x.$1);
+  final sorted = chosen.indexed.toList()
+    ..sort((a, c) {
+      final d = slot(a.$2).compareTo(slot(c.$2));
+      return d != 0 ? d : a.$1.compareTo(c.$1);
+    });
+  chosen
+    ..clear()
+    ..addAll(sorted.map((e) => e.$2));
 
   final out = <Question>[];
   final introduced = <String>{};

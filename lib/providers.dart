@@ -45,6 +45,7 @@ class ProfilesNotifier extends Notifier<ProfilesState> {
       avatar: state.all.length,
       home: home,
       lang: lang,
+      region: ref.read(geoProvider).continent[home]!,
     );
     state = ProfilesState([...state.all, p], p.id);
     await _store.save(p);

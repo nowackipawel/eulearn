@@ -3,9 +3,10 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../domain/models.dart';
-import '../../domain/question_factory.dart';
 import '../../l10n/app_localizations.dart';
 import '../../providers.dart';
+import '../../data/geo_repository.dart';
+import '../core/map_screen.dart';
 import '../core/theme.dart';
 import '../core/widgets.dart';
 
@@ -19,7 +20,14 @@ class PassportScreen extends ConsumerWidget {
     final p = ref.watch(profilesProvider).active!;
     final geo = ref.watch(geoProvider);
     final l = AppLocalizations.of(context)!;
-    final order = learningOrder(geo.graph, p.home);
+    final order = regionOrder(geo, p);
+    final known = order.where((c) => p.progress.stage(c) == Stage.known).length;
+    void turn(int by) {
+      const all = GeoRepository.continents;
+      final next = all[(all.indexOf(p.region) + by) % all.length];
+      ref.read(profilesProvider.notifier).save(p.copyWith(region: next));
+    }
+
     return Scaffold(
       body: SafeArea(
         minimum: const EdgeInsets.all(Tok.gap),
@@ -27,11 +35,20 @@ class PassportScreen extends ConsumerWidget {
           Row(children: [
             AppButton(icon: Icons.arrow_back_rounded, semanticLabel: l.back, onTap: () => context.pop()),
             const SizedBox(width: Tok.gap),
-            Text(l.europe, style: Tok.mapLabel(30)),
-            const Spacer(),
+            AppButton(icon: Icons.chevron_left_rounded, semanticLabel: l.continents, onTap: () => turn(-1)),
+            const SizedBox(width: 10),
+            Expanded(
+              child: FittedBox(
+                fit: BoxFit.scaleDown,
+                child: Text(continentName(l, p.region).toUpperCase(), style: Tok.mapLabel(28)),
+              ),
+            ),
+            const SizedBox(width: 10),
+            AppButton(icon: Icons.chevron_right_rounded, semanticLabel: l.continents, onTap: () => turn(1)),
+            const SizedBox(width: Tok.gap),
             AppPanel(
               padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
-              child: Text('${p.progress.knownCount} / ${order.length}', style: Tok.display(26)),
+              child: Text('$known / ${order.length}', style: Tok.display(26)),
             ),
           ]),
           const SizedBox(height: 12),
@@ -62,7 +79,7 @@ class PassportScreen extends ConsumerWidget {
                           Expanded(
                             child: LayoutBuilder(
                               builder: (_, box) => CountryThumb(
-                                shape: geo.europe.shapes[c]!,
+                                shape: geo.views[p.region]!.shapes[c]!,
                                 tint: home ? Tok.homeTint : Tok.tints[i],
                                 ribbonColor: home ? Tok.homeRibbon : Tok.ribbons[i],
                                 stage: stage,

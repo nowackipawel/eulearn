@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../data/geo_repository.dart';
 import '../../domain/models.dart';
 import '../../l10n/app_localizations.dart';
 import '../../providers.dart';
@@ -86,6 +87,7 @@ class _OnboardingState extends ConsumerState<OnboardingScreen> {
 
     if (_step == 2) {
       return MapScreen(
+        view: GeoRepository.world,
         controller: _map,
         showBack: canLeave,
         showLegend: false,
@@ -113,6 +115,7 @@ class _OnboardingState extends ConsumerState<OnboardingScreen> {
     }
 
     return MapScreen(
+      view: GeoRepository.world,
       styleOf: (c) => const CountryStyle(stage: Stage.unseen, dim: true),
       showBack: canLeave,
       showLegend: false,

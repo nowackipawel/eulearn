@@ -66,7 +66,7 @@ Modele: zwykłe klasy `final` z konstruktorami `const`, `copyWith` pisany ręczn
 
 | Dane | Źródło | Licencja |
 |---|---|---|
-| Granice krajów | Natural Earth, Admin 0 Countries, skala 1:50m | domena publiczna |
+| Granice krajów | Natural Earth, Admin 0 Countries, skala 1:10m, wariant „Poland point of view” (uproszczany w potoku) | domena publiczna |
 | Stolice i ich współrzędne | Natural Earth, Populated Places (cecha „Admin-0 capital”) | domena publiczna |
 | Nazwy krajów po polsku i angielsku | pola `NAME_PL`, `NAME_EN` w Natural Earth; korekta ręczna | domena publiczna |
 | Nazwy stolic | angielskie z Natural Earth; polskie z listy przygotowanej ręcznie (egzonimy: Rzym, Paryż, Pekin) | własna |

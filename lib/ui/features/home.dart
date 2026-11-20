@@ -28,7 +28,7 @@ class _HomeState extends ConsumerState<HomeScreen> {
       final p = ref.read(profilesProvider).active;
       if (p == null) return;
       final geo = ref.read(geoProvider);
-      _map.focusOn(activePool(learningOrder(geo.graph, p.home), p.progress));
+      _map.focusOn(activePool(regionOrder(geo, p), p.progress));
     });
   }
 
@@ -61,6 +61,13 @@ class _HomeState extends ConsumerState<HomeScreen> {
                 Expanded(child: Text(p.name, maxLines: 1, overflow: TextOverflow.ellipsis, style: Tok.display(24))),
               ]),
             ),
+          ),
+          const SizedBox(width: 10),
+          AppButton(
+            key: const ValueKey('continents'),
+            icon: Icons.public_rounded,
+            semanticLabel: l.continents,
+            onTap: () => context.push('/continents'),
           ),
           const SizedBox(width: 10),
           AppButton(icon: Icons.lock_rounded, semanticLabel: l.parents, onTap: () => context.push('/parents')),

@@ -62,6 +62,7 @@ class GeoMap extends StatefulWidget {
     this.controller,
     this.padding = EdgeInsets.zero,
     this.interactive = true,
+    this.markers = true,
   });
 
   final GeoView view;
@@ -82,6 +83,10 @@ class GeoMap extends StatefulWidget {
   /// Screen area covered by UI; the camera frames countries inside the rest.
   final EdgeInsets padding;
   final bool interactive;
+
+  /// Draw round markers for countries too small to see. Off on overview
+  /// maps, where dozens of markers would bury the continents.
+  final bool markers;
 
   @override
   State<GeoMap> createState() => _GeoMapState();
@@ -166,14 +171,10 @@ class _GeoMapState extends State<GeoMap> with TickerProviderStateMixin {
     bool giant(CountryShape s) => s.bbox.longestSide > 560;
     Rect? r;
     for (final shape in shapes) {
-      // A giant neighbour (Russia) must not drag the camera across the
-      // continent: it is framed only when it is the sole target, and then
-      // around its label.
+      // A giant neighbour (Russia, Canada) must not drag the camera across
+      // the continent: it is framed only when it is the sole target.
       if (giant(shape) && shapes.length > 1) continue;
-      final b = giant(shape)
-          ? Rect.fromCenter(center: shape.label, width: 420, height: 420).intersect(shape.bbox)
-          : shape.bbox;
-      r = r == null ? b : r.expandToInclude(b);
+      r = r == null ? shape.bbox : r.expandToInclude(shape.bbox);
     }
     if (r == null) return _animateTo(_fit(widget.view.frame));
     // Room around the target so its neighbours stay in sight.
@@ -198,11 +199,11 @@ class _GeoMapState extends State<GeoMap> with TickerProviderStateMixin {
   }
 
   /// Small countries get a round marker that is also their touch target.
-  bool _isSmall(CountryShape s, double scale) => s.bbox.longestSide * scale < 26;
+  bool _isSmall(CountryShape s, double scale) => widget.markers && s.bbox.longestSide * scale < 26;
 
   String? _hit(Offset p) {
     final scale = _tc.value.getMaxScaleOnAxis();
-    final playable = widget.view.byAreaDesc.where((s) => widget.geo.playable(s.code)).toList().reversed;
+    final playable = widget.view.byAreaDesc.where((s) => widget.view.playable.contains(s.code)).toList().reversed;
     for (final s in playable) {
       if (_isSmall(s, scale) && (s.bbox.center - p).distance * scale < 26) return s.code;
     }
@@ -287,7 +288,7 @@ class _MapPainter extends CustomPainter {
 
     for (final shape in w.view.byAreaDesc) {
       if (!shape.bbox.overlaps(visible)) continue;
-      if (!w.geo.playable(shape.code)) {
+      if (!w.view.playable.contains(shape.code)) {
         canvas.drawPath(shape.path, fill..color = Tok.land);
         canvas.drawPath(shape.path, line..color = Tok.paper..strokeWidth = 1.5 * px);
         continue;
@@ -303,7 +304,7 @@ class _MapPainter extends CustomPainter {
     }
 
     for (final shape in w.view.byAreaDesc) {
-      if (!w.geo.playable(shape.code) || !shape.bbox.overlaps(visible)) continue;
+      if (!w.view.playable.contains(shape.code) || !shape.bbox.overlaps(visible)) continue;
       final st = w.styleOf(shape.code);
       if (st.hidden) continue;
       final small = s._isSmall(shape, scale);
