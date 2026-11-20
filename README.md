@@ -29,6 +29,14 @@ dart run tool/build_geo.dart    # wymaga Node (npx mapshaper); pisze do assets/g
 
 Ręcznie utrzymywane: `tool/overrides.json` (lista krajów, wyjątki, podobne flagi) oraz `assets/i18n/geo_pl.json` i `geo_en.json` (nazwy, odmiana, stolice, skojarzenia).
 
+## Dźwięki
+
+Efekty są syntezowane, bez zewnętrznych plików i licencji:
+
+```sh
+python3 tool/build_sfx.py       # pisze do assets/audio/sfx/
+```
+
 ## Licencje danych
 
 Natural Earth (domena publiczna), flag-icons (MIT), czcionki Andika i Sofia Sans Semi Condensed (OFL).

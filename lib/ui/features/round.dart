@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../data/geo_repository.dart';
 import '../../data/profile.dart';
+import '../../data/sfx_service.dart';
 import '../../domain/models.dart';
 import '../../domain/question_factory.dart';
 import '../../l10n/app_localizations.dart';
@@ -94,6 +95,7 @@ class _RoundState extends ConsumerState<RoundScreen> with SingleTickerProviderSt
     if (_s.finished) {
       ref.read(profilesProvider.notifier).save(_p.played(DateTime.now()));
       _map.focusOn(_region);
+      ref.read(sfxProvider).play(Sfx.fanfare);
       _say([(_l.wellDone, _p.lang)], always: true);
       setState(() {});
       return;
@@ -167,6 +169,11 @@ class _RoundState extends ConsumerState<RoundScreen> with SingleTickerProviderSt
       _ribbonFrom = before;
       _ribbonTo = next.skillsKnown(q.code) / 4;
       if (_ribbonTo != _ribbonFrom) _ribbon.forward(from: 0);
+      // One sound per answer: stamp when the country is fully learned,
+      // the ribbon run when it grows, otherwise the plain "right" chime.
+      ref.read(sfxProvider).play(_ribbonTo >= 1 && _ribbonFrom < 1
+          ? Sfx.stamp
+          : (_ribbonTo > _ribbonFrom ? Sfx.ribbon : Sfx.good));
       final capital = q.skill == Skill.capital;
       _say(_both(capital ? _t(q.code).capital : _t(q.code).name, capital ? _o(q.code).capital : _o(q.code).name),
           always: true);
@@ -185,6 +192,7 @@ class _RoundState extends ConsumerState<RoundScreen> with SingleTickerProviderSt
   void _wrong(String? tapped) {
     if (_q.scored) _missed.add(_scoredIndex);
     _s = _s.apply(Answer(playerId: _p.id, correct: false));
+    ref.read(sfxProvider).play(Sfx.miss);
     if (tapped != null) {
       _ruledOut.add(tapped);
       _note = _l.thisIs(_t(tapped).name);
@@ -214,6 +222,7 @@ class _RoundState extends ConsumerState<RoundScreen> with SingleTickerProviderSt
         if (_found.length == q.answers.length) {
           _right();
         } else {
+          ref.read(sfxProvider).play(Sfx.snap);
           _say(_both(_t(code).name, _o(code).name), always: true);
         }
       case PlacePiecesQuestion():
@@ -234,6 +243,7 @@ class _RoundState extends ConsumerState<RoundScreen> with SingleTickerProviderSt
     if (_placed.length == q.pieces.length) {
       _right();
     } else {
+      ref.read(sfxProvider).play(Sfx.snap);
       _say(_both(_t(piece).name, _o(piece).name), always: true);
     }
   }

@@ -217,4 +217,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get licenses => 'Licencje';
+
+  @override
+  String get soundEffects => 'Efekty dźwiękowe';
 }

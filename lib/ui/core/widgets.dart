@@ -2,16 +2,19 @@ import 'dart:math' as math;
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../data/geo_repository.dart';
+import '../../data/sfx_service.dart';
 import '../../domain/models.dart';
+import '../../providers.dart';
 import 'theme.dart';
 
 enum ButtonKind { plain, primary, voice }
 
 /// The one button. Flat, ink outline; colours invert while pressed.
-class AppButton extends StatefulWidget {
+class AppButton extends ConsumerStatefulWidget {
   const AppButton({
     super.key,
     this.icon,
@@ -34,10 +37,10 @@ class AppButton extends StatefulWidget {
   final Widget? child;
 
   @override
-  State<AppButton> createState() => _AppButtonState();
+  ConsumerState<AppButton> createState() => _AppButtonState();
 }
 
-class _AppButtonState extends State<AppButton> {
+class _AppButtonState extends ConsumerState<AppButton> {
   bool _down = false;
 
   @override
@@ -61,6 +64,7 @@ class _AppButtonState extends State<AppButton> {
         onTapUp: enabled
             ? (_) {
                 setState(() => _down = false);
+                ref.read(sfxProvider).play(Sfx.tap);
                 widget.onTap!();
               }
             : null,

@@ -276,7 +276,7 @@ Future<void> stop();
 | `shared_preferences` | zapis profili i postępu |
 | `flutter_svg` | flagi |
 | `flutter_tts` | lektor w dwóch językach |
-| `audioplayers` | efekty dźwiękowe — dodać razem z plikami dźwięków (jeszcze nie w projekcie) |
+| `audioplayers` | efekty dźwiękowe (`SfxService`, pula odtwarzaczy na dźwięk, miksowanie z lektorem) |
 | `flutter_localizations`, `intl` | lokalizacja |
 
 Każdy kolejny pakiet wymaga uzasadnienia, że kilkadziesiąt linii własnego kodu nie wystarczy. Świadomie pominięte: pakiety mapowe, `freezed`, `build_runner`, bazy danych, analityka, SDK reklamowe, `google_fonts` (pobiera z sieci — czcionki dołączamy jako zasoby).

@@ -6,6 +6,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'app.dart';
 import 'data/geo_repository.dart';
+import 'data/sfx_service.dart';
 import 'data/speech_service.dart';
 import 'providers.dart';
 
@@ -22,11 +23,14 @@ Future<void> main() async {
   final prefs = await SharedPreferences.getInstance();
   final speech = SpeechService();
   await speech.init();
+  final sfx = SfxService();
+  await sfx.init();
   runApp(ProviderScope(
     overrides: [
       geoProvider.overrideWithValue(geo),
       prefsProvider.overrideWithValue(prefs),
       speechProvider.overrideWithValue(speech),
+      sfxProvider.overrideWithValue(sfx),
     ],
     child: const App(),
   ));

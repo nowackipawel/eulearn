@@ -463,6 +463,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Licences'**
   String get licenses;
+
+  /// No description provided for @soundEffects.
+  ///
+  /// In en, this message translates to:
+  /// **'Sound effects'**
+  String get soundEffects;
 }
 
 class _AppLocalizationsDelegate

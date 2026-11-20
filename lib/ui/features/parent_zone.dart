@@ -100,6 +100,11 @@ class _ParentZoneState extends ConsumerState<ParentZoneScreen> {
               onChanged: (v) => notifier.save(p.copyWith(readAloud: v)),
             ),
             SwitchListTile(
+              title: Text(l.soundEffects, style: Tok.text(18)),
+              value: p.sfx,
+              onChanged: (v) => notifier.save(p.copyWith(sfx: v)),
+            ),
+            SwitchListTile(
               title: Text(l.secondLanguage, style: Tok.text(18)),
               value: p.secondLang,
               onChanged: (v) => notifier.save(p.copyWith(secondLang: v)),

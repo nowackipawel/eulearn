@@ -53,6 +53,7 @@ class _AppState extends ConsumerState<App> {
   @override
   Widget build(BuildContext context) {
     ref.listen(profilesProvider.select((s) => s.active == null), (_, _) => _refresh.value++);
+    ref.watch(sfxProvider).enabled = ref.watch(profilesProvider.select((s) => s.active?.sfx)) ?? true;
     final lang = ref.watch(profilesProvider.select((s) => s.active?.lang)) ?? ref.watch(pendingLangProvider);
     return MaterialApp.router(
       debugShowCheckedModeBanner: false,

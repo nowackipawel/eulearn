@@ -217,4 +217,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get licenses => 'Licences';
+
+  @override
+  String get soundEffects => 'Sound effects';
 }

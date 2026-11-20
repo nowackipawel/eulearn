@@ -3,6 +3,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'data/geo_repository.dart';
 import 'data/profile.dart';
+import 'data/sfx_service.dart';
 import 'data/speech_service.dart';
 import 'domain/models.dart';
 
@@ -10,6 +11,7 @@ import 'domain/models.dart';
 final geoProvider = Provider<GeoRepository>((_) => throw UnimplementedError('override in main'));
 final prefsProvider = Provider<SharedPreferences>((_) => throw UnimplementedError('override in main'));
 final speechProvider = Provider<SpeechService>((_) => SpeechService());
+final sfxProvider = Provider<SfxService>((_) => SfxService());
 
 class ProfilesState {
   const ProfilesState(this.all, this.activeId);

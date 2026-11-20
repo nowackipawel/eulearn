@@ -11,11 +11,13 @@ Zrobione (etap 0 i rdzeń etapu 1):
 - logika gry: powtórki, kolejność „od domu na zewnątrz”, budowanie rund, punktacja;
 - ekrany: pierwsze uruchomienie, start, gry, runda (wszystkie typy pytań), wynik, odkrywca, paszport, strefa rodzica;
 - polski i angielski, lektor w dwóch językach, bocian-przewodnik;
+- efekty dźwiękowe (7 krótkich dźwięków syntezowanych skryptem `tool/build_sfx.py`), wyłącznik w strefie rodzica;
 - testy jednostkowe i testy ekranów ze zrzutami (`test/goldens/`).
 
 Do zrobienia w etapie 1:
 
-- efekty dźwiękowe i muzyka (brak plików dźwięków);
+- muzyka w tle (ekran startowy, Odkrywca) — wymaga skomponowanej pętli;
+- odsłuch i strojenie efektów na urządzeniu (głośność względem lektora);
 - odznaka „Znam swoje granice”;
 - dzienny limit czasu w strefie rodzica;
 - pomiar płynności i odsłuch nazw na fizycznych urządzeniach (Android i iOS);

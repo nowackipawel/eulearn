@@ -13,6 +13,7 @@ class Profile {
     this.avatar = 0,
     this.secondLang = true,
     this.readAloud = true,
+    this.sfx = true,
     this.progress = const Progress(),
     this.streak = 0,
     this.lastPlayed,
@@ -29,6 +30,9 @@ class Profile {
   /// Also speak names in the other language.
   final bool secondLang;
   final bool readAloud;
+
+  /// Sound effects on.
+  final bool sfx;
   final Progress progress;
   final int streak;
 
@@ -43,6 +47,7 @@ class Profile {
     Lang? lang,
     bool? secondLang,
     bool? readAloud,
+    bool? sfx,
     Progress? progress,
     int? streak,
     DateTime? lastPlayed,
@@ -55,6 +60,7 @@ class Profile {
         lang: lang ?? this.lang,
         secondLang: secondLang ?? this.secondLang,
         readAloud: readAloud ?? this.readAloud,
+        sfx: sfx ?? this.sfx,
         progress: progress ?? this.progress,
         streak: streak ?? this.streak,
         lastPlayed: lastPlayed ?? this.lastPlayed,
@@ -77,6 +83,7 @@ class Profile {
         'lang': lang.name,
         'secondLang': secondLang,
         'readAloud': readAloud,
+        'sfx': sfx,
         'streak': streak,
         'lastPlayed': lastPlayed?.toIso8601String(),
         'mastery': progress.toJson(),
@@ -90,6 +97,7 @@ class Profile {
         lang: Lang.values.byName(j['lang'] as String),
         secondLang: j['secondLang'] as bool? ?? true,
         readAloud: j['readAloud'] as bool? ?? true,
+        sfx: j['sfx'] as bool? ?? true,
         streak: j['streak'] as int? ?? 0,
         lastPlayed: j['lastPlayed'] == null ? null : DateTime.parse(j['lastPlayed'] as String),
         progress: Progress.fromJson(j['mastery'] as Map<String, dynamic>? ?? const {}),
