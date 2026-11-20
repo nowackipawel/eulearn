@@ -4,6 +4,8 @@
     python3 tool/build_voice.py --dry-run     # count phrases and characters, no network
     python3 tool/build_voice.py --sample      # a handful of clips to judge the voice
     python3 tool/build_voice.py               # everything missing (safe to re-run)
+    python3 tool/build_voice.py --list        # write tool/voice_phrases.json for other tools
+    python3 tool/build_voice.py --index       # rebuild index.json from the files present
 
 Options via environment: VOICE_MODEL (default gpt-4o-mini-tts), VOICE_PL and
 VOICE_EN (default coral). Delete assets/audio/voice/<lang>/ to re-record.
@@ -82,6 +84,13 @@ def record(lang, text, path):
 
 def main():
     dry, sample = '--dry-run' in sys.argv, '--sample' in sys.argv
+    if '--list' in sys.argv:
+        # Phrase list for recording with another tool: text, language, target file.
+        rows = [{'lang': lang, 'text': t, 'file': f'{ROOT}/{lang}/{key(lang, t)}.mp3'}
+                for lang in ('pl', 'en') for t in phrases(lang)]
+        json.dump(rows, open('tool/voice_phrases.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+        print(f'tool/voice_phrases.json: {len(rows)} phrases')
+        return
     todo = []
     for lang in ('pl', 'en'):
         ps = phrases(lang)
@@ -94,7 +103,7 @@ def main():
                 todo.append((lang, t, path))
         print(f'{lang}: {len(ps)} phrases')
     print(f'to record: {len(todo)} clips, {sum(len(t) for _, t, _ in todo)} characters, model {MODEL}')
-    if not dry:
+    if not dry and '--index' not in sys.argv:
         if todo and 'OPENAI_API_KEY' not in os.environ:
             sys.exit('set OPENAI_API_KEY first')
         for i, (lang, t, path) in enumerate(todo, 1):

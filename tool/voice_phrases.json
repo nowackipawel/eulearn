@@ -1,0 +1,4277 @@
+[
+ {
+  "lang": "pl",
+  "text": "Czyja to flaga?",
+  "file": "assets/audio/voice/pl/2c663f352f5e2d61.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Ułóż kraje na mapie",
+  "file": "assets/audio/voice/pl/fd7132879dc90f04.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Posłuchaj…",
+  "file": "assets/audio/voice/pl/5ccf3f91603c715d.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Brawo!",
+  "file": "assets/audio/voice/pl/07f3f48b069da3fb.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Gdzie mieszkasz? Dotknij swojego kraju.",
+  "file": "assets/audio/voice/pl/795d19fffe9b0048.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Najpierw poznaj kilka krajów",
+  "file": "assets/audio/voice/pl/8a656079bd051c34.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "mój kraj",
+  "file": "assets/audio/voice/pl/c85c7aa3277e8e78.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "znam",
+  "file": "assets/audio/voice/pl/b1931e6e05e70351.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "uczę się",
+  "file": "assets/audio/voice/pl/2fecbd19bbbda08f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "nowy",
+  "file": "assets/audio/voice/pl/f8c2ddd28170ab30.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Andora",
+  "file": "assets/audio/voice/pl/573df4ca395fb4bc.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Andorę",
+  "file": "assets/audio/voice/pl/dfadb16b593261c0.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Andory to…",
+  "file": "assets/audio/voice/pl/d4146017848e4882.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Andory",
+  "file": "assets/audio/voice/pl/1f61bab3f271f789.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Andora?",
+  "file": "assets/audio/voice/pl/38c2dd21720f2033.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Andora?",
+  "file": "assets/audio/voice/pl/d26cd601d3c436cc.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Andora",
+  "file": "assets/audio/voice/pl/ca3975cf50c36bfd.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Andora",
+  "file": "assets/audio/voice/pl/bcbadf1f5955b71b.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Albania",
+  "file": "assets/audio/voice/pl/6c41cb3fbd150811.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Tirana",
+  "file": "assets/audio/voice/pl/17578d8e2a6e8f98.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Albanię",
+  "file": "assets/audio/voice/pl/ba649278e3d5a6cb.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Albanii to…",
+  "file": "assets/audio/voice/pl/4817620b28259c41.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Albanii",
+  "file": "assets/audio/voice/pl/502a955eeed8ae62.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Albania?",
+  "file": "assets/audio/voice/pl/262fb13687025c4c.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Tirana?",
+  "file": "assets/audio/voice/pl/b367ceb8d3316828.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Albania",
+  "file": "assets/audio/voice/pl/674a715c3e7bcd76.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Tirana",
+  "file": "assets/audio/voice/pl/8ed97faaddd0cde7.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Austria",
+  "file": "assets/audio/voice/pl/ab2e837bd73533a6.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wiedeń",
+  "file": "assets/audio/voice/pl/81bad581927d298c.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Austrię",
+  "file": "assets/audio/voice/pl/3cd8113e3139d6e6.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Austrii to…",
+  "file": "assets/audio/voice/pl/52b789d687a3fb1e.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Austrii",
+  "file": "assets/audio/voice/pl/9ec1f5da9806918d.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Austria?",
+  "file": "assets/audio/voice/pl/9dd6a1c11334394d.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Wiedeń?",
+  "file": "assets/audio/voice/pl/32bedc8a003da9f2.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Austria",
+  "file": "assets/audio/voice/pl/6192f1ad859061c1.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Wiedeń",
+  "file": "assets/audio/voice/pl/96aa91e851b6b6d9.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Bośnia i Hercegowina",
+  "file": "assets/audio/voice/pl/e8fb74eeaba2c3e3.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Sarajewo",
+  "file": "assets/audio/voice/pl/4492c48ec7e4024d.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Bośnię i Hercegowinę",
+  "file": "assets/audio/voice/pl/427b3be8e180ef1b.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Bośni i Hercegowiny to…",
+  "file": "assets/audio/voice/pl/ee6aa2f607cbf598.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Bośni i Hercegowiny",
+  "file": "assets/audio/voice/pl/e808fc75bf59c3bb.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Bośnia i Hercegowina?",
+  "file": "assets/audio/voice/pl/6fa1f8fad3a32c56.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Sarajewo?",
+  "file": "assets/audio/voice/pl/6461450b68407dfb.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Bośnia i Hercegowina",
+  "file": "assets/audio/voice/pl/a70463d7e90fbe74.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Sarajewo",
+  "file": "assets/audio/voice/pl/15610db9268e2686.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Belgia",
+  "file": "assets/audio/voice/pl/8e8df4b947c70dd5.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Bruksela",
+  "file": "assets/audio/voice/pl/0e29af158a109684.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Belgię",
+  "file": "assets/audio/voice/pl/0bf6e576c82dfe33.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Belgii to…",
+  "file": "assets/audio/voice/pl/edf8b059d4803a23.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Belgii",
+  "file": "assets/audio/voice/pl/acf9e87f02eebb38.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Belgia?",
+  "file": "assets/audio/voice/pl/c7705e7573022084.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Bruksela?",
+  "file": "assets/audio/voice/pl/90675b6e734b0a84.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Belgia",
+  "file": "assets/audio/voice/pl/67ea7db81e96137c.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Bruksela",
+  "file": "assets/audio/voice/pl/e71b36eb8c405233.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Bułgaria",
+  "file": "assets/audio/voice/pl/6837df473a7fcb6b.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Sofia",
+  "file": "assets/audio/voice/pl/455dfb63c421876f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Bułgarię",
+  "file": "assets/audio/voice/pl/6a0f5d3e8c0d1e41.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Bułgarii to…",
+  "file": "assets/audio/voice/pl/6db22c60ceb12a87.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Bułgarii",
+  "file": "assets/audio/voice/pl/739a2626321e523c.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Bułgaria?",
+  "file": "assets/audio/voice/pl/9a926ff03d159586.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Sofia?",
+  "file": "assets/audio/voice/pl/8aa94ac5f38cd477.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Bułgaria",
+  "file": "assets/audio/voice/pl/594de74f1803bb08.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Sofia",
+  "file": "assets/audio/voice/pl/d129453bfd555272.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Białoruś",
+  "file": "assets/audio/voice/pl/a036135c3b03fbb6.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Mińsk",
+  "file": "assets/audio/voice/pl/331ecf1d1f36f6aa.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Białoruś",
+  "file": "assets/audio/voice/pl/1b4ee2d005f79474.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Białorusi to…",
+  "file": "assets/audio/voice/pl/e532cb8e5a1451d4.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Białorusi",
+  "file": "assets/audio/voice/pl/00e8b9ea77c8d35f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Białoruś?",
+  "file": "assets/audio/voice/pl/ba598e2c4be3f775.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Mińsk?",
+  "file": "assets/audio/voice/pl/fe119a1dbbc7383a.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Białoruś",
+  "file": "assets/audio/voice/pl/fb35f0f7fb1efe8b.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Mińsk",
+  "file": "assets/audio/voice/pl/7570a067b20c1d41.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Szwajcaria",
+  "file": "assets/audio/voice/pl/4bb7727818fd81e4.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Berno",
+  "file": "assets/audio/voice/pl/601456eb6e5fc8bb.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Szwajcarię",
+  "file": "assets/audio/voice/pl/b134a496f2cd9754.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Szwajcarii to…",
+  "file": "assets/audio/voice/pl/0aedd5bcbae9596a.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Szwajcarii",
+  "file": "assets/audio/voice/pl/3148b9aa1d31cf81.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Szwajcaria?",
+  "file": "assets/audio/voice/pl/3d218438e9405e77.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Berno?",
+  "file": "assets/audio/voice/pl/9fbfddc2055c0fc3.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Szwajcaria",
+  "file": "assets/audio/voice/pl/c341e48c1f7dd525.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Berno",
+  "file": "assets/audio/voice/pl/b1f64831307360ee.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Cypr",
+  "file": "assets/audio/voice/pl/f6e7c220aa052515.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Nikozja",
+  "file": "assets/audio/voice/pl/15a184a5bfc80d57.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Cypr ma swój kształt na własnej fladze.",
+  "file": "assets/audio/voice/pl/70a7a3b81e5d1b11.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Cypr",
+  "file": "assets/audio/voice/pl/8ce3a0ae3b98de7f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Cypru to…",
+  "file": "assets/audio/voice/pl/410efc007ac683ec.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Cypru",
+  "file": "assets/audio/voice/pl/e099c3419c09831f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Cypr?",
+  "file": "assets/audio/voice/pl/b5b0c95e545de7f4.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Nikozja?",
+  "file": "assets/audio/voice/pl/1293c7773c99622b.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Cypr",
+  "file": "assets/audio/voice/pl/ad8f927ca7c56f34.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Nikozja",
+  "file": "assets/audio/voice/pl/a3688ef3ff07d7f6.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Czechy",
+  "file": "assets/audio/voice/pl/f7ea820ee0512fdd.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Praga",
+  "file": "assets/audio/voice/pl/6227793679c5fc58.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Czechy",
+  "file": "assets/audio/voice/pl/27d66ce2b5e279a3.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Czech to…",
+  "file": "assets/audio/voice/pl/a81e544ad80ecbb2.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Czech",
+  "file": "assets/audio/voice/pl/2640f13b7b50b941.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Czechy?",
+  "file": "assets/audio/voice/pl/5a4a05cf4f29ec60.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Praga?",
+  "file": "assets/audio/voice/pl/c0189b5e41d7fa16.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Czechy",
+  "file": "assets/audio/voice/pl/5b2f5c95d503f614.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Praga",
+  "file": "assets/audio/voice/pl/ebe3b7f2301ff10d.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Niemcy",
+  "file": "assets/audio/voice/pl/a4fdb563d7531bd4.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Berlin",
+  "file": "assets/audio/voice/pl/9040350c824a608f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Niemcy",
+  "file": "assets/audio/voice/pl/ffc55e02affb2bae.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Niemiec to…",
+  "file": "assets/audio/voice/pl/7a77f866fa228587.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Niemiec",
+  "file": "assets/audio/voice/pl/115b21ec01aadeb4.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Niemcy?",
+  "file": "assets/audio/voice/pl/9a1a28f7c4cc17bf.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Berlin?",
+  "file": "assets/audio/voice/pl/eb94a29cf0681451.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Niemcy",
+  "file": "assets/audio/voice/pl/0b85003e9b2cc731.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Berlin",
+  "file": "assets/audio/voice/pl/c681f995495d34b4.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Dania",
+  "file": "assets/audio/voice/pl/72692c9fca78d828.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Kopenhaga",
+  "file": "assets/audio/voice/pl/be2c237d3d94d053.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Danię",
+  "file": "assets/audio/voice/pl/d9e2014045ca3bc8.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Danii to…",
+  "file": "assets/audio/voice/pl/8cb065bcab7460a4.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Danii",
+  "file": "assets/audio/voice/pl/4dd80feec5f8850f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Dania?",
+  "file": "assets/audio/voice/pl/e0476f83a3846f7b.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Kopenhaga?",
+  "file": "assets/audio/voice/pl/50f7de0a9a49f5af.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Dania",
+  "file": "assets/audio/voice/pl/3b2d27bc7b89dbe3.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Kopenhaga",
+  "file": "assets/audio/voice/pl/2828910747da138a.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Estonia",
+  "file": "assets/audio/voice/pl/f2fdf10b351a75b2.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Tallinn",
+  "file": "assets/audio/voice/pl/e59e6b87cae8b62b.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Estonię",
+  "file": "assets/audio/voice/pl/00e460652277e626.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Estonii to…",
+  "file": "assets/audio/voice/pl/a3002d27afb1d6a6.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Estonii",
+  "file": "assets/audio/voice/pl/c272dbe2a26dd715.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Estonia?",
+  "file": "assets/audio/voice/pl/7423a634113d5bcd.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Tallinn?",
+  "file": "assets/audio/voice/pl/cdf2e2a4d7e58973.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Estonia",
+  "file": "assets/audio/voice/pl/49d23dae4a3f7289.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Tallinn",
+  "file": "assets/audio/voice/pl/23092a99ccfdcdde.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Hiszpania",
+  "file": "assets/audio/voice/pl/f680261bbad59192.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Madryt",
+  "file": "assets/audio/voice/pl/304129c2a9fa846e.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Hiszpanię",
+  "file": "assets/audio/voice/pl/e4d9e29d631f713e.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Hiszpanii to…",
+  "file": "assets/audio/voice/pl/dde192a26a610f1a.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Hiszpanii",
+  "file": "assets/audio/voice/pl/7d936e6aeccc6f89.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Hiszpania?",
+  "file": "assets/audio/voice/pl/d3d6377678fed86d.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Madryt?",
+  "file": "assets/audio/voice/pl/5b5cea58a314fade.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Hiszpania",
+  "file": "assets/audio/voice/pl/8d2b30882a91abe5.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Madryt",
+  "file": "assets/audio/voice/pl/e99c05bf00dbf175.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Finlandia",
+  "file": "assets/audio/voice/pl/8747ceddd59682f7.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Helsinki",
+  "file": "assets/audio/voice/pl/34329e9510388632.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Finlandię",
+  "file": "assets/audio/voice/pl/35ce1b920098ea21.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Finlandii to…",
+  "file": "assets/audio/voice/pl/9bae2d87a77b16a7.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Finlandii",
+  "file": "assets/audio/voice/pl/4c256134f6977e1c.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Finlandia?",
+  "file": "assets/audio/voice/pl/f57d164f80870746.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Helsinki?",
+  "file": "assets/audio/voice/pl/2a62c0ffc0ef323e.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Finlandia",
+  "file": "assets/audio/voice/pl/e0239422c182fc68.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Helsinki",
+  "file": "assets/audio/voice/pl/d2a9de75e3f160d5.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Francja",
+  "file": "assets/audio/voice/pl/c7a077386a900da8.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Paryż",
+  "file": "assets/audio/voice/pl/33635439ae5d5fc0.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Francja ma kształt sześciokąta.",
+  "file": "assets/audio/voice/pl/74ec4a13866e9b8a.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Francję",
+  "file": "assets/audio/voice/pl/7c63c5c719a12798.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Francji to…",
+  "file": "assets/audio/voice/pl/d9a60f6fadb5f960.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Francji",
+  "file": "assets/audio/voice/pl/a274f8cd13c0d073.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Francja?",
+  "file": "assets/audio/voice/pl/52aac4d9fbdf354b.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Paryż?",
+  "file": "assets/audio/voice/pl/6dbef793178fe670.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Francja",
+  "file": "assets/audio/voice/pl/4c0960f0f92c1397.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Paryż",
+  "file": "assets/audio/voice/pl/fe4d8a65ae9a508f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wielka Brytania",
+  "file": "assets/audio/voice/pl/8906a71864477e7e.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Londyn",
+  "file": "assets/audio/voice/pl/55509514378ea29f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Wielką Brytanię",
+  "file": "assets/audio/voice/pl/db0e1c8c605261a4.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Wielkiej Brytanii to…",
+  "file": "assets/audio/voice/pl/c0ad0bb135d6d733.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Wielkiej Brytanii",
+  "file": "assets/audio/voice/pl/ca5a558231153ae8.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Wielka Brytania?",
+  "file": "assets/audio/voice/pl/91ebb886a8714a09.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Londyn?",
+  "file": "assets/audio/voice/pl/d76f779ba7ae2ebd.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Wielka Brytania",
+  "file": "assets/audio/voice/pl/f166eb60ef6f0841.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Londyn",
+  "file": "assets/audio/voice/pl/22d1329d4386f0d0.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Grecja",
+  "file": "assets/audio/voice/pl/3975cc268abc5d8f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Ateny",
+  "file": "assets/audio/voice/pl/c047b4c5d69f2030.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Grecję",
+  "file": "assets/audio/voice/pl/f5a555867101cfc9.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Grecji to…",
+  "file": "assets/audio/voice/pl/50539072a4c40181.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Grecji",
+  "file": "assets/audio/voice/pl/6f7f379a22346b7a.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Grecja?",
+  "file": "assets/audio/voice/pl/da64bd3ecfc5c51e.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Ateny?",
+  "file": "assets/audio/voice/pl/f4381097ebceb68a.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Grecja",
+  "file": "assets/audio/voice/pl/7383a731aa0f4726.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Ateny",
+  "file": "assets/audio/voice/pl/5463db90bb18c4d1.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Chorwacja",
+  "file": "assets/audio/voice/pl/8578134a2691cd5f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Zagrzeb",
+  "file": "assets/audio/voice/pl/a472e0bff1c9f034.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Chorwacja wygina się jak rogalik.",
+  "file": "assets/audio/voice/pl/8726c3f5f00955da.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Chorwację",
+  "file": "assets/audio/voice/pl/852f7899f067aef5.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Chorwacji to…",
+  "file": "assets/audio/voice/pl/36c235e440e27fa7.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Chorwacji",
+  "file": "assets/audio/voice/pl/6d4e64358e2d5e64.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Chorwacja?",
+  "file": "assets/audio/voice/pl/7adccc74971ce322.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Zagrzeb?",
+  "file": "assets/audio/voice/pl/9c2f57c4fc316ade.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Chorwacja",
+  "file": "assets/audio/voice/pl/ff83bd9fc1880c08.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Zagrzeb",
+  "file": "assets/audio/voice/pl/86b9e9300bbd26f5.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Węgry",
+  "file": "assets/audio/voice/pl/b56b219602c07a8d.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Budapeszt",
+  "file": "assets/audio/voice/pl/878718cfe61af149.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Węgry",
+  "file": "assets/audio/voice/pl/d9c138dfa260561b.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Węgier to…",
+  "file": "assets/audio/voice/pl/95827d99e37b6fe0.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Węgier",
+  "file": "assets/audio/voice/pl/0030d850e29287c3.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Węgry?",
+  "file": "assets/audio/voice/pl/52c960efea7b3408.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Budapeszt?",
+  "file": "assets/audio/voice/pl/d0d919e8ff1f29fd.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Węgry",
+  "file": "assets/audio/voice/pl/a7039347c094e8f0.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Budapeszt",
+  "file": "assets/audio/voice/pl/91c28fb56992c410.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Irlandia",
+  "file": "assets/audio/voice/pl/767b4b60d65b1a0f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Dublin",
+  "file": "assets/audio/voice/pl/791b4788680303ad.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Irlandię",
+  "file": "assets/audio/voice/pl/4ac1ecea9ee01ac1.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Irlandii to…",
+  "file": "assets/audio/voice/pl/2c301b7a548f807d.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Irlandii",
+  "file": "assets/audio/voice/pl/84617bd61c4bdcc6.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Irlandia?",
+  "file": "assets/audio/voice/pl/41da1ce8e8713ffe.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Dublin?",
+  "file": "assets/audio/voice/pl/e7d269b85c603d2b.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Irlandia",
+  "file": "assets/audio/voice/pl/b58887bbe6a44fba.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Dublin",
+  "file": "assets/audio/voice/pl/94be086a16984876.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Islandia",
+  "file": "assets/audio/voice/pl/7cdd1214681c293c.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Reykjavik",
+  "file": "assets/audio/voice/pl/e158bddfc7a4a1a3.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Islandia to wyspa lodu i wulkanów.",
+  "file": "assets/audio/voice/pl/5073d54ce200509d.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Islandię",
+  "file": "assets/audio/voice/pl/fe66bb5b45508e4c.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Islandii to…",
+  "file": "assets/audio/voice/pl/319604691f45bcda.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Islandii",
+  "file": "assets/audio/voice/pl/a440898ea474b021.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Islandia?",
+  "file": "assets/audio/voice/pl/f1521426b1e3b66f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Reykjavik?",
+  "file": "assets/audio/voice/pl/36090d89580422cb.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Islandia",
+  "file": "assets/audio/voice/pl/d34c40d78999c405.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Reykjavik",
+  "file": "assets/audio/voice/pl/7c1613bc51d27816.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Włochy",
+  "file": "assets/audio/voice/pl/3a5ad71236e5fc1e.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Rzym",
+  "file": "assets/audio/voice/pl/7d5331a38e3b9bc5.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Włochy wyglądają jak but.",
+  "file": "assets/audio/voice/pl/3dcdebea6e7ce8c7.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Włochy",
+  "file": "assets/audio/voice/pl/00addbe5994dcd5c.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Włoch to…",
+  "file": "assets/audio/voice/pl/119deab254893211.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Włoch",
+  "file": "assets/audio/voice/pl/b597b128129766e2.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Włochy?",
+  "file": "assets/audio/voice/pl/54a16a223df9b32d.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Rzym?",
+  "file": "assets/audio/voice/pl/ffafaf99e496f8fb.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Włochy",
+  "file": "assets/audio/voice/pl/54f7f423cc76e315.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Rzym",
+  "file": "assets/audio/voice/pl/93366150fe563886.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Liechtenstein",
+  "file": "assets/audio/voice/pl/6f12b226ea663bb8.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Vaduz",
+  "file": "assets/audio/voice/pl/4505a2baa38311c1.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Liechtenstein",
+  "file": "assets/audio/voice/pl/016d3587a94f254e.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Liechtensteinu to…",
+  "file": "assets/audio/voice/pl/608316632698d1c1.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Liechtensteinu",
+  "file": "assets/audio/voice/pl/81c7890604b500b2.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Liechtenstein?",
+  "file": "assets/audio/voice/pl/ccd04e83e9d3cd4f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Vaduz?",
+  "file": "assets/audio/voice/pl/ad654ce7ce459e19.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Liechtenstein",
+  "file": "assets/audio/voice/pl/de9e89804d320fdf.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Vaduz",
+  "file": "assets/audio/voice/pl/b483a54321257d9c.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Litwa",
+  "file": "assets/audio/voice/pl/69fd1b2013111b30.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wilno",
+  "file": "assets/audio/voice/pl/b0acdc30e0515b72.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Litwę",
+  "file": "assets/audio/voice/pl/5be5a0ca3b18aeb0.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Litwy to…",
+  "file": "assets/audio/voice/pl/9777df81c1def308.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Litwy",
+  "file": "assets/audio/voice/pl/5d40f4df82e40873.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Litwa?",
+  "file": "assets/audio/voice/pl/3d3852fa8ad9dd7b.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Wilno?",
+  "file": "assets/audio/voice/pl/d0ae1be144a01490.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Litwa",
+  "file": "assets/audio/voice/pl/2a87bca89df8a40f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Wilno",
+  "file": "assets/audio/voice/pl/79ec4500b72e6f6f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Luksemburg",
+  "file": "assets/audio/voice/pl/2699fe39850d6df2.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Luksemburg",
+  "file": "assets/audio/voice/pl/93ff8c57943d3760.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Luksemburga to…",
+  "file": "assets/audio/voice/pl/09ba335a5b667d7d.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Luksemburga",
+  "file": "assets/audio/voice/pl/93235150b2a751d6.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Luksemburg?",
+  "file": "assets/audio/voice/pl/350db056bc623971.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Luksemburg?",
+  "file": "assets/audio/voice/pl/11274046735fbb76.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Luksemburg",
+  "file": "assets/audio/voice/pl/5300505c03301f47.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Luksemburg",
+  "file": "assets/audio/voice/pl/a0cc25b0eafa036d.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Łotwa",
+  "file": "assets/audio/voice/pl/d418a8fc3e3154a6.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Ryga",
+  "file": "assets/audio/voice/pl/87d876a394b7d842.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Łotwę",
+  "file": "assets/audio/voice/pl/33e672110fd791aa.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Łotwy to…",
+  "file": "assets/audio/voice/pl/eb13164c8bbdac18.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Łotwy",
+  "file": "assets/audio/voice/pl/567c2260f4470813.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Łotwa?",
+  "file": "assets/audio/voice/pl/ecbe8ce51b853de9.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Ryga?",
+  "file": "assets/audio/voice/pl/f7d385b65b38e58e.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Łotwa",
+  "file": "assets/audio/voice/pl/7ead89f407fcf5ff.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Ryga",
+  "file": "assets/audio/voice/pl/ac2fd8510c3195e5.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Monako",
+  "file": "assets/audio/voice/pl/0515e21fe9a7ae54.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Monako",
+  "file": "assets/audio/voice/pl/f8beed3da24c3326.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Monako to…",
+  "file": "assets/audio/voice/pl/42e8aefb072adefe.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Monako",
+  "file": "assets/audio/voice/pl/15488c8cd742ca65.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Monako?",
+  "file": "assets/audio/voice/pl/13fff2406686984f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Monako?",
+  "file": "assets/audio/voice/pl/d4fb97661000c744.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Monako",
+  "file": "assets/audio/voice/pl/3651dafbf15e8849.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Monako",
+  "file": "assets/audio/voice/pl/5dc92d969d3e0673.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Mołdawia",
+  "file": "assets/audio/voice/pl/33ca20cbb993ba06.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Kiszyniów",
+  "file": "assets/audio/voice/pl/9ed113599e193d6f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Mołdawię",
+  "file": "assets/audio/voice/pl/32ee6b2ec6f9e2f2.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Mołdawii to…",
+  "file": "assets/audio/voice/pl/d5cb083ab06dec72.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Mołdawii",
+  "file": "assets/audio/voice/pl/5e1c3044621a89a1.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Mołdawia?",
+  "file": "assets/audio/voice/pl/02e13e866720cda1.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Kiszyniów?",
+  "file": "assets/audio/voice/pl/0671d2734c395d4d.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Mołdawia",
+  "file": "assets/audio/voice/pl/f4c08c1132688f1d.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Kiszyniów",
+  "file": "assets/audio/voice/pl/cf7a3e4a1b3dfde0.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Czarnogóra",
+  "file": "assets/audio/voice/pl/fc3af0fa8da36e08.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Podgorica",
+  "file": "assets/audio/voice/pl/7c7be109fd5e9f75.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Czarnogórę",
+  "file": "assets/audio/voice/pl/c2099aabd5011c60.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Czarnogóry to…",
+  "file": "assets/audio/voice/pl/e7d14fe779641760.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Czarnogóry",
+  "file": "assets/audio/voice/pl/19ae0bb61c5436ab.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Czarnogóra?",
+  "file": "assets/audio/voice/pl/d250fa0d2a3bddcb.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Podgorica?",
+  "file": "assets/audio/voice/pl/44af96e1af6b71bd.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Czarnogóra",
+  "file": "assets/audio/voice/pl/b3fd737bc6f0a4f7.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Podgorica",
+  "file": "assets/audio/voice/pl/c9684a62ce7d5250.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Macedonia Północna",
+  "file": "assets/audio/voice/pl/5ccef63af0ba99e2.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Skopje",
+  "file": "assets/audio/voice/pl/759853cab772f697.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Macedonię Północną",
+  "file": "assets/audio/voice/pl/36c096041fda70a4.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Macedonii Północnej to…",
+  "file": "assets/audio/voice/pl/6559f24522926750.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Macedonii Północnej",
+  "file": "assets/audio/voice/pl/6924899e89250353.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Macedonia Północna?",
+  "file": "assets/audio/voice/pl/b3a413a7713f9085.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Skopje?",
+  "file": "assets/audio/voice/pl/5a1b2f963f9aa581.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Macedonia Północna",
+  "file": "assets/audio/voice/pl/ec2ae018a364fd0b.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Skopje",
+  "file": "assets/audio/voice/pl/7f98d39e1949e6a4.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Malta",
+  "file": "assets/audio/voice/pl/becbba1b151a6114.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Valletta",
+  "file": "assets/audio/voice/pl/915663f5da8f6930.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Maltę",
+  "file": "assets/audio/voice/pl/3788d492118248f0.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Malty to…",
+  "file": "assets/audio/voice/pl/6000535dc3ff7c7c.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Malty",
+  "file": "assets/audio/voice/pl/abaa1f9d66138c4f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Malta?",
+  "file": "assets/audio/voice/pl/3abda801268f101b.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Valletta?",
+  "file": "assets/audio/voice/pl/ab72c7f33a94ee40.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Malta",
+  "file": "assets/audio/voice/pl/8348176a7e31e0eb.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Valletta",
+  "file": "assets/audio/voice/pl/1648a9257747b5df.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Holandia",
+  "file": "assets/audio/voice/pl/3c73ae3416299f29.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Amsterdam",
+  "file": "assets/audio/voice/pl/8eb5e994d1a33a41.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Holandię",
+  "file": "assets/audio/voice/pl/283777c31766032f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Holandii to…",
+  "file": "assets/audio/voice/pl/84ff3ccb0e40f147.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Holandii",
+  "file": "assets/audio/voice/pl/18263ea7c524576c.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Holandia?",
+  "file": "assets/audio/voice/pl/d10c44eef85470c8.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Amsterdam?",
+  "file": "assets/audio/voice/pl/e4d2323a7c334f45.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Holandia",
+  "file": "assets/audio/voice/pl/87fe870f48198bf8.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Amsterdam",
+  "file": "assets/audio/voice/pl/ea7008ae92406078.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Norwegia",
+  "file": "assets/audio/voice/pl/026f36b7ad82c835.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Oslo",
+  "file": "assets/audio/voice/pl/1b8576bb4a5de4e0.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Norwegia jest długa i wąska jak łyżka.",
+  "file": "assets/audio/voice/pl/ccfcce5123a216f6.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Norwegię",
+  "file": "assets/audio/voice/pl/3c2013b50823aa17.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Norwegii to…",
+  "file": "assets/audio/voice/pl/1f6574bd7eebff0f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Norwegii",
+  "file": "assets/audio/voice/pl/00d22318dc03b5bc.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Norwegia?",
+  "file": "assets/audio/voice/pl/c4571030462c8cd8.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Oslo?",
+  "file": "assets/audio/voice/pl/9e102a0875dcb830.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Norwegia",
+  "file": "assets/audio/voice/pl/922837e7099b06c0.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Oslo",
+  "file": "assets/audio/voice/pl/915f60c1430f9b0f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Polska",
+  "file": "assets/audio/voice/pl/b40c88274615f07f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Warszawa",
+  "file": "assets/audio/voice/pl/dab1825bacb5cac5.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Flaga Polski: biały u góry, czerwony na dole.",
+  "file": "assets/audio/voice/pl/7d8c1985ecf9a715.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Polskę",
+  "file": "assets/audio/voice/pl/01d33af56ab0f615.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Polski to…",
+  "file": "assets/audio/voice/pl/93deac7a1518317d.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Polski",
+  "file": "assets/audio/voice/pl/de3c025c2ae5c62e.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Polska?",
+  "file": "assets/audio/voice/pl/b98c2f74db03ccaa.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Warszawa?",
+  "file": "assets/audio/voice/pl/3e6318de9c9a5373.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Polska",
+  "file": "assets/audio/voice/pl/94df5230c9c03fca.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Warszawa",
+  "file": "assets/audio/voice/pl/3de86023607db85e.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Portugalia",
+  "file": "assets/audio/voice/pl/b4896d3f9b81c817.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Lizbona",
+  "file": "assets/audio/voice/pl/b5973d7e79214ee4.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Portugalię",
+  "file": "assets/audio/voice/pl/43c6a86e5707b9ed.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Portugalii to…",
+  "file": "assets/audio/voice/pl/feb334716261c55d.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Portugalii",
+  "file": "assets/audio/voice/pl/098a975f93a0d666.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Portugalia?",
+  "file": "assets/audio/voice/pl/1d0966752d138ffa.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Lizbona?",
+  "file": "assets/audio/voice/pl/c4323b6d45ce0e62.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Portugalia",
+  "file": "assets/audio/voice/pl/38c0b070da93f60a.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Lizbona",
+  "file": "assets/audio/voice/pl/904c0a8e26897089.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Rumunia",
+  "file": "assets/audio/voice/pl/c48e982f71aa0894.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Bukareszt",
+  "file": "assets/audio/voice/pl/687e9f6d219b8f4a.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Rumunię",
+  "file": "assets/audio/voice/pl/6b8bde74b6182f98.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Rumunii to…",
+  "file": "assets/audio/voice/pl/3026341b1fce2304.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Rumunii",
+  "file": "assets/audio/voice/pl/90e1a4db8567b88f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Rumunia?",
+  "file": "assets/audio/voice/pl/7bfbc1f8253ab82b.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Bukareszt?",
+  "file": "assets/audio/voice/pl/2d382903517271c0.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Rumunia",
+  "file": "assets/audio/voice/pl/68f138a0f2a4c073.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Bukareszt",
+  "file": "assets/audio/voice/pl/10e4562263525adf.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Serbia",
+  "file": "assets/audio/voice/pl/09a50b13e4bf386d.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Belgrad",
+  "file": "assets/audio/voice/pl/b29528d4c99c882e.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Serbię",
+  "file": "assets/audio/voice/pl/4533b30ab1a1772f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Serbii to…",
+  "file": "assets/audio/voice/pl/68c2fdb33b381b67.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Serbii",
+  "file": "assets/audio/voice/pl/9cceeeab450cb734.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Serbia?",
+  "file": "assets/audio/voice/pl/4773cb0fbf894140.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Belgrad?",
+  "file": "assets/audio/voice/pl/2c201f3c1eeb9934.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Serbia",
+  "file": "assets/audio/voice/pl/b814e660b71e0ab8.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Belgrad",
+  "file": "assets/audio/voice/pl/d7ef95b790504223.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Rosja",
+  "file": "assets/audio/voice/pl/580ac34961d5a8b0.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Moskwa",
+  "file": "assets/audio/voice/pl/44d825afc85d0ec1.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Rosję",
+  "file": "assets/audio/voice/pl/cf9295a3fc4f464c.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Rosji to…",
+  "file": "assets/audio/voice/pl/01a41e474ea806f8.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Rosji",
+  "file": "assets/audio/voice/pl/51edfb23ad2dfb73.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Rosja?",
+  "file": "assets/audio/voice/pl/205afae722732db7.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Moskwa?",
+  "file": "assets/audio/voice/pl/d14efef566d3709b.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Rosja",
+  "file": "assets/audio/voice/pl/4c7ed9d29a506cef.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Moskwa",
+  "file": "assets/audio/voice/pl/3a1c89c026822f26.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Szwecja",
+  "file": "assets/audio/voice/pl/3dc5fd749423683a.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Sztokholm",
+  "file": "assets/audio/voice/pl/facb4dab9c308e96.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Szwecję",
+  "file": "assets/audio/voice/pl/b5e7c303495d0c76.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Szwecji to…",
+  "file": "assets/audio/voice/pl/a27b0872702bf39e.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Szwecji",
+  "file": "assets/audio/voice/pl/65161b8335d0599d.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Szwecja?",
+  "file": "assets/audio/voice/pl/a740a574f3e4d32d.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Sztokholm?",
+  "file": "assets/audio/voice/pl/18c503d317e3f8b8.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Szwecja",
+  "file": "assets/audio/voice/pl/4827cb85e4ca7bb1.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Sztokholm",
+  "file": "assets/audio/voice/pl/d7ec7e5790aab1b7.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Słowenia",
+  "file": "assets/audio/voice/pl/a8e4e4504042f7bc.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Lublana",
+  "file": "assets/audio/voice/pl/acfaf1b821c72084.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Słowenię",
+  "file": "assets/audio/voice/pl/829b54317b8b1594.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Słowenii to…",
+  "file": "assets/audio/voice/pl/cd1b7297db105b04.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Słowenii",
+  "file": "assets/audio/voice/pl/3436688b1a8d6787.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Słowenia?",
+  "file": "assets/audio/voice/pl/800e5912e3ad40ef.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Lublana?",
+  "file": "assets/audio/voice/pl/5bc77ce3472b002e.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Słowenia",
+  "file": "assets/audio/voice/pl/8c9a59a2dd4a9313.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Lublana",
+  "file": "assets/audio/voice/pl/2c2ffa50ed951385.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Słowacja",
+  "file": "assets/audio/voice/pl/e3fec92d9e2bd0b0.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Bratysława",
+  "file": "assets/audio/voice/pl/58e5561045f91544.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Słowację",
+  "file": "assets/audio/voice/pl/1e4e27965912e64c.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Słowacji to…",
+  "file": "assets/audio/voice/pl/4721fcad2fbb8d18.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Słowacji",
+  "file": "assets/audio/voice/pl/f87853adbc1828b3.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Słowacja?",
+  "file": "assets/audio/voice/pl/05885bbf322279b7.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Bratysława?",
+  "file": "assets/audio/voice/pl/b6e591ed30749962.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Słowacja",
+  "file": "assets/audio/voice/pl/c0e86c842e96370f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Bratysława",
+  "file": "assets/audio/voice/pl/d62f6ee06c1afb09.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "San Marino",
+  "file": "assets/audio/voice/pl/26a0f46348d60ca1.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż San Marino",
+  "file": "assets/audio/voice/pl/2cb23ec47fb88d4f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica San Marino to…",
+  "file": "assets/audio/voice/pl/21556d34240339c3.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę San Marino",
+  "file": "assets/audio/voice/pl/897c79ff1e3d1db0.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy San Marino?",
+  "file": "assets/audio/voice/pl/80a8bb239d427474.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest San Marino?",
+  "file": "assets/audio/voice/pl/994a3ac72014ecff.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To San Marino",
+  "file": "assets/audio/voice/pl/d5f0f11b57017b14.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: San Marino",
+  "file": "assets/audio/voice/pl/521b38ab6fa0d8da.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Ukraina",
+  "file": "assets/audio/voice/pl/e062c1cb30fd17b4.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Kijów",
+  "file": "assets/audio/voice/pl/c88d7944a9549b56.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Ukrainę",
+  "file": "assets/audio/voice/pl/aff75ea9928100c4.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Ukrainy to…",
+  "file": "assets/audio/voice/pl/87650225f41a0ec8.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Ukrainy",
+  "file": "assets/audio/voice/pl/597ae989148379ab.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Ukraina?",
+  "file": "assets/audio/voice/pl/6fe4994b032ab0b7.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Kijów?",
+  "file": "assets/audio/voice/pl/ae5efee164556daa.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Ukraina",
+  "file": "assets/audio/voice/pl/ac0f5441e49d655f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Kijów",
+  "file": "assets/audio/voice/pl/9ffc395521995831.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Watykan",
+  "file": "assets/audio/voice/pl/0bca427d6181fe06.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Watykan to najmniejszy kraj świata.",
+  "file": "assets/audio/voice/pl/f55b43d6a5c2e67d.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Watykan",
+  "file": "assets/audio/voice/pl/a450b9c9537c70d8.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Watykanu to…",
+  "file": "assets/audio/voice/pl/452549ee4ca3801f.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Watykanu",
+  "file": "assets/audio/voice/pl/976c93e5b70d7644.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Watykan?",
+  "file": "assets/audio/voice/pl/890164e82a986db9.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Watykan?",
+  "file": "assets/audio/voice/pl/23f155d053f66298.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Watykan",
+  "file": "assets/audio/voice/pl/c7e3a4ab1bb2aefd.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Watykan",
+  "file": "assets/audio/voice/pl/0dab1265788c3297.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Kosowo",
+  "file": "assets/audio/voice/pl/f46c8e0f6697de99.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Prisztina",
+  "file": "assets/audio/voice/pl/4efe5bc43c6e0ce3.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Pokaż Kosowo",
+  "file": "assets/audio/voice/pl/009569e967bd39c3.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica Kosowa to…",
+  "file": "assets/audio/voice/pl/b9a9ef1364e54ad5.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Wybierz flagę Kosowa",
+  "file": "assets/audio/voice/pl/e05e45a0f52843ee.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Z kim graniczy Kosowo?",
+  "file": "assets/audio/voice/pl/8ff8b1c597eb38f8.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "W którym kraju jest Prisztina?",
+  "file": "assets/audio/voice/pl/c5228e1cd1a94ec3.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "To Kosowo",
+  "file": "assets/audio/voice/pl/53b0db868d04b080.mp3"
+ },
+ {
+  "lang": "pl",
+  "text": "Stolica: Prisztina",
+  "file": "assets/audio/voice/pl/b1f982d55a3349ee.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Whose flag is this?",
+  "file": "assets/audio/voice/en/acd952aab304807d.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Put the countries on the map",
+  "file": "assets/audio/voice/en/3f1d37f7807fd70e.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Listen…",
+  "file": "assets/audio/voice/en/8df816f72972fc03.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Well done!",
+  "file": "assets/audio/voice/en/c479391c8fa17b09.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Where do you live? Tap your country.",
+  "file": "assets/audio/voice/en/a399c2cb96793fe2.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Meet a few countries first",
+  "file": "assets/audio/voice/en/b788af16aa802960.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "my country",
+  "file": "assets/audio/voice/en/f332f5469a274556.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "I know it",
+  "file": "assets/audio/voice/en/4abcec9ec027ef6d.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "learning",
+  "file": "assets/audio/voice/en/418bac1624195bc4.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "new",
+  "file": "assets/audio/voice/en/22bb73cc12270e4c.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Andorra",
+  "file": "assets/audio/voice/en/4acfe8816ee19983.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Andorra la Vella",
+  "file": "assets/audio/voice/en/8beeb07f357b32d2.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Andorra",
+  "file": "assets/audio/voice/en/0029aa5a3c28f2ec.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Andorra is…",
+  "file": "assets/audio/voice/en/ed5b4f623914107f.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Andorra",
+  "file": "assets/audio/voice/en/1b624e0dc2b43a66.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Andorra?",
+  "file": "assets/audio/voice/en/1d74a4b5bd83c7ad.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Andorra la Vella in?",
+  "file": "assets/audio/voice/en/b21e1ad4f35680a1.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Andorra",
+  "file": "assets/audio/voice/en/9b0d0bcdd86bd1af.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Andorra la Vella",
+  "file": "assets/audio/voice/en/58d2a5a2654d821c.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Albania",
+  "file": "assets/audio/voice/en/4de6cfab44a948a2.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Tirana",
+  "file": "assets/audio/voice/en/bc251dde3b73eae9.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Albania",
+  "file": "assets/audio/voice/en/c947dd50b17fc4f1.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Albania is…",
+  "file": "assets/audio/voice/en/c7694eada381ab1a.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Albania",
+  "file": "assets/audio/voice/en/475d373af578f223.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Albania?",
+  "file": "assets/audio/voice/en/8c7299e6309fcc06.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Tirana in?",
+  "file": "assets/audio/voice/en/43897ff448f43686.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Albania",
+  "file": "assets/audio/voice/en/a10ab98da212eb56.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Tirana",
+  "file": "assets/audio/voice/en/6da9fb603dc1dfd7.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Austria",
+  "file": "assets/audio/voice/en/1d33bad1cab02f9d.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Vienna",
+  "file": "assets/audio/voice/en/9387101c8e54dc81.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Austria",
+  "file": "assets/audio/voice/en/0d888d3695e35f86.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Austria is…",
+  "file": "assets/audio/voice/en/a9d9bae9a13239b5.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Austria",
+  "file": "assets/audio/voice/en/fa1096ee180f27e8.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Austria?",
+  "file": "assets/audio/voice/en/9e3a01ff628b0877.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Vienna in?",
+  "file": "assets/audio/voice/en/0012d84f048d3242.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Austria",
+  "file": "assets/audio/voice/en/9965423521c739a1.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Vienna",
+  "file": "assets/audio/voice/en/63dd267b435a6e43.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Bosnia and Herzegovina",
+  "file": "assets/audio/voice/en/a8cea2717e7be9c7.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Sarajevo",
+  "file": "assets/audio/voice/en/bce00a0bb82b7fdd.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Bosnia and Herzegovina",
+  "file": "assets/audio/voice/en/be21c1cd2aa17b56.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Bosnia and Herzegovina is…",
+  "file": "assets/audio/voice/en/25c3fb8c0a00203b.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Bosnia and Herzegovina",
+  "file": "assets/audio/voice/en/155190fa9ffd0db0.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Bosnia and Herzegovina?",
+  "file": "assets/audio/voice/en/ad27e85879c1ce8f.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Sarajevo in?",
+  "file": "assets/audio/voice/en/dbc19ac51906638e.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Bosnia and Herzegovina",
+  "file": "assets/audio/voice/en/69b3c64ffae552c3.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Sarajevo",
+  "file": "assets/audio/voice/en/a35f12e920822edf.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Belgium",
+  "file": "assets/audio/voice/en/450db79a72e544eb.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Brussels",
+  "file": "assets/audio/voice/en/96de2bd467ee1d47.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Belgium",
+  "file": "assets/audio/voice/en/1f133b24748012bc.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Belgium is…",
+  "file": "assets/audio/voice/en/4a4cdaf48b241417.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Belgium",
+  "file": "assets/audio/voice/en/10a02724ec6a906e.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Belgium?",
+  "file": "assets/audio/voice/en/1ec7f5d3c2990bbd.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Brussels in?",
+  "file": "assets/audio/voice/en/53c4711f0009583c.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Belgium",
+  "file": "assets/audio/voice/en/b231b6e64594d797.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Brussels",
+  "file": "assets/audio/voice/en/80f1031b8b6d0f81.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Bulgaria",
+  "file": "assets/audio/voice/en/4b2a1e234faf2e53.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Sofia",
+  "file": "assets/audio/voice/en/aeb087b749ebc5b4.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Bulgaria",
+  "file": "assets/audio/voice/en/1b1176d573a8fbc2.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Bulgaria is…",
+  "file": "assets/audio/voice/en/a74574a0a0a050cf.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Bulgaria",
+  "file": "assets/audio/voice/en/b3fe978a989781b4.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Bulgaria?",
+  "file": "assets/audio/voice/en/ab0116cffcdec493.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Sofia in?",
+  "file": "assets/audio/voice/en/38e0848e726cda79.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Bulgaria",
+  "file": "assets/audio/voice/en/1423087ad0f260c7.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Sofia",
+  "file": "assets/audio/voice/en/ec80799eff66c9a2.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Belarus",
+  "file": "assets/audio/voice/en/9c5a1a6abe7eb2e6.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Minsk",
+  "file": "assets/audio/voice/en/0f34aacc17415f3c.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Belarus",
+  "file": "assets/audio/voice/en/1b6a08597065abc1.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Belarus is…",
+  "file": "assets/audio/voice/en/3f15c8d9b3b87966.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Belarus",
+  "file": "assets/audio/voice/en/b7e12c36f56cd827.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Belarus?",
+  "file": "assets/audio/voice/en/7fd890b7a93e745e.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Minsk in?",
+  "file": "assets/audio/voice/en/99b5d735c06a96e1.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Belarus",
+  "file": "assets/audio/voice/en/cc1c71f76dda7b92.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Minsk",
+  "file": "assets/audio/voice/en/3023893fbe9974da.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Switzerland",
+  "file": "assets/audio/voice/en/f606f5ddbb720fe3.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Bern",
+  "file": "assets/audio/voice/en/f21e0869bd38b3db.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Switzerland",
+  "file": "assets/audio/voice/en/df3f038536663e9c.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Switzerland is…",
+  "file": "assets/audio/voice/en/c1edc1808c2a25ff.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Switzerland",
+  "file": "assets/audio/voice/en/c2374324060704ca.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Switzerland?",
+  "file": "assets/audio/voice/en/ceaaee48f647f215.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Bern in?",
+  "file": "assets/audio/voice/en/f6af9acc269dc858.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Switzerland",
+  "file": "assets/audio/voice/en/96d87a4eb3e54057.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Bern",
+  "file": "assets/audio/voice/en/38e1892700ce1005.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Cyprus",
+  "file": "assets/audio/voice/en/00c82a6752328f7c.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Nicosia",
+  "file": "assets/audio/voice/en/1e045795c2d4d2ac.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Cyprus has its own shape on its flag.",
+  "file": "assets/audio/voice/en/4a75b6827615be5e.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Cyprus",
+  "file": "assets/audio/voice/en/91e1673e442e9269.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Cyprus is…",
+  "file": "assets/audio/voice/en/850c801492a29388.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Cyprus",
+  "file": "assets/audio/voice/en/f0184bb58d053e7b.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Cyprus?",
+  "file": "assets/audio/voice/en/919e91239ee163de.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Nicosia in?",
+  "file": "assets/audio/voice/en/8f7d5b690f6d2081.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Cyprus",
+  "file": "assets/audio/voice/en/d6d657ba72071e60.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Nicosia",
+  "file": "assets/audio/voice/en/271672a51d032f96.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Czechia",
+  "file": "assets/audio/voice/en/edba27b8a4a46a43.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Prague",
+  "file": "assets/audio/voice/en/4472a7a276319c2e.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Czechia",
+  "file": "assets/audio/voice/en/9b61ad5d068add64.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Czechia is…",
+  "file": "assets/audio/voice/en/4c61c16286575d1f.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Czechia",
+  "file": "assets/audio/voice/en/35e139bcc98dec12.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Czechia?",
+  "file": "assets/audio/voice/en/a6b148c8891c75e5.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Prague in?",
+  "file": "assets/audio/voice/en/24b711cf87290fbd.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Czechia",
+  "file": "assets/audio/voice/en/7e28cda34258c4df.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Prague",
+  "file": "assets/audio/voice/en/c181dbd0d9298c6c.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Germany",
+  "file": "assets/audio/voice/en/fc88157d17a48edb.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Berlin",
+  "file": "assets/audio/voice/en/3d50762a06cd26e2.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Germany",
+  "file": "assets/audio/voice/en/f4a35ba5f8108628.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Germany is…",
+  "file": "assets/audio/voice/en/25c80ec327b7b1c7.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Germany",
+  "file": "assets/audio/voice/en/91e1aa185e5c0b16.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Germany?",
+  "file": "assets/audio/voice/en/1138a25c0c88e1a1.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Berlin in?",
+  "file": "assets/audio/voice/en/491497c6c26fcbdd.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Germany",
+  "file": "assets/audio/voice/en/d7d9a672b1010f5f.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Berlin",
+  "file": "assets/audio/voice/en/6550aa91f06ae984.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Denmark",
+  "file": "assets/audio/voice/en/52cb4fcc8b4716b4.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Copenhagen",
+  "file": "assets/audio/voice/en/f05fad8febd2ab26.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Denmark",
+  "file": "assets/audio/voice/en/0fb439dcd29f6c97.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Denmark is…",
+  "file": "assets/audio/voice/en/3bd34f4e1c7ea830.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Denmark",
+  "file": "assets/audio/voice/en/00befa6f3c118b35.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Denmark?",
+  "file": "assets/audio/voice/en/e7365d647fa4f334.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Copenhagen in?",
+  "file": "assets/audio/voice/en/7a7d45c46a8a4e01.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Denmark",
+  "file": "assets/audio/voice/en/48bd250f9914b118.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Copenhagen",
+  "file": "assets/audio/voice/en/cf78a99d5e3266a8.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Estonia",
+  "file": "assets/audio/voice/en/4a5076a4f5fa5df5.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Tallinn",
+  "file": "assets/audio/voice/en/23a5f8f66b6ab15c.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Estonia",
+  "file": "assets/audio/voice/en/f61903210ea0b492.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Estonia is…",
+  "file": "assets/audio/voice/en/2dffe1dc17740e3d.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Estonia",
+  "file": "assets/audio/voice/en/0819f71b00e2b5a8.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Estonia?",
+  "file": "assets/audio/voice/en/7ca4619281362fa3.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Tallinn in?",
+  "file": "assets/audio/voice/en/fe314d1a16dd27d1.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Estonia",
+  "file": "assets/audio/voice/en/3c5d30caa545ae69.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Tallinn",
+  "file": "assets/audio/voice/en/f021dd50ea4a2f8e.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Spain",
+  "file": "assets/audio/voice/en/97e221edfc1ecc37.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Madrid",
+  "file": "assets/audio/voice/en/025919397fe3947b.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Spain",
+  "file": "assets/audio/voice/en/8a32214f93591c2c.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Spain is…",
+  "file": "assets/audio/voice/en/7d8212074713036b.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Spain",
+  "file": "assets/audio/voice/en/ac541038e56c9256.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Spain?",
+  "file": "assets/audio/voice/en/ecd8040a32b9d16d.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Madrid in?",
+  "file": "assets/audio/voice/en/3f53cf366ae4f048.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Spain",
+  "file": "assets/audio/voice/en/973a2dd0c7399c33.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Madrid",
+  "file": "assets/audio/voice/en/cab8df720e444545.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Finland",
+  "file": "assets/audio/voice/en/df5c174fc878c95e.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Helsinki",
+  "file": "assets/audio/voice/en/0656b234ea784aa3.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Finland",
+  "file": "assets/audio/voice/en/3930d894c7a4f04d.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Finland is…",
+  "file": "assets/audio/voice/en/7520494ade9ba60e.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Finland",
+  "file": "assets/audio/voice/en/753aae0472a691eb.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Finland?",
+  "file": "assets/audio/voice/en/ca7b98a7b58dd42a.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Helsinki in?",
+  "file": "assets/audio/voice/en/34d49a53616b8274.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Finland",
+  "file": "assets/audio/voice/en/5b3a2a8d0f29beca.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Helsinki",
+  "file": "assets/audio/voice/en/8e3287bda55f8965.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "France",
+  "file": "assets/audio/voice/en/0ab0ec51b54c622d.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Paris",
+  "file": "assets/audio/voice/en/fe758c86d7c6cf75.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "France is shaped like a hexagon.",
+  "file": "assets/audio/voice/en/c8561f3cb02576d4.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find France",
+  "file": "assets/audio/voice/en/bfceb4d716387384.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of France is…",
+  "file": "assets/audio/voice/en/a527c39d3c01be65.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of France",
+  "file": "assets/audio/voice/en/3a42dd3c78d2cd42.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border France?",
+  "file": "assets/audio/voice/en/b5313e8b5106962d.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Paris in?",
+  "file": "assets/audio/voice/en/c3306896e9054dc0.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is France",
+  "file": "assets/audio/voice/en/98c3dc57f6ebbe31.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Paris",
+  "file": "assets/audio/voice/en/2b6ac9cd94e5c19f.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "United Kingdom",
+  "file": "assets/audio/voice/en/210a8e94fbd570e8.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "London",
+  "file": "assets/audio/voice/en/ce9910008070feb0.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find the United Kingdom",
+  "file": "assets/audio/voice/en/8b12bb4f47b208c4.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of the United Kingdom is…",
+  "file": "assets/audio/voice/en/f61dcb3770834a9d.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of the United Kingdom",
+  "file": "assets/audio/voice/en/dc59d9781f7b3716.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border United Kingdom?",
+  "file": "assets/audio/voice/en/83f51d3b51236bae.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is London in?",
+  "file": "assets/audio/voice/en/4dc5f8b03422c99b.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is United Kingdom",
+  "file": "assets/audio/voice/en/15f2eb5fe671c8e4.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: London",
+  "file": "assets/audio/voice/en/43a080578f4dd1de.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Greece",
+  "file": "assets/audio/voice/en/7820c762fd48fba1.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Athens",
+  "file": "assets/audio/voice/en/43c4abb5fad99123.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Greece",
+  "file": "assets/audio/voice/en/779471da8c4a82d8.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Greece is…",
+  "file": "assets/audio/voice/en/c60d98da110968c1.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Greece",
+  "file": "assets/audio/voice/en/3ee3e60cab534e72.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Greece?",
+  "file": "assets/audio/voice/en/8478a827f2045a29.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Athens in?",
+  "file": "assets/audio/voice/en/b4a2d6342f2b26b0.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Greece",
+  "file": "assets/audio/voice/en/ee4d47ab516c233d.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Athens",
+  "file": "assets/audio/voice/en/3c90ceded09bde89.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Croatia",
+  "file": "assets/audio/voice/en/6d0b75baf7ee371b.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Zagreb",
+  "file": "assets/audio/voice/en/bb6aad90d5bd5645.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Croatia curves like a croissant.",
+  "file": "assets/audio/voice/en/2ee062e304bf7c5b.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Croatia",
+  "file": "assets/audio/voice/en/1ed2f6aaafa745e0.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Croatia is…",
+  "file": "assets/audio/voice/en/be27ce58a72c6007.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Croatia",
+  "file": "assets/audio/voice/en/1d054a4fdead7a66.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Croatia?",
+  "file": "assets/audio/voice/en/09e1c564f9611a29.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Zagreb in?",
+  "file": "assets/audio/voice/en/cd5ee30b58ff28ca.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Croatia",
+  "file": "assets/audio/voice/en/ce6f6315ec0e778f.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Zagreb",
+  "file": "assets/audio/voice/en/b8630b598d4b84ab.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Hungary",
+  "file": "assets/audio/voice/en/53198e695ba1b19c.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Budapest",
+  "file": "assets/audio/voice/en/ae33ff4ddbecf9d0.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Hungary",
+  "file": "assets/audio/voice/en/171136e608fe856b.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Hungary is…",
+  "file": "assets/audio/voice/en/72eaf8a720525308.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Hungary",
+  "file": "assets/audio/voice/en/3622d791c955e339.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Hungary?",
+  "file": "assets/audio/voice/en/3a32a1355bf6cc10.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Budapest in?",
+  "file": "assets/audio/voice/en/fc4a892cebbce603.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Hungary",
+  "file": "assets/audio/voice/en/db7defdddb534ab8.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Budapest",
+  "file": "assets/audio/voice/en/90db842ce454b4b6.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Ireland",
+  "file": "assets/audio/voice/en/4559b13f513a0bc1.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Dublin",
+  "file": "assets/audio/voice/en/f3bde4a5a0f59c58.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Ireland",
+  "file": "assets/audio/voice/en/f89757290f6afac2.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Ireland is…",
+  "file": "assets/audio/voice/en/266ae93f31798601.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Ireland",
+  "file": "assets/audio/voice/en/6ab21b028deaec34.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Ireland?",
+  "file": "assets/audio/voice/en/aac6279fc0202de3.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Dublin in?",
+  "file": "assets/audio/voice/en/379041d80daaf577.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Ireland",
+  "file": "assets/audio/voice/en/e6ece9bff40ce055.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Dublin",
+  "file": "assets/audio/voice/en/747810f584da5f06.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Iceland",
+  "file": "assets/audio/voice/en/01f0a2cfb62bab28.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Reykjavik",
+  "file": "assets/audio/voice/en/168d640939ccf2e0.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Iceland is an island of ice and volcanoes.",
+  "file": "assets/audio/voice/en/70fe73f29db49125.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Iceland",
+  "file": "assets/audio/voice/en/0390dc7525a11e0b.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Iceland is…",
+  "file": "assets/audio/voice/en/201f63bf305d7cbc.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Iceland",
+  "file": "assets/audio/voice/en/cf94439d85efc63d.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Iceland?",
+  "file": "assets/audio/voice/en/d570245b2c4c29a8.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Reykjavik in?",
+  "file": "assets/audio/voice/en/7b9be7fd10645665.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Iceland",
+  "file": "assets/audio/voice/en/ae1bc1263777ff4c.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Reykjavik",
+  "file": "assets/audio/voice/en/40fac7921933e606.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Italy",
+  "file": "assets/audio/voice/en/f7bd7adbbc196541.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Rome",
+  "file": "assets/audio/voice/en/1ef397ee186c70bf.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Italy looks like a boot.",
+  "file": "assets/audio/voice/en/985e9ec783b07a55.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Italy",
+  "file": "assets/audio/voice/en/8a7f1c19d29bb162.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Italy is…",
+  "file": "assets/audio/voice/en/cc954bb890627461.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Italy",
+  "file": "assets/audio/voice/en/753ef74c5e15fdc4.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Italy?",
+  "file": "assets/audio/voice/en/68bde7d8dccadaf3.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Rome in?",
+  "file": "assets/audio/voice/en/738fc1cea5ff7364.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Italy",
+  "file": "assets/audio/voice/en/01c2cef31c40ee25.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Rome",
+  "file": "assets/audio/voice/en/8d17f8a9bf05f9ed.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Liechtenstein",
+  "file": "assets/audio/voice/en/1f6320a9c1ceacab.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Vaduz",
+  "file": "assets/audio/voice/en/442df1f0581dcb1a.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Liechtenstein",
+  "file": "assets/audio/voice/en/2c6050fd6068c598.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Liechtenstein is…",
+  "file": "assets/audio/voice/en/16d507699189b057.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Liechtenstein",
+  "file": "assets/audio/voice/en/b61dc2fcffe50a62.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Liechtenstein?",
+  "file": "assets/audio/voice/en/9694c7e031e0a721.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Vaduz in?",
+  "file": "assets/audio/voice/en/343d3b9c3a7f7f17.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Liechtenstein",
+  "file": "assets/audio/voice/en/0aa008b463492abf.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Vaduz",
+  "file": "assets/audio/voice/en/7881bbb93b90f10c.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Lithuania",
+  "file": "assets/audio/voice/en/d133574b209257d9.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Vilnius",
+  "file": "assets/audio/voice/en/ede971aac6d13580.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Lithuania",
+  "file": "assets/audio/voice/en/5340b9dc6aa65d6e.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Lithuania is…",
+  "file": "assets/audio/voice/en/793c7a6c42c6fd69.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Lithuania",
+  "file": "assets/audio/voice/en/1924ad89f2431584.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Lithuania?",
+  "file": "assets/audio/voice/en/038ff3f392d9a6ef.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Vilnius in?",
+  "file": "assets/audio/voice/en/a82b35653fae1d65.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Lithuania",
+  "file": "assets/audio/voice/en/464c43ee00aa316d.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Vilnius",
+  "file": "assets/audio/voice/en/ea2eefa3b18a2146.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Luxembourg",
+  "file": "assets/audio/voice/en/3a68fda6d5849a4e.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Luxembourg",
+  "file": "assets/audio/voice/en/8e24ea0924690b33.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Luxembourg is…",
+  "file": "assets/audio/voice/en/caf081b10d00aefe.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Luxembourg",
+  "file": "assets/audio/voice/en/0c3d8b12da0a2a41.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Luxembourg?",
+  "file": "assets/audio/voice/en/175c7e5d5c1ac3d0.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Luxembourg in?",
+  "file": "assets/audio/voice/en/2023c46e066d25c5.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Luxembourg",
+  "file": "assets/audio/voice/en/7e8a477b749a2d02.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Luxembourg",
+  "file": "assets/audio/voice/en/4aa9dadfdc56d7d4.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Latvia",
+  "file": "assets/audio/voice/en/cde27c3d2e0a0905.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Riga",
+  "file": "assets/audio/voice/en/e976c5edf9b2702f.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Latvia",
+  "file": "assets/audio/voice/en/76b0078304b147e4.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Latvia is…",
+  "file": "assets/audio/voice/en/bfa8c5c7f983500d.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Latvia",
+  "file": "assets/audio/voice/en/edf6b5c34c104abe.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Latvia?",
+  "file": "assets/audio/voice/en/a79c057a61dd0e7d.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Riga in?",
+  "file": "assets/audio/voice/en/62364268562728e8.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Latvia",
+  "file": "assets/audio/voice/en/fbfc3fb39e53c809.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Riga",
+  "file": "assets/audio/voice/en/bf2dc2a9dadb10e5.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Monaco",
+  "file": "assets/audio/voice/en/4446b1c6978169b5.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Monaco",
+  "file": "assets/audio/voice/en/e37654513319dd0c.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Monaco is…",
+  "file": "assets/audio/voice/en/635ae2b40dfc7cdd.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Monaco",
+  "file": "assets/audio/voice/en/7cd7a7428b29955a.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Monaco?",
+  "file": "assets/audio/voice/en/abaceac9661915dd.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Monaco in?",
+  "file": "assets/audio/voice/en/7ba915c067eff0a2.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Monaco",
+  "file": "assets/audio/voice/en/7ecb71757cb46861.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Monaco",
+  "file": "assets/audio/voice/en/aab537455fbdfacb.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Moldova",
+  "file": "assets/audio/voice/en/2a16905de128170a.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Chisinau",
+  "file": "assets/audio/voice/en/429498562eaec954.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Moldova",
+  "file": "assets/audio/voice/en/2a13634b8af28815.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Moldova is…",
+  "file": "assets/audio/voice/en/eb7bb2179899deb2.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Moldova",
+  "file": "assets/audio/voice/en/e6e988cdfb29406b.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Moldova?",
+  "file": "assets/audio/voice/en/9f127c24bae4137a.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Chisinau in?",
+  "file": "assets/audio/voice/en/03e0e64dcf9fa53f.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Moldova",
+  "file": "assets/audio/voice/en/65a71328dd41e1fe.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Chisinau",
+  "file": "assets/audio/voice/en/298740375904849e.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Montenegro",
+  "file": "assets/audio/voice/en/355b1f6d3e587664.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Podgorica",
+  "file": "assets/audio/voice/en/17dc8163ac451f92.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Montenegro",
+  "file": "assets/audio/voice/en/ce1aab53c9ac9635.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Montenegro is…",
+  "file": "assets/audio/voice/en/41caaab29fb58480.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Montenegro",
+  "file": "assets/audio/voice/en/5cfa1b25d040018b.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Montenegro?",
+  "file": "assets/audio/voice/en/fa73f4c307fab8ca.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Podgorica in?",
+  "file": "assets/audio/voice/en/9aab54556d39ea6f.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Montenegro",
+  "file": "assets/audio/voice/en/7b9865f0872e6e08.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Podgorica",
+  "file": "assets/audio/voice/en/f8ccb6bfb8854660.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "North Macedonia",
+  "file": "assets/audio/voice/en/cbdb6795009cd2f4.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Skopje",
+  "file": "assets/audio/voice/en/0134afb87ef7b51e.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find North Macedonia",
+  "file": "assets/audio/voice/en/42567eedf653f3e7.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of North Macedonia is…",
+  "file": "assets/audio/voice/en/9b9b0e18a6b6e190.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of North Macedonia",
+  "file": "assets/audio/voice/en/3e38db61b9c0a789.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border North Macedonia?",
+  "file": "assets/audio/voice/en/98ab9cad44cd96d4.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Skopje in?",
+  "file": "assets/audio/voice/en/469117fa3a4cbf39.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is North Macedonia",
+  "file": "assets/audio/voice/en/2c761473e79e8f88.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Skopje",
+  "file": "assets/audio/voice/en/c70de9ee54d8a5d4.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Malta",
+  "file": "assets/audio/voice/en/5f474f0dd4c339ef.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Valletta",
+  "file": "assets/audio/voice/en/a519092511d5eba5.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Malta",
+  "file": "assets/audio/voice/en/3dc841b983db06f4.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Malta is…",
+  "file": "assets/audio/voice/en/504f8f8524750fd3.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Malta",
+  "file": "assets/audio/voice/en/989774255b7447be.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Malta?",
+  "file": "assets/audio/voice/en/690a145a8f1d5025.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Valletta in?",
+  "file": "assets/audio/voice/en/c989204938fafb1a.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Malta",
+  "file": "assets/audio/voice/en/97995ac72af0c3cb.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Valletta",
+  "file": "assets/audio/voice/en/3a2e735db31a0bef.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Netherlands",
+  "file": "assets/audio/voice/en/6ba1b0f661e3835e.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Amsterdam",
+  "file": "assets/audio/voice/en/66e1a80c5906f0f6.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find the Netherlands",
+  "file": "assets/audio/voice/en/ae6e33798cf360ea.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of the Netherlands is…",
+  "file": "assets/audio/voice/en/f831149971dbd93d.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of the Netherlands",
+  "file": "assets/audio/voice/en/6cf8b63db45bfad4.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Netherlands?",
+  "file": "assets/audio/voice/en/8006b2b14ad3b0ce.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Amsterdam in?",
+  "file": "assets/audio/voice/en/ec9486089e4df907.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Netherlands",
+  "file": "assets/audio/voice/en/57091efb4fefd24a.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Amsterdam",
+  "file": "assets/audio/voice/en/426de2b8d5e22a68.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Norway",
+  "file": "assets/audio/voice/en/ae52c78bc45bfdb8.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Oslo",
+  "file": "assets/audio/voice/en/42e36dd5a8fe073d.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Norway is long and thin like a spoon.",
+  "file": "assets/audio/voice/en/703d5ec61df4940f.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Norway",
+  "file": "assets/audio/voice/en/a9371c9e3b770089.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Norway is…",
+  "file": "assets/audio/voice/en/49432911ce43666c.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Norway",
+  "file": "assets/audio/voice/en/a6fff9e62bfb6b7f.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Norway?",
+  "file": "assets/audio/voice/en/6f785512c865cede.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Oslo in?",
+  "file": "assets/audio/voice/en/6016a3afd73ab77a.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Norway",
+  "file": "assets/audio/voice/en/20a4d9110b57d09c.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Oslo",
+  "file": "assets/audio/voice/en/061aba0e603b679f.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Poland",
+  "file": "assets/audio/voice/en/3ab1f4de65657f96.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Warsaw",
+  "file": "assets/audio/voice/en/b56e2fc6cd95a555.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Poland's flag: white on top, red below.",
+  "file": "assets/audio/voice/en/22f78427703229d5.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Poland",
+  "file": "assets/audio/voice/en/1800e95849dd8bf7.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Poland is…",
+  "file": "assets/audio/voice/en/a3caad7f9e2d2216.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Poland",
+  "file": "assets/audio/voice/en/ddaf6825d5e8044d.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Poland?",
+  "file": "assets/audio/voice/en/f67a21b0c357f52c.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Warsaw in?",
+  "file": "assets/audio/voice/en/5e28e341ddec32ba.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Poland",
+  "file": "assets/audio/voice/en/5962295461dd0122.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Warsaw",
+  "file": "assets/audio/voice/en/6542e1a75a6fe363.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Portugal",
+  "file": "assets/audio/voice/en/3185daf5e54896a8.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Lisbon",
+  "file": "assets/audio/voice/en/5e1f69e769f1463d.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Portugal",
+  "file": "assets/audio/voice/en/7bfa0ab1842fa5ed.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Portugal is…",
+  "file": "assets/audio/voice/en/ab88f1012bd2d91c.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Portugal",
+  "file": "assets/audio/voice/en/ed895fbae87bf1bf.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Portugal?",
+  "file": "assets/audio/voice/en/5aeb101eac290da2.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Lisbon in?",
+  "file": "assets/audio/voice/en/901a8f33c4ea6bf2.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Portugal",
+  "file": "assets/audio/voice/en/3c3811f361a40cdc.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Lisbon",
+  "file": "assets/audio/voice/en/44c14636ef3fbf0b.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Romania",
+  "file": "assets/audio/voice/en/44c261bfa1975af1.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Bucharest",
+  "file": "assets/audio/voice/en/1edddbfc98e55971.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Romania",
+  "file": "assets/audio/voice/en/80331242303223aa.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Romania is…",
+  "file": "assets/audio/voice/en/32f43f9e1292e711.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Romania",
+  "file": "assets/audio/voice/en/0846b5aeba6e01a8.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Romania?",
+  "file": "assets/audio/voice/en/e20d56f2584ca603.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Bucharest in?",
+  "file": "assets/audio/voice/en/4475635b481c5b04.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Romania",
+  "file": "assets/audio/voice/en/b948214c77bec10d.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Bucharest",
+  "file": "assets/audio/voice/en/89a23b885e3fe3d3.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Serbia",
+  "file": "assets/audio/voice/en/ba78b6bf5b254614.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Belgrade",
+  "file": "assets/audio/voice/en/7ece721e1df1ab88.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Serbia",
+  "file": "assets/audio/voice/en/91659d4a161980cd.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Serbia is…",
+  "file": "assets/audio/voice/en/64a770092749de50.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Serbia",
+  "file": "assets/audio/voice/en/616e9b300f0ae4b7.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Serbia?",
+  "file": "assets/audio/voice/en/4c227094b5310772.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Belgrade in?",
+  "file": "assets/audio/voice/en/9864202983ee2a07.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Serbia",
+  "file": "assets/audio/voice/en/00727cda425b7018.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Belgrade",
+  "file": "assets/audio/voice/en/563e764a93be2ac2.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Russia",
+  "file": "assets/audio/voice/en/f27f85f42253d7cf.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Moscow",
+  "file": "assets/audio/voice/en/18a25326e4b9bb42.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Russia",
+  "file": "assets/audio/voice/en/feca6c0626950eb2.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Russia is…",
+  "file": "assets/audio/voice/en/d3ec87e773925133.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Russia",
+  "file": "assets/audio/voice/en/80053c235ae8dd94.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Russia?",
+  "file": "assets/audio/voice/en/0b4c7304a163a3a3.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Moscow in?",
+  "file": "assets/audio/voice/en/4134c43424267d25.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Russia",
+  "file": "assets/audio/voice/en/e4660b01ced2ad73.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Moscow",
+  "file": "assets/audio/voice/en/4b0bec67f6a39d6c.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Sweden",
+  "file": "assets/audio/voice/en/5a285cbe15e0c662.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Stockholm",
+  "file": "assets/audio/voice/en/a09af0a7d6b6b7ae.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Sweden",
+  "file": "assets/audio/voice/en/06209fdcb2d37203.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Sweden is…",
+  "file": "assets/audio/voice/en/c1e26ad73a2f053a.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Sweden",
+  "file": "assets/audio/voice/en/a71a14e49a9c6b95.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Sweden?",
+  "file": "assets/audio/voice/en/c232c3166ad84160.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Stockholm in?",
+  "file": "assets/audio/voice/en/1b34c47107763aff.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Sweden",
+  "file": "assets/audio/voice/en/df5329b6db2d0876.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Stockholm",
+  "file": "assets/audio/voice/en/80b3c80b814b263c.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Slovenia",
+  "file": "assets/audio/voice/en/a377d6b2a400a98d.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Ljubljana",
+  "file": "assets/audio/voice/en/92b2dd57e8cfe361.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Slovenia",
+  "file": "assets/audio/voice/en/07620f464976d32c.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Slovenia is…",
+  "file": "assets/audio/voice/en/4c5ded7e1c3ed825.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Slovenia",
+  "file": "assets/audio/voice/en/2f109e5b65344092.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Slovenia?",
+  "file": "assets/audio/voice/en/6b1cc03d66363265.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Ljubljana in?",
+  "file": "assets/audio/voice/en/23f9432f697f47a4.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Slovenia",
+  "file": "assets/audio/voice/en/553a4ec9331a5891.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Ljubljana",
+  "file": "assets/audio/voice/en/34cc22c10251f34b.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Slovakia",
+  "file": "assets/audio/voice/en/1bd5f1941b802656.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Bratislava",
+  "file": "assets/audio/voice/en/b3abaaa92cfeda69.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Slovakia",
+  "file": "assets/audio/voice/en/d2918c2245ea79a3.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Slovakia is…",
+  "file": "assets/audio/voice/en/63657b2a642cfe76.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Slovakia",
+  "file": "assets/audio/voice/en/eb93733c7310e621.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Slovakia?",
+  "file": "assets/audio/voice/en/63b85c1f58954770.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Bratislava in?",
+  "file": "assets/audio/voice/en/84f6588cf906829e.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Slovakia",
+  "file": "assets/audio/voice/en/cb2ad1e7b17b456a.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Bratislava",
+  "file": "assets/audio/voice/en/a4e2a830f0162ac7.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "San Marino",
+  "file": "assets/audio/voice/en/8a570dbdf3bec988.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find San Marino",
+  "file": "assets/audio/voice/en/7ef2a2cce0cda8c1.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of San Marino is…",
+  "file": "assets/audio/voice/en/411a5be48e8952bc.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of San Marino",
+  "file": "assets/audio/voice/en/548b11e09b6628db.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border San Marino?",
+  "file": "assets/audio/voice/en/4b359fddcc552cce.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is San Marino in?",
+  "file": "assets/audio/voice/en/dbb0282b9138368f.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is San Marino",
+  "file": "assets/audio/voice/en/c0211a8b675704b4.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: San Marino",
+  "file": "assets/audio/voice/en/f0d6d14f3075e14a.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Ukraine",
+  "file": "assets/audio/voice/en/bf281e894f525af7.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Kyiv",
+  "file": "assets/audio/voice/en/4fb8d8b25bf3d0c1.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Ukraine",
+  "file": "assets/audio/voice/en/3a01cfdc2282f1c8.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Ukraine is…",
+  "file": "assets/audio/voice/en/a039eb22cc7851ab.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Ukraine",
+  "file": "assets/audio/voice/en/7824b23af562aa4e.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Ukraine?",
+  "file": "assets/audio/voice/en/1abf98f62b7b3639.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Kyiv in?",
+  "file": "assets/audio/voice/en/4ca80db5486fda82.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Ukraine",
+  "file": "assets/audio/voice/en/e3e1a0c980d43673.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Kyiv",
+  "file": "assets/audio/voice/en/ee4580eafdda1227.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Vatican City",
+  "file": "assets/audio/voice/en/7b8942964eecd9b1.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Vatican City is the smallest country in the world.",
+  "file": "assets/audio/voice/en/cacc15ced07f500d.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Vatican City",
+  "file": "assets/audio/voice/en/9d8778ccdc33ba40.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Vatican City is…",
+  "file": "assets/audio/voice/en/c197d0abb6c03611.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Vatican City",
+  "file": "assets/audio/voice/en/c62e25c188e9cffe.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Vatican City?",
+  "file": "assets/audio/voice/en/db61639fe72b0d71.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Vatican City in?",
+  "file": "assets/audio/voice/en/0d34679e01695e26.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Vatican City",
+  "file": "assets/audio/voice/en/2a67e693a47412bd.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Vatican City",
+  "file": "assets/audio/voice/en/f2303f11de25c637.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Kosovo",
+  "file": "assets/audio/voice/en/041269d8f1163e8d.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pristina",
+  "file": "assets/audio/voice/en/36875b420dc216ea.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Find Kosovo",
+  "file": "assets/audio/voice/en/7e1e37ef5f54d930.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "The capital of Kosovo is…",
+  "file": "assets/audio/voice/en/19c16f529f0c18e5.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Pick the flag of Kosovo",
+  "file": "assets/audio/voice/en/12a65ca94ddaa356.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which countries border Kosovo?",
+  "file": "assets/audio/voice/en/c9029691b5aaa101.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Which country is Pristina in?",
+  "file": "assets/audio/voice/en/47d5565e99dce0f1.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "This is Kosovo",
+  "file": "assets/audio/voice/en/a16089a9e2853869.mp3"
+ },
+ {
+  "lang": "en",
+  "text": "Capital: Pristina",
+  "file": "assets/audio/voice/en/6abb821cfdf144c4.mp3"
+ }
+]
