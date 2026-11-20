@@ -1,9 +1,12 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:eulearn/data/speech_service.dart';
 import 'package:eulearn/domain/leitner.dart';
 import 'package:eulearn/domain/models.dart';
 import 'package:eulearn/domain/question_factory.dart';
+import 'package:eulearn/l10n/app_localizations.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 Map<String, CountryNode> loadGraph() {
@@ -22,6 +25,34 @@ Map<String, CountryNode> loadGraph() {
 void main() {
   final now = DateTime(2026, 11, 20);
   final graph = loadGraph();
+
+  test('voice clip names match tool/build_voice.py', () {
+    // Value printed by key('pl', 'Pokaż Francję') in the Python script.
+    expect(voiceKey(Lang.pl, 'Pokaż Francję'), '7c63c5c719a12798');
+  });
+
+  test('once recorded, every sentence the rounds speak has a clip', () {
+    final index = (jsonDecode(File('assets/audio/voice/index.json').readAsStringSync()) as List).toSet();
+    for (final lang in Lang.values) {
+      if (!index.any((k) => (k as String).startsWith('${lang.name}/'))) continue; // not recorded yet
+      final l = lookupAppLocalizations(Locale(lang.name));
+      final geo = jsonDecode(File('assets/i18n/geo_${lang.name}.json').readAsStringSync()) as Map<String, dynamic>;
+      for (final c in geo.values) {
+        final name = c['name'] as String, capital = c['capital'] as String;
+        final inSentence = c['nameInSentence'] as String? ?? name;
+        final acc = c['nameAcc'] as String? ?? inSentence, gen = c['nameGen'] as String? ?? inSentence;
+        for (final text in [
+          name, capital, l.promptFind(acc), l.promptCapitalOf(gen), l.promptPickFlag(gen),
+          l.promptNeighbors(name), l.promptWhereCapital(capital), l.thisIs(name), l.capitalIs(capital),
+        ]) {
+          expect(index, contains('${lang.name}/${voiceKey(lang, text)}'), reason: '${lang.name}: $text');
+        }
+      }
+      for (final text in [l.promptWhoseFlag, l.promptPuzzle, l.wellDone, l.whereDoYouLive]) {
+        expect(index, contains('${lang.name}/${voiceKey(lang, text)}'), reason: '${lang.name}: $text');
+      }
+    }
+  });
 
   test('leitner: promote raises level and schedules, demote resets to 1', () {
     var m = promote(Mastery.none, now);

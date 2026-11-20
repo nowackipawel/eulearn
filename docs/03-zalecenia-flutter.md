@@ -252,6 +252,7 @@ Future<void> stop();
 - **Nazwy zawsze czyta głos ich języka:** „Germany” głosem angielskim, „Niemcy” polskim. Nigdy nie podawać angielskiej nazwy polskiemu głosowi — to właśnie zniszczyłoby naukę wymowy.
 - Angielski: preferować `en-GB`, zapasowo `en-US` (jedna stała w kodzie). Tempo mowy nieco wolniejsze niż domyślne.
 - Przy starcie serwis sprawdza dostępność głosów dla obu języków. Brak głosu polskiego lub angielskiego → funkcje tego języka są ukryte, a strefa rodzica pokazuje instrukcję instalacji głosu w ustawieniach systemu. Aplikacja działa dalej.
+- **Nagrania zamiast syntezy:** `tool/build_voice.py` nagrywa każde zdanie lektora przez API mowy OpenAI do `assets/audio/voice/<język>/`. Plik nazywa się skrótem (FNV-1a) tekstu zdania; `SpeechService` odtwarza nagranie, gdy istnieje dla dokładnie tego tekstu, a w przeciwnym razie używa syntezatora systemowego. Zmiana zdania w ARB nie odtworzy więc starego nagrania.
 - **Ryzyko jakości:** systemowe głosy różnie wymawiają nazwy własne i różnią się między urządzeniami. W etapie 0 przesłuchać pełną listę nazw na Androidzie i iOS. Ponieważ całe wywołanie przechodzi przez `sayCountry`/`sayCapital`, podmiana syntezy na nagrane pliki (`assets/audio/names/en/fr.mp3`) nie wymaga zmian w UI — decyzja w dokumencie 04.
 - `SfxService` na `audioplayers`: krótkie efekty wczytane z wyprzedzeniem, tryb niskich opóźnień.
 - Wibracja: `HapticFeedback` z SDK, bez dodatkowego pakietu.

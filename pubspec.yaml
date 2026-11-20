@@ -32,6 +32,9 @@ flutter:
     - assets/i18n/
     - assets/flags/
     - assets/audio/sfx/
+    - assets/audio/voice/
+    - assets/audio/voice/pl/
+    - assets/audio/voice/en/
     - assets/fonts/OFL-Andika.txt
     - assets/fonts/OFL-SofiaSans.txt
   fonts:

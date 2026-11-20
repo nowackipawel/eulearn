@@ -37,6 +37,19 @@ Efekty są syntezowane, bez zewnętrznych plików i licencji:
 python3 tool/build_sfx.py       # pisze do assets/audio/sfx/
 ```
 
+## Głos lektora
+
+Bez nagrań aplikacja czyta systemowym syntezatorem telefonu. Nagrania wszystkich zdań (855 krótkich klipów, PL i EN) robi skrypt korzystający z API mowy OpenAI:
+
+```sh
+export OPENAI_API_KEY=...
+python3 tool/build_voice.py --sample    # kilkanaście klipów na próbę
+python3 tool/build_voice.py             # reszta; można przerywać i wznawiać
+flutter test                            # sprawdza, że każde zdanie ma nagranie
+```
+
+Głos i model: zmienne `VOICE_PL`, `VOICE_EN`, `VOICE_MODEL`. Zdanie bez nagrania (np. po zmianie tekstu) jest czytane syntezatorem.
+
 ## Licencje danych
 
 Natural Earth (domena publiczna), flag-icons (MIT), czcionki Andika i Sofia Sans Semi Condensed (OFL).

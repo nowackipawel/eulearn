@@ -155,7 +155,7 @@ Każda ma zalecenie, które obowiązuje, dopóki właściciel produktu nie zdecy
 | # | Decyzja | Zalecenie |
 |---|---|---|
 | 1 | Terytoria sporne (Kosowo, Tajwan, Palestyna, Sahara Zachodnia, Krym) | granice według domyślnego wariantu Natural Earth; 197 krajów jak w dokumencie 01; Sahara Zachodnia widoczna, ale bez pytań; przegląd przed publikacją w sklepach poza UE |
-| 2 | Lektor: synteza systemowa czy nagrania | MVP na syntezie; po odsłuchu w etapie 0 zdecydować o nagraniach nazw (ok. 400 krótkich plików na język) — w pierwszej kolejności dla angielskiego, bo tam wymowa jest celem nauki |
+| 2 | Lektor: synteza systemowa czy nagrania (rozstrzygnięte: nagrania generowane skryptem `tool/build_voice.py`; synteza zostaje jako zapas) | MVP na syntezie; po odsłuchu w etapie 0 zdecydować o nagraniach nazw (ok. 400 krótkich plików na język) — w pierwszej kolejności dla angielskiego, bo tam wymowa jest celem nauki |
 | 3 | Odmiana angielska: brytyjska czy amerykańska | `en-GB` (bliżej szkolnego angielskiego w Polsce), zapasowo `en-US` |
 | 4 | Model biznesowy | nie przesądzać teraz; zgodne z zasadami: jednorazowy zakup lub odblokowanie kolejnych kontynentów w strefie rodzica. Bez reklam i subskrypcji kierowanych do dziecka. |
 | 5 | Maskotka | jest w MVP: bocian rysowany w kodzie (dokument 02). Do decyzji: imię bociana i ewentualne dopracowanie przez ilustratora |
